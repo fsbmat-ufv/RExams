@@ -1,0 +1,101 @@
+```{r dados, include=FALSE}
+# Sugestão de melhoria: caso seja desejável reprodutibilidade, fixe a semente
+# set.seed(123)
+
+library(exams)
+library(magrittr)
+library(knitr)
+options(scipen = 999)
+
+# Valor teórico assumido (média populacional hipotética)
+med <- seq(10, 16, 0.3) %>% sample(1)
+
+# Tamanho da amostra coletada
+n <- 10:15 %>% sample(1)
+
+# Valores amostrais simulados
+amostra <- round(rnorm(n, med - med * 0.05, med * 0.08), 1)
+
+# Tabela de dados fictícios
+tab <- data.frame(Observacao = factor(1:n), Valor = amostra)
+
+# Estatísticas básicas
+xbar <- round(mean(amostra), 4)
+s <- round(sd(amostra), 4)
+
+# Teste t para verificar se a média da amostra é menor que 'med'
+estat <- t.test(x = amostra, mu = med, alternative = "less")
+tcalc <- round(estat$statistic, 4)
+tcrit <- round(qt(0.05, n-1), 4)
+
+# Verificação de significância
+sig <- ifelse(tcalc < tcrit, "Sim", "Não")
+```
+
+Question
+========
+Em um **estudo de Ciências Econômicas**, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de \(`r med`\). Para isso, foram coletados dados de \(`r n`\) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:
+
+```{r table, echo=FALSE}
+kable(tab)
+```
+
+Assuma um nível de significância de 5% e responda:
+
+> *Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).*
+
+Questionlist
+------------
+* Qual o valor da estatística calculada de teste?  
+* A nova estratégia de vendas **não** reduz o indicador em relação ao valor teórico.  
+* A nova estratégia de vendas **reduz** o indicador em relação ao valor teórico.
+
+Solution
+========
+
+Solutionlist
+------------
+* O valor da estatística calculada do teste T é: \(T_{calc} = \)`r tcalc`  
+* Não, a nova estratégia não reduz o indicador econômico.  
+* Sim, a nova estratégia reduz o indicador econômico.
+
+**Resolução:**  
+
+a) Hipóteses:  
+\[
+H_0: \mu = \text{`r med`} \quad \text{(sem redução)}
+\]
+\[
+H_1: \mu < \text{`r med`} \quad \text{(com redução)}
+\]
+
+b) Nível de significância: \(\alpha = 5\%\).  
+
+c) Estatísticas amostrais:  
+\[
+\bar{x} = \text{`r xbar`}, \quad s = \text{`r s`}, \quad n = \text{`r n`}
+\]
+
+d) Estatística de teste:  
+\[
+T_{\text{calc}} = \frac{\bar{x} - \mu}{s / \sqrt{n}} = \frac{\text{`r xbar`} - \text{`r med`}}{\text{`r s`}/\sqrt{\text{`r n`}}} = \text{`r tcalc`}
+\]
+
+e) Valor crítico da tabela T (unilateral):  
+\[
+T_{\text{tab}} = \text{`r tcrit`}
+\]
+
+```{r plot, echo=FALSE, fig.cap=" "}
+ifelse(tcalc < tcrit,
+       "Tcalc < Ttab, portanto o teste é significativo (indica redução).",
+       "Tcalc > Ttab, portanto o teste não é significativo (não indica redução).")
+```
+
+Meta-information
+================
+exname: TH_test  
+extype: cloze  
+exclozetype: num|schoice|schoice  
+exsolution: `r tcalc`|10|01  
+extol: 0.02|0|0  

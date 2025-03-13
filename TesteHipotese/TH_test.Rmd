@@ -1,0 +1,83 @@
+```{r dgp, include=FALSE}
+library(exams)
+library(magrittr)
+library(knitr)
+options(scipen = 999)
+
+med <- seq(10,16,0.3) %>% sample(1)
+n <- 10:15 %>% sample(1)
+amostra <- round(rnorm(n,med-med*0.05,med*0.08),1)
+tab <- data.frame(Planta = factor(1:n), Producao = amostra)
+xbar <- round(mean(amostra),4)
+s <- round(sd(amostra),4)
+estat <- t.test(x = amostra, mu = med)
+tcalc <- round(estat[[1]][1],4)
+tcrit <- round(qt(0.05, n-1),4)
+sig <- ifelse(tcalc<tcrit, "Sim", "Não")
+```
+Question
+========
+Deseja-se investigar se uma certa doença que ataca as folhas de soja reduz a produção das plantas. Para individuos sadios, admite-se que a produção tem distribuição Normal com média `r med` $g/planta$. Os valores medidos em `r n` plantas com a moléstia foram:
+```{r table, echo=FALSE}
+kable(tab)
+```
+Considerando o nível de 5% de significância responda:
+
+*Obs. Utiliza 2 casas decimais e a vírgula como separador decimal na sua resposta. Exemplo: 1,23*
+
+Questionlist
+------------
+* Qual o valor da estatística calculada de teste?\
+
+* A doença que ataca as folhas de soja não reduz a produção das plantas.
+
+* A doença que ataca as folhas de soja reduz a produção das plantas.
+
+Solution
+========
+
+Solutionlist
+------------
+* O valor da estatística calculada do teste Z é: $T_{calc}=$`r tcalc`
+
+* `r sig` é possível afirmar que a doença que ataca as folhas da soja reduz a produção das plantas.
+
+*
+
+Resolução:\
+$a)$ $H_{0}: \mu=$`r med`\
+
+$H_{1}: \mu<$`r med`\
+
+$b)$ $\alpha = 5\%$\
+
+$c)$ $\bar x =$`r xbar`\
+
+$s=$`r s`\
+
+$n=$`r n`\
+
+$T_{calc}= \dfrac{\bar x -\mu}{s/\sqrt{n}}$\
+
+$T_{calc}=\dfrac{`r xbar` - `r med`}{`r s`/ \sqrt{`r n`}}$\
+
+$T_{calc}=`r tcalc`$\
+
+$d)$ $T_{tab}=`r round(tcrit,3)`$\
+
+$e)$ \
+
+```{r plot, echo=FALSE, fig.cap=" "}
+ifelse(tcalc<tcrit, "Tcal<Ttab, portanto teste é significativo", "Tcal>Ttab, portanto teste é não significativo")
+```
+
+Meta-information
+================
+
+exname:TH_test
+extype: cloze
+exclozetype: num|schoice
+exsolution: `r tcalc`|`r ifelse(tcalc<tcrit, "01", "10")`
+extol: 0.02
+
+

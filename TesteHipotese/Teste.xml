@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Teste/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R01 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (11.8). Para isso, foram coletados dados de (12) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">11.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">9.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">10.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">10.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">9.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">11.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">11.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">10.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">10.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">12.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">11.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">11.9</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-3.7636:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-3.7636 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                  t  ## "Tcalc &lt; Ttab, portanto o teste é significativo (indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R02 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (12.7). Para isso, foram coletados dados de (12) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">12.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">13.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">11.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">12.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">12.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">11.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">12.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">12.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">12.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">11.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">12.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">14.9</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-1.1166:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-1.1166 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                          t  ## "Tcalc &gt; Ttab, portanto o teste não é significativo (não indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R03 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (13.9). Para isso, foram coletados dados de (13) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">14.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">13.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">13.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">11.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">13.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">11.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">13.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">16.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">13.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">15.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">14.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">10.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: right;">12.1</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-1.4259:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-1.4259 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                          t  ## "Tcalc &gt; Ttab, portanto o teste não é significativo (não indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R04 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (12.4). Para isso, foram coletados dados de (11) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">11.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">12.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">12.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">9.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">9.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">12.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">11.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">12.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">13.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">12.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">12.4</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-1.2088:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-1.2088 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                          t  ## "Tcalc &gt; Ttab, portanto o teste não é significativo (não indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R05 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (13.3). Para isso, foram coletados dados de (11) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">12.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">13.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">12.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">12.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">14.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">11.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">13.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">12.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">12.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">13.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">12.0</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-1.9988:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-1.9988 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                  t  ## "Tcalc &lt; Ttab, portanto o teste é significativo (indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R06 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (14.5). Para isso, foram coletados dados de (13) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">14.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">12.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">10.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">15.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">13.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">12.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">12.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">13.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">13.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">11.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">14.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">14.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: right;">11.1</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-4.0923:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-4.0923 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                  t  ## "Tcalc &lt; Ttab, portanto o teste é significativo (indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R07 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (10.6). Para isso, foram coletados dados de (11) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">10.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">10.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">10.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">11.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">11.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">11.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">9.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">9.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">10.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">9.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">10.1</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-0.7103:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-0.7103 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                          t  ## "Tcalc &gt; Ttab, portanto o teste não é significativo (não indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R08 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (15.1). Para isso, foram coletados dados de (11) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">15.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">13.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">14.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">14.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">15.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">15.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">14.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">16.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">13.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">14.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">16.1</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-0.9349:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-0.9349 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                          t  ## "Tcalc &gt; Ttab, portanto o teste não é significativo (não indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R09 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (13.6). Para isso, foram coletados dados de (12) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">13.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">14.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">11.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">13.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">13.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">11.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">13.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">13.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">14.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">14.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">13.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">12.7</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-0.9973:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-0.9973 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                          t  ## "Tcalc &gt; Ttab, portanto o teste não é significativo (não indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R10 Q1 : TH_Economia </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Em um <strong>estudo de Ciências Econômicas</strong>, deseja-se investigar se o desempenho de uma nova estratégia de vendas apresenta uma redução significativa em relação ao valor teórico de (13.9). Para isso, foram coletados dados de (14) observações, cujos valores (em unidades monetárias, número de vendas ou outro indicador econômico) são apresentados na tabela a seguir:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">14.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">13.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">12.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">13.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">13.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">12.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">12.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">13.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">14.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">14.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">13.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">12.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: right;">12.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: right;">11.9</td>
+</tr>
+</tbody>
+</table>
+<p>Assuma um nível de significância de 5% e responda:</p>
+<blockquote>
+<p><em>Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).</em></p>
+</blockquote>
+ {1:NUMERICAL:=-3.3501:0.02}
+{1:MULTICHOICE:=Qual o valor da estatística calculada de teste?~%-50%A nova estratégia de vendas <strong>não</strong> reduz o indicador em relação ao valor teórico.}
+{1:MULTICHOICE:%-50%A nova estratégia de vendas <strong>reduz</strong> o indicador em relação ao valor teórico.~=NA}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O valor da estatística calculada do teste T é: (T_{calc} = )-3.3501 / ] / ] d) Estatística de teste: </li>
+<li> Não, a nova estratégia não reduz o indicador econômico. / Sim, a nova estratégia reduz o indicador econômico. / [ H_1: &lt;   / ] b) Nível de significância: (= 5%). c) Estatísticas amostrais: / [ T_{} =  =  =  / ] e) Valor crítico da tabela T (unilateral): </li>
+<li> *Resolução:** a) Hipóteses: / [ H_0: =   / [ / bar{x} = , s = , n =  / [ T_{} =  / ] <code>##                                                                  t  ## "Tcalc &lt; Ttab, portanto o teste é significativo (indica redução)."</code> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+</quiz>
