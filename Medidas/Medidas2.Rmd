@@ -1,0 +1,61 @@
+```{r codigos, echo=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Valor teórico assumido (média populacional hipotética)
+med <- seq(10, 16, 0.3) %>% sample(1)
+
+# Tamanho da amostra coletada
+n <- 5:8 %>% sample(1)
+
+# Valores amostrais simulados
+amostra <- round(rnorm(n, med - med * 0.05, med * 0.08), 1)
+
+# Estatísticas básicas
+xbar <- round(mean(amostra), 4)
+s <- round(sd(amostra), 4)
+
+# Cálculo dos valores padronizados
+z <- round((amostra - xbar) / s, 4)
+
+# Média dos valores padronizados
+zbar <- round(mean(z), 4)
+```
+
+Question
+========
+
+Dada a amostra $x_1,x_2,\cdots, x_n,$ com média $\bar{x}$ e desvio-padrão $s$. Considere a variável $z$, cujos valores são definidos por:
+
+$$z_{i} = \frac{x_{i} - \bar{x}}{s},~i = 1, 2, \cdots, n.$$
+
+A amostra considerada é apresentada abaixo:
+
+```{r table, echo=FALSE}
+kable(data.frame(Observacao = factor(1:n), Valor = amostra))
+```
+
+Questionlist
+------------
+* Qual o valor da média da variável \(z\)?
+
+Solution
+========
+
+Solutionlist
+------------
+
+* A média da variável \(z\) é $\bar{z} = `r zbar`$. **Cálculo:**  
+Sabemos que a média da variável padronizada é dada por:
+
+$\bar{z} = \frac{1}{n} \sum_{i=1}^{n} z_i = \frac{1}{`r n`}(`r paste(z, collapse = " + ")`) = `r zbar`.$
+
+Meta-information
+================
+exname: medidas2   
+extype: cloze  
+exclozetype: num  
+exsolution: `r sprintf('%.4f', zbar)`  
+extol: 0.02

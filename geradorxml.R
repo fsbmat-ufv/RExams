@@ -1,10 +1,10 @@
-setwd("~/GitHub/RExams/BoxPlot")
+setwd("~/GitHub/RExams/Medidas")
 dir()
 require(exams)
 require(magrittr)
 require(knitr)
 
-exams::exams2moodle(file = "Box1.Rmd", 
-                    n=1, 
+exams::exams2moodle(file = "Medidas3.Rmd", 
+                    n=10, 
                     verbose = TRUE, 
-                    name = "BoxPlot")
+                    name = "Exercicio3")

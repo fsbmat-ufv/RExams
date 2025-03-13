@@ -42,7 +42,7 @@ kable(tab)
 
 Assuma um nível de significância de 5% e responda:
 
-> *Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).*
+*Obs.: Utilize duas casas decimais e a vírgula como separador decimal na sua resposta (por exemplo, 1,23).*
 
 Questionlist
 ------------

@@ -1,0 +1,64 @@
+```{r codigos, echo=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Valor teórico assumido (média populacional hipotética)
+med <- seq(10, 16, 0.3) %>% sample(1)
+
+# Tamanho da amostra coletada
+n <- 10:15 %>% sample(1)
+
+# Valores amostrais simulados
+amostra <- round(rnorm(n, med - med * 0.05, med * 0.08), 1)
+
+# Tabela de dados fictícios
+tab <- data.frame(Observacao = factor(1:n), Valor = amostra)
+
+# Estatísticas básicas
+xbar <- round(mean(amostra), 4)
+varia <- round(var(amostra), 4)
+s <- round(sd(amostra), 4)
+EP <- ifelse(s == 0 | n == 0, 0, round(s/sqrt(n), 4))
+CV <- ifelse(xbar == 0, 0, round((s/xbar)*100, 4))
+```
+
+Question
+========
+
+Considerando os dados amostrais abaixo, calcular: média aritmética, variância, desvio padrão, erro padrão da média e coeficiente de variação.
+
+```{r table, echo=FALSE}
+kable(tab)
+```
+
+Questionlist
+------------
+* Qual a Média Aritmética?  
+* Qual a Variância Amostral?  
+* Qual o Desvio Padrão Amostral?
+* Qual o Erro Padrão da Média?
+* Qual o Coeficiente de Variação?
+
+Solution
+========
+
+Solutionlist
+------------
+
+
+* A Média Aritmética é $\bar x = `r xbar`$. Cálculo: $\bar{x} = \frac{1}{`r n`}(`r paste(amostra, collapse = " + ")`) = `r xbar`$.
+* A Variância Amostral é $s^2 = `r varia`$. Cálculo: $s^2 = \frac{1}{`r n-1`} \left( `r paste0("(", amostra, " - ", xbar, ")^2", collapse = " + ")` \right) = `r varia`$.
+* O Desvio Padrão Amostral é $s = `r s`$. Cálculo: $s = \sqrt{s^2} = \sqrt{`r varia`} = `r s`$.
+* O Erro Padrão da Média é $EP = `r EP`$. Cálculo: $EP = \frac{s}{\sqrt{n}} = \frac{`r s`}{\sqrt{`r n`}} = `r EP`$.
+* O Coeficiente de Variação é $CV = `r CV`\%$. Cálculo: $CV = \frac{s}{\bar{x}} \times 100 = \frac{`r s`}{`r xbar`} \times 100 = `r CV`\%$.
+
+
+Meta-information
+================
+exname: medidas   
+extype: cloze  
+exclozetype: num|num|num|num|num  
+exsolution: `r sprintf('%.4f|%.4f|%.4f|%.4f|%.4f', xbar, varia, s, EP, CV)`
+extol: 0.02|0.02|0.02|0.02|0.02

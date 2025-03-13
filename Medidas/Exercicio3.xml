@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Exercicio3/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R01 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+89.1
+</td>
+<td style="text-align:right;">
+87.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+82.0
+</td>
+<td style="text-align:right;">
+82.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.0
+</td>
+<td style="text-align:right;">
+90.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+93.9
+</td>
+<td style="text-align:right;">
+79.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+87.7
+</td>
+<td style="text-align:right;">
+94.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+75.9
+</td>
+<td style="text-align:right;">
+99.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+87.5
+</td>
+<td style="text-align:right;">
+76.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+96.5
+</td>
+<td style="text-align:right;">
+98.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+88.5
+</td>
+<td style="text-align:right;">
+109.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+93.5
+</td>
+<td style="text-align:right;">
+86.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+77.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+92.6
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=7.06:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=11.19:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=1:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 7.06\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 11.19\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>1</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R02 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+76.6
+</td>
+<td style="text-align:right;">
+63.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+75.7
+</td>
+<td style="text-align:right;">
+64.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+62.7
+</td>
+<td style="text-align:right;">
+49.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+72.1
+</td>
+<td style="text-align:right;">
+69.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+60.0
+</td>
+<td style="text-align:right;">
+68.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+75.7
+</td>
+<td style="text-align:right;">
+65.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+78.6
+</td>
+<td style="text-align:right;">
+53.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+67.6
+</td>
+<td style="text-align:right;">
+29.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+81.7
+</td>
+<td style="text-align:right;">
+59.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+70.9
+</td>
+<td style="text-align:right;">
+59.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+76.5
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=9.29:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=20.65:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=1:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 9.29\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 20.65\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>1</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R03 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+65.0
+</td>
+<td style="text-align:right;">
+94.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+70.8
+</td>
+<td style="text-align:right;">
+87.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+60.2
+</td>
+<td style="text-align:right;">
+75.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+79.0
+</td>
+<td style="text-align:right;">
+92.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+74.0
+</td>
+<td style="text-align:right;">
+82.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+84.2
+</td>
+<td style="text-align:right;">
+78.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+57.4
+</td>
+<td style="text-align:right;">
+100.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+57.3
+</td>
+<td style="text-align:right;">
+83.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+70.6
+</td>
+<td style="text-align:right;">
+86.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+83.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+97.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+93.4
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=13.87:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=8.94:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=2:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 13.87\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 8.94\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>2</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R04 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+102.4
+</td>
+<td style="text-align:right;">
+52.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+96.9
+</td>
+<td style="text-align:right;">
+73.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+111.2
+</td>
+<td style="text-align:right;">
+56.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+77.8
+</td>
+<td style="text-align:right;">
+61.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+103.4
+</td>
+<td style="text-align:right;">
+61.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+110.2
+</td>
+<td style="text-align:right;">
+66.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+91.9
+</td>
+<td style="text-align:right;">
+54.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+117.5
+</td>
+<td style="text-align:right;">
+52.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+71.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+58.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+70.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+37.1
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=12.39:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=17.08:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=1:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 12.39\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 17.08\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>1</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R05 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+89.0
+</td>
+<td style="text-align:right;">
+75.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.1
+</td>
+<td style="text-align:right;">
+81.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+81.0
+</td>
+<td style="text-align:right;">
+85.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+88.4
+</td>
+<td style="text-align:right;">
+88.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+93.5
+</td>
+<td style="text-align:right;">
+87.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+88.0
+</td>
+<td style="text-align:right;">
+77.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+95.5
+</td>
+<td style="text-align:right;">
+73.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+89.3
+</td>
+<td style="text-align:right;">
+93.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+78.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+79.7
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=5.41:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=7.81:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=1:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 5.41\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 7.81\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>1</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R06 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+74.9
+</td>
+<td style="text-align:right;">
+119.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+72.1
+</td>
+<td style="text-align:right;">
+101.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+80.3
+</td>
+<td style="text-align:right;">
+86.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+90.2
+</td>
+<td style="text-align:right;">
+94.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+86.4
+</td>
+<td style="text-align:right;">
+71.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+81.6
+</td>
+<td style="text-align:right;">
+96.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+73.4
+</td>
+<td style="text-align:right;">
+90.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+77.2
+</td>
+<td style="text-align:right;">
+110.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+85.6
+</td>
+<td style="text-align:right;">
+90.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.9
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+81.1
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=7.13:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=14.51:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=1:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 7.13\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 14.51\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>1</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R07 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+89.6
+</td>
+<td style="text-align:right;">
+72.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+93.1
+</td>
+<td style="text-align:right;">
+82.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+102.0
+</td>
+<td style="text-align:right;">
+85.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+96.3
+</td>
+<td style="text-align:right;">
+79.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+92.6
+</td>
+<td style="text-align:right;">
+63.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+92.4
+</td>
+<td style="text-align:right;">
+55.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+109.2
+</td>
+<td style="text-align:right;">
+81.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+98.3
+</td>
+<td style="text-align:right;">
+58.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+67.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+58.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+83.2
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=6.61:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=15.76:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=1:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 6.61\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 15.76\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>1</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R08 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+74.5
+</td>
+<td style="text-align:right;">
+81.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.2
+</td>
+<td style="text-align:right;">
+61.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+76.4
+</td>
+<td style="text-align:right;">
+73.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+89.7
+</td>
+<td style="text-align:right;">
+60.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.8
+</td>
+<td style="text-align:right;">
+81.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+55.3
+</td>
+<td style="text-align:right;">
+74.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+75.8
+</td>
+<td style="text-align:right;">
+80.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+80.5
+</td>
+<td style="text-align:right;">
+61.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+63.1
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+84.7
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+88.9
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=13.62:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=12.95:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=2:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 13.62\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 12.95\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>2</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R09 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+48.3
+</td>
+<td style="text-align:right;">
+80.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+60.8
+</td>
+<td style="text-align:right;">
+88.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+75.1
+</td>
+<td style="text-align:right;">
+99.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+76.9
+</td>
+<td style="text-align:right;">
+93.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+76.4
+</td>
+<td style="text-align:right;">
+96.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+71.5
+</td>
+<td style="text-align:right;">
+92.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+69.9
+</td>
+<td style="text-align:right;">
+82.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+65.6
+</td>
+<td style="text-align:right;">
+97.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+74.0
+</td>
+<td style="text-align:right;">
+83.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+75.8
+</td>
+<td style="text-align:right;">
+107.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+64.9
+</td>
+<td style="text-align:right;">
+86.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.6
+</td>
+<td style="text-align:right;">
+85.5
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=13.24:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=8.84:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=2:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 13.24\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 8.84\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>2</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R10 Q1 : Medidas3 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Qual das duas amostras é a mais homogênea, isto é, a de menor dispersão relativa? Justifique sua resposta calculando todas as medidas utilizadas.</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+Amostra.A1
+</th>
+<th style="text-align:right;">
+Amostra.A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+52.2
+</td>
+<td style="text-align:right;">
+71.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+90.1
+</td>
+<td style="text-align:right;">
+91.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+75.0
+</td>
+<td style="text-align:right;">
+84.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.4
+</td>
+<td style="text-align:right;">
+86.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+67.1
+</td>
+<td style="text-align:right;">
+103.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+83.2
+</td>
+<td style="text-align:right;">
+89.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+78.3
+</td>
+<td style="text-align:right;">
+95.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+52.8
+</td>
+<td style="text-align:right;">
+94.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+62.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+115.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+72.0
+</td>
+</tr>
+</tbody>
+</table>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=19.52:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=17.25:0.02}
+Qual é a amostra mais homogênea? {1:NUMERICAL:=2:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 19.52\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 17.25\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>2</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+</quiz>
