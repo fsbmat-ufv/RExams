@@ -1,0 +1,44 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+n <- round(runif(1, min = 30, max = 250))
+
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente `r n` baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+
+Answerlist
+----------
+
+* O tempo médio de vida útil calculado com base nas `r n` baterias representa o parâmetro populacional.
+* O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+* O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+* O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+* A população, nesse estudo, é composta apenas pelas `r n` baterias analisadas.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. O tempo médio calculado a partir da amostra representa uma **estatística**, não um parâmetro, pois foi obtido de um subconjunto da população.
+* CORRETA. O **estimador** é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a **estimativa**.
+* FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+* FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+* FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+
+Meta-information
+================
+
+exname: estatistica_avancada  
+extype: schoice  
+exsolution: 01000  
+exshuffle: TRUE  

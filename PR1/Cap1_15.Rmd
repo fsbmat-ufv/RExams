@@ -1,0 +1,35 @@
+Question
+========
+
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+
+Answerlist
+----------
+
+* O parâmetro é sempre calculado a partir de uma amostra.
+* O valor amostral é uma estatística que representa toda a população.
+* O parâmetro é uma medida numérica que descreve uma característica da população.
+* O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+* Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. O parâmetro é uma medida da população e não depende da amostra.
+* FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+* CORRETA.
+* FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+* FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+
+Meta-information
+================
+
+exname: parametro_valor_amostral  
+extype: schoice  
+exsolution: 00100  
+exshuffle: TRUE  

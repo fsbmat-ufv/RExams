@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_110/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 211 pessoas é entrevistada, e 23 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 102 pessoas é entrevistada, e 40 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 139 pessoas é entrevistada, e 89 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 192 pessoas é entrevistada, e 105 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 192 pessoas é entrevistada, e 146 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 34 pessoas é entrevistada, e 20 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 127 pessoas é entrevistada, e 23 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 109 pessoas é entrevistada, e 46 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 237 pessoas é entrevistada, e 5 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_110 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de 240 pessoas é entrevistada, e 124 delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral. </li>
+<li> CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>. </li>
+<li> FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população. </li>
+<li> FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza. </li>
+<li> FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A proporção calculada a partir da amostra é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A proporção calculada na amostra é uma <strong>estatística</strong>, não um parâmetro, pois representa apenas um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

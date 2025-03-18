@@ -1,0 +1,35 @@
+Question
+========
+
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+
+Answerlist
+----------
+
+* A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+* O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+* A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+* O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+* Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+* CORRETA.
+* FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+* FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+* FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+
+Meta-information
+================
+
+exname: importancia_estatistica  
+extype: schoice  
+exsolution: 01000  
+exshuffle: TRUE  

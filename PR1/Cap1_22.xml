@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_22/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap1_22 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere o somatório abaixo, onde cada $ X_i $ representa um valor real.
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{6} X_i = \{28, 29, 17, 30, 11, 18\}\)</span></p>
+<p style="text-align: justify;">
+Com base nas informações acima, preencha corretamente as seguintes expressões:
+</p>
+Número de parcelas do somatório: <span class="math inline">\(n\)</span> {1:NUMERICAL:=6:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}\)</span> {1:NUMERICAL:=133:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}^{2}\)</span> {1:NUMERICAL:=3259:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=17689:0.5}
+<span class="math inline">\(n\times\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)\)</span> {1:NUMERICAL:=798:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 6 </li>
+<li> 133 </li>
+<li> 3259 </li>
+<li> 17689 </li>
+<li> 798 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+</quiz>

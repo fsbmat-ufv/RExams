@@ -1,0 +1,44 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+n <- round(runif(1, min = 30, max = 250))
+
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente `r n` alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+
+Answerlist
+----------
+
+* O valor numérico da média amostral calculada a partir dos `r n` alunos é um estimador da média populacional.
+* O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+* O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+* A média amostral calculada com os `r n` alunos é uma estimativa da média populacional.
+* A estatística é uma característica fixa da população e independe da amostra selecionada.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. O valor da média amostral é uma **estimativa**, pois é um número obtido a partir da amostra. O **estimador** é a regra ou fórmula usada para calcular essa média.
+* FALSA. O **estimador** é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+* FALSA. O **parâmetro** é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+* CORRETA. O valor da média calculado a partir da amostra é uma **estimativa** da média da população.
+* FALSA. A **estatística** é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+
+Meta-information
+================
+
+exname: estatistica_dificil  
+extype: schoice  
+exsolution: 00010  
+exshuffle: TRUE  

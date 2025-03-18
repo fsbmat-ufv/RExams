@@ -1,0 +1,63 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Gera um número aleatório de alunos entre 6 e 8
+n <- sample(6:8, 1)
+
+# Gera notas aleatórias para X e Y
+x <- sample(50:80, n, replace = TRUE)
+y <- sample(30:60, n, replace = TRUE)
+
+# Calcula os valores necessários
+soma_x <- sum(x)
+soma_x2 <- sum(x^2)
+soma_x_quadrado <- soma_x^2
+soma_xy <- sum(x * y)
+soma_x_soma_y <- soma_x * sum(y)
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere as Variáveis \(X\) e \(Y\) que representam, respectivamente, as notas de duas disciplinas, para um grupo de `r n` alunos.
+</p>
+
+\[
+X = \{`r paste(x, collapse=", ")`\}, \quad Y = \{`r paste(y, collapse=", ")`\}
+\]
+
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+
+Questionlist
+------------
+* \(\displaystyle \sum_{i=1}^{`r n`}X_{i}\)
+* \(\displaystyle \sum_{i=1}^{`r n`}X_{i}^{2}\)
+* \(\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)^{2}\)
+* \(\displaystyle \sum_{i=1}^{`r n`}X_{i}Y_{i}\)
+* \(\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{`r n`}Y_{i}\Big)\)
+
+Solution
+========
+
+Solutionlist
+------------
+* `r soma_x`
+* `r soma_x2`
+* `r soma_x_quadrado`
+* `r soma_xy`
+* `r soma_x_soma_y`
+
+Meta-information
+================
+
+exname: soma_valores  
+extype: cloze  
+exclozetype: num|num|num|num|num  
+exsolution: `r paste(c(soma_x, soma_x2, soma_x_quadrado, soma_xy, soma_x_soma_y), collapse="|")`  
+extol: 0.5  

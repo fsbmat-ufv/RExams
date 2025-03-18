@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_14/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+<li> CORRETA. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> CORRETA. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+<li> CORRETA. </li>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> CORRETA. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> CORRETA. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+<li> CORRETA. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_14 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico. </li>
+<li> FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira. </li>
+<li> CORRETA. </li>
+<li> FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população. </li>
+<li> FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Um estimador é um valor numérico obtido a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_19/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 97 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 97 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 97 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 42 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 42 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 42 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 170 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 170 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 170 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 129 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 129 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 129 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 169 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 169 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 169 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 119 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 119 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 119 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 163 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 163 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 163 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 196 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 196 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 196 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 153 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 153 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 153 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_19 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere um estudo que visa determinar a média da altura de todos os estudantes de uma universidade. Como medir a altura de todos os estudantes seria inviável, um pesquisador seleciona aleatoriamente 225 alunos e calcula a média das alturas observadas. Sobre os conceitos de estimador, estimativa, estatística e parâmetro, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida. </li>
+<li> FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média. </li>
+<li> FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra. </li>
+<li> CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população. </li>
+<li> FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é um valor fixo, conhecido e que representa exatamente o parâmetro da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>estimador</strong> é uma função matemática aplicada a uma amostra e pode gerar diferentes valores dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor numérico da média amostral calculada a partir dos 225 alunos é um estimador da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor da média amostral é uma <strong>estimativa</strong>, pois é um número obtido a partir da amostra. O <strong>estimador</strong> é a regra ou fórmula usada para calcular essa média.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estatística é uma característica fixa da população e independe da amostra selecionada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A <strong>estatística</strong> é uma medida calculada com base na amostra e pode variar de uma amostra para outra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+A média amostral calculada com os 225 alunos é uma estimativa da média populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O valor da média calculado a partir da amostra é uma <strong>estimativa</strong> da média da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é um valor que pode ser calculado diretamente a partir dos dados da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O <strong>parâmetro</strong> é uma medida da população e, em geral, é desconhecido. Ele não pode ser obtido diretamente a partir de uma única amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

@@ -1,0 +1,44 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+n <- round(runif(1, min = 30, max = 250))
+
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de `r n` professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+
+Answerlist
+----------
+
+* O estimador é o valor da média calculada a partir da amostra.
+* A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+* O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+* A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+* O estimador sempre fornece o valor exato do parâmetro populacional.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+* FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+* CORRETA.
+* FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+* FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+
+Meta-information
+================
+
+exname: estimador_estimativa  
+extype: schoice  
+exsolution: 00100  
+exshuffle: TRUE  

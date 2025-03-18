@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_16/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 132 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 167 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+<li> CORRETA. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 219 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+<li> CORRETA. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 98 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+<li> CORRETA. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 240 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> CORRETA. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 105 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+<li> CORRETA. </li>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 33 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+<li> CORRETA. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 155 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+<li> CORRETA. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 83 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> CORRETA. </li>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_16 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística Inferencial, os conceitos de estimador e estimativa são fundamentais para a análise de dados. Suponha que um pesquisador deseja estimar a média de idade dos professores de uma universidade. Ele coleta uma amostra de 194 professores e calcula a média das idades observadas. Com base nisso, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra. </li>
+<li> FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral. </li>
+<li> CORRETA. </li>
+<li> FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática. </li>
+<li> FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador é o valor da média calculada a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador não é um valor específico, mas sim uma regra para calcular estimativas a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O estimador sempre fornece o valor exato do parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador fornece uma aproximação do parâmetro populacional, mas está sujeito a variação amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador é uma regra ou função aplicada a uma amostra, enquanto a estimativa é o valor numérico resultante dessa aplicação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa é uma função matemática usada para calcular um parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A estimativa é o resultado numérico obtido pelo uso do estimador, não uma função matemática.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A estimativa e o estimador são sinônimos e podem ser usados indistintamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O estimador e a estimativa são conceitos distintos; um é a regra e o outro é o valor obtido a partir da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

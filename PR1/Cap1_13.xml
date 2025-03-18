@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_13/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+<li> CORRETA. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+<li> CORRETA. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_13 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística desempenha um papel fundamental em diversas áreas do conhecimento. Qual das seguintes afirmativas melhor descreve a importância do estudo da Estatística?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais. </li>
+<li> FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia. </li>
+<li> FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais. </li>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é utilizada apenas em pesquisas acadêmicas e não tem aplicação prática em outras áreas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, e muito mais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O uso da Estatística é limitado a experimentos científicos, não sendo aplicável ao mundo real.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é usada em inúmeros contextos do mundo real, incluindo negócios, política, esportes e engenharia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Com o avanço da tecnologia, o estudo da Estatística tornou-se obsoleto, pois os computadores fazem todas as análises automaticamente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tecnologia facilita os cálculos estatísticos, mas a interpretação e o entendimento dos dados continuam sendo essenciais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estudo da Estatística permite analisar dados, tomar decisões informadas e fazer previsões em diversas áreas do conhecimento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é um ramo da Matemática que se dedica exclusivamente ao cálculo de médias e desvios padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística envolve muito mais do que apenas cálculo de médias e desvios padrão; inclui análise inferencial, modelagem de dados, testes de hipóteses, entre outros.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

@@ -1,0 +1,60 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Define os limites inferior e superior do somatório
+limite_inferior <- sample(1:5, 1)
+limite_superior <- limite_inferior + sample(5:10, 1)
+
+# Número de termos do somatório
+num_termos <- limite_superior - limite_inferior + 1
+
+# Gera uma constante aleatória
+c <- sample(2:10, 1)
+
+# Calcula a soma da constante
+soma_constante <- num_termos * c
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere o seguinte somatório onde $c$ é uma constante:
+</p>
+
+$`r soma_constante`=\displaystyle \sum_{i=`r limite_inferior`}^{`r limite_superior`} c$
+
+<p style="text-align: justify;">
+Com base nesse somatório, responda:
+</p>
+
+Questionlist
+------------
+* Qual o número de termos do somatório?
+* Qual o limite inferior do somatório?
+* Qual o limite superior do somatório?
+* Qual o valor da constante $c$?
+* Qual o valor do somatório $\displaystyle \sum_{i=`r limite_inferior`}^{`r limite_superior`} c$?
+
+Solution
+========
+
+Solutionlist
+------------
+* `r num_termos`
+* `r limite_inferior`
+* `r limite_superior`
+* `r c`
+* `r soma_constante`
+
+Meta-information
+================
+
+exname: somatorio_constante  
+extype: cloze  
+exclozetype: num|num|num|num|num  
+exsolution: `r paste(c(num_termos, limite_inferior, limite_superior, c, soma_constante), collapse="|")`  
+extol: 0.5

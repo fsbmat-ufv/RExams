@@ -1,0 +1,35 @@
+Question
+========
+
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+
+Answerlist
+----------
+
+* A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+* Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+* O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+* A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+* Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+* FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+* CORRETA.
+* FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+* FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+
+Meta-information
+================
+
+exname: conceitos_estatistica  
+extype: schoice  
+exsolution: 00100  
+exshuffle: TRUE  

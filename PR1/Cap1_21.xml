@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_21/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R01 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
+</p>
+<p>[
+X = {75, 70, 54, 61, 59, 54, 57, 51}, Y = {35, 39, 45, 52, 55, 36, 54, 42}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{8}X</em>{i}) {1:NUMERICAL:=481:0.5}
+(_{i=1}<sup>{8}X_{i}</sup>{2}) {1:NUMERICAL:=29409:0.5}
+((_{i=1}<sup>{8}X_{i})</sup>{2}) {1:NUMERICAL:=231361:0.5}
+(<em>{i=1}^{8}X</em>{i}Y_{i}) {1:NUMERICAL:=21366:0.5}
+((<em>{i=1}^{8}X</em>{i})(<em>{i=1}^{8}Y</em>{i})) {1:NUMERICAL:=172198:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 481 </li>
+<li> 29409 </li>
+<li> 231361 </li>
+<li> 21366 </li>
+<li> 172198 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R02 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
+</p>
+<p>[
+X = {76, 76, 75, 53, 75, 66, 73, 71}, Y = {46, 58, 33, 41, 57, 52, 36, 48}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{8}X</em>{i}) {1:NUMERICAL:=565:0.5}
+(_{i=1}<sup>{8}X_{i}</sup>{2}) {1:NUMERICAL:=40337:0.5}
+((_{i=1}<sup>{8}X_{i})</sup>{2}) {1:NUMERICAL:=319225:0.5}
+(<em>{i=1}^{8}X</em>{i}Y_{i}) {1:NUMERICAL:=26295:0.5}
+((<em>{i=1}^{8}X</em>{i})(<em>{i=1}^{8}Y</em>{i})) {1:NUMERICAL:=209615:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 565 </li>
+<li> 40337 </li>
+<li> 319225 </li>
+<li> 26295 </li>
+<li> 209615 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R03 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+</p>
+<p>[
+X = {74, 77, 64, 73, 51, 65}, Y = {32, 51, 37, 55, 32, 44}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=404:0.5}
+(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=27656:0.5}
+((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=163216:0.5}
+(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=17170:0.5}
+((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=101404:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 404 </li>
+<li> 27656 </li>
+<li> 163216 </li>
+<li> 17170 </li>
+<li> 101404 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R04 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+</p>
+<p>[
+X = {59, 76, 74, 60, 66, 56}, Y = {56, 33, 37, 34, 40, 40}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=391:0.5}
+(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=25825:0.5}
+((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=152881:0.5}
+(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=15470:0.5}
+((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=93840:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 391 </li>
+<li> 25825 </li>
+<li> 152881 </li>
+<li> 15470 </li>
+<li> 93840 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R05 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+</p>
+<p>[
+X = {71, 57, 54, 57, 58, 74}, Y = {42, 32, 40, 48, 58, 51}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=371:0.5}
+(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=23295:0.5}
+((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=137641:0.5}
+(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=16840:0.5}
+((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=100541:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 371 </li>
+<li> 23295 </li>
+<li> 137641 </li>
+<li> 16840 </li>
+<li> 100541 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R06 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+</p>
+<p>[
+X = {64, 71, 55, 60, 51, 61}, Y = {52, 40, 58, 55, 30, 42}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=362:0.5}
+(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=22084:0.5}
+((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=131044:0.5}
+(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=16750:0.5}
+((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=100274:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 362 </li>
+<li> 22084 </li>
+<li> 131044 </li>
+<li> 16750 </li>
+<li> 100274 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R07 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
+</p>
+<p>[
+X = {70, 78, 56, 61, 60, 75, 79, 67}, Y = {38, 30, 58, 44, 49, 53, 46, 48}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{8}X</em>{i}) {1:NUMERICAL:=546:0.5}
+(_{i=1}<sup>{8}X_{i}</sup>{2}) {1:NUMERICAL:=37796:0.5}
+((_{i=1}<sup>{8}X_{i})</sup>{2}) {1:NUMERICAL:=298116:0.5}
+(<em>{i=1}^{8}X</em>{i}Y_{i}) {1:NUMERICAL:=24697:0.5}
+((<em>{i=1}^{8}X</em>{i})(<em>{i=1}^{8}Y</em>{i})) {1:NUMERICAL:=199836:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 546 </li>
+<li> 37796 </li>
+<li> 298116 </li>
+<li> 24697 </li>
+<li> 199836 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R08 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+</p>
+<p>[
+X = {68, 59, 57, 54, 80, 79}, Y = {55, 56, 40, 41, 42, 33}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=397:0.5}
+(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=26911:0.5}
+((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=157609:0.5}
+(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=17505:0.5}
+((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=105999:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 397 </li>
+<li> 26911 </li>
+<li> 157609 </li>
+<li> 17505 </li>
+<li> 105999 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R09 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 7 alunos.
+</p>
+<p>[
+X = {67, 73, 80, 64, 63, 53, 75}, Y = {35, 32, 32, 60, 53, 47, 60}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{7}X</em>{i}) {1:NUMERICAL:=475:0.5}
+(_{i=1}<sup>{7}X_{i}</sup>{2}) {1:NUMERICAL:=32717:0.5}
+((_{i=1}<sup>{7}X_{i})</sup>{2}) {1:NUMERICAL:=225625:0.5}
+(<em>{i=1}^{7}X</em>{i}Y_{i}) {1:NUMERICAL:=21411:0.5}
+((<em>{i=1}^{7}X</em>{i})(<em>{i=1}^{7}Y</em>{i})) {1:NUMERICAL:=151525:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 475 </li>
+<li> 32717 </li>
+<li> 225625 </li>
+<li> 21411 </li>
+<li> 151525 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R10 Q1 : Cap1_21 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+</p>
+<p>[
+X = {55, 63, 53, 80, 50, 70}, Y = {45, 52, 43, 59, 47, 60}
+]</p>
+<p style="text-align: justify;">
+Preencha com o resultado de cada somatório:
+</p>
+(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=371:0.5}
+(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=23603:0.5}
+((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=137641:0.5}
+(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=19300:0.5}
+((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=113526:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 371 </li>
+<li> 23603 </li>
+<li> 137641 </li>
+<li> 19300 </li>
+<li> 113526 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+</quiz>

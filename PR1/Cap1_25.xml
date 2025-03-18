@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_25/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R01 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{24, 48, 64, 54, 16, 50, 134, 6, 36\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 3 até 9 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=3}^{9} cX_i = 3600\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=3}^{9} (X_i + c) = 430\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=3}^{9} (X_i - c) = 290\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=7:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=10:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=3}^{9} (X_i + c)\)</span>? {1:NUMERICAL:=430:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=3}^{9} (X_i - c)\)</span>? {1:NUMERICAL:=290:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=9:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 7 </li>
+<li> 10 </li>
+<li> 430 </li>
+<li> 290 </li>
+<li> 9 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R02 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{56, 196, 160, 166, 140, 180, 98, 50, 134, 170, 94, 62\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 2 até 12 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{12} cX_i = 2900\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{12} (X_i + c) = 1472\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{12} (X_i - c) = 1428\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=11:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=2:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=2}^{12} (X_i + c)\)</span>? {1:NUMERICAL:=1472:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=2}^{12} (X_i - c)\)</span>? {1:NUMERICAL:=1428:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=12:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 11 </li>
+<li> 2 </li>
+<li> 1472 </li>
+<li> 1428 </li>
+<li> 12 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R03 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{136, 192, 2, 14, 76, 70, 116, 196, 118, 16\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 5 até 10 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=5}^{10} cX_i = 1184\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=5}^{10} (X_i + c) = 604\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=5}^{10} (X_i - c) = 580\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=6:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=2:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=5}^{10} (X_i + c)\)</span>? {1:NUMERICAL:=604:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=5}^{10} (X_i - c)\)</span>? {1:NUMERICAL:=580:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=10:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 6 </li>
+<li> 2 </li>
+<li> 604 </li>
+<li> 580 </li>
+<li> 10 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R04 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{160, 152, 100, 88, 60, 46, 36, 136, 10, 178, 62\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 1 até 11 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{11} cX_i = 2056\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i + c) = 1050\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i - c) = 1006\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=11:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=2:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i + c)\)</span>? {1:NUMERICAL:=1050:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i - c)\)</span>? {1:NUMERICAL:=1006:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=11:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 11 </li>
+<li> 2 </li>
+<li> 1050 </li>
+<li> 1006 </li>
+<li> 11 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R05 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{164, 92, 28, 116, 104, 166, 122, 70, 198, 54, 158\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 4 até 11 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=4}^{11} cX_i = 12844\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=4}^{11} (X_i + c) = 1092\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=4}^{11} (X_i - c) = 884\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=8:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=13:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=4}^{11} (X_i + c)\)</span>? {1:NUMERICAL:=1092:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=4}^{11} (X_i - c)\)</span>? {1:NUMERICAL:=884:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=11:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 8 </li>
+<li> 13 </li>
+<li> 1092 </li>
+<li> 884 </li>
+<li> 11 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R06 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{90, 128, 130, 2, 136, 28, 168, 64, 30, 108, 198, 98\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 5 até 12 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=5}^{12} cX_i = 1660\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=5}^{12} (X_i + c) = 846\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=5}^{12} (X_i - c) = 814\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=8:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=2:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=5}^{12} (X_i + c)\)</span>? {1:NUMERICAL:=846:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=5}^{12} (X_i - c)\)</span>? {1:NUMERICAL:=814:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=12:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 8 </li>
+<li> 2 </li>
+<li> 846 </li>
+<li> 814 </li>
+<li> 12 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R07 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{110, 58, 166, 94, 136, 136, 16\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 1 até 7 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{7} cX_i = 1432\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{7} (X_i + c) = 730\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{7} (X_i - c) = 702\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=7:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=2:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{7} (X_i + c)\)</span>? {1:NUMERICAL:=730:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{7} (X_i - c)\)</span>? {1:NUMERICAL:=702:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=7:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 7 </li>
+<li> 2 </li>
+<li> 730 </li>
+<li> 702 </li>
+<li> 7 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R08 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{108, 172, 32, 130, 26, 144, 196\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 2 até 7 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{7} cX_i = 9800\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{7} (X_i + c) = 784\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{7} (X_i - c) = 616\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=6:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=14:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=2}^{7} (X_i + c)\)</span>? {1:NUMERICAL:=784:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=2}^{7} (X_i - c)\)</span>? {1:NUMERICAL:=616:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=7:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 6 </li>
+<li> 14 </li>
+<li> 784 </li>
+<li> 616 </li>
+<li> 7 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R09 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{98, 170, 156, 20, 46, 4, 78, 48, 18, 146, 4\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 2 até 11 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{11} cX_i = 4140\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{11} (X_i + c) = 750\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=2}^{11} (X_i - c) = 630\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=10:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=6:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=2}^{11} (X_i + c)\)</span>? {1:NUMERICAL:=750:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=2}^{11} (X_i - c)\)</span>? {1:NUMERICAL:=630:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=11:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 10 </li>
+<li> 6 </li>
+<li> 750 </li>
+<li> 630 </li>
+<li> 11 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R10 Q1 : Cap1_25 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+</p>
+<p><span class="math inline">\(X = \{22, 162, 170, 158, 136, 104, 174, 98, 148\}\)</span></p>
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 1 até 9 são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{9} cX_i = 2344\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{9} (X_i + c) = 1190\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=1}^{9} (X_i - c) = 1154\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+Qual o número de termos do somatório? {1:NUMERICAL:=9:0.5}
+Qual o valor da constante <span class="math inline">\(c\)</span>? {1:NUMERICAL:=2:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{9} (X_i + c)\)</span>? {1:NUMERICAL:=1190:0.5}
+Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{9} (X_i - c)\)</span>? {1:NUMERICAL:=1154:0.5}
+Qual o limite superior do somatório? {1:NUMERICAL:=9:0.5}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 9 </li>
+<li> 2 </li>
+<li> 1190 </li>
+<li> 1154 </li>
+<li> 9 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+</quiz>

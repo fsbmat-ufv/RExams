@@ -1,0 +1,35 @@
+Question
+========
+
+<p style="text-align: justify;">
+Em Estatística, os conceitos de estimador, estimativa, estatística e parâmetro são fundamentais para a análise de dados. Considerando um estudo sobre a média salarial de todos os professores universitários de uma determinada região, qual das afirmativas a seguir está correta?
+</p>
+
+Answerlist
+----------
+
+* A média salarial calculada a partir de uma amostra de professores é um parâmetro populacional.
+* Um estimador é um valor numérico obtido a partir dos dados da amostra.
+* Uma estimativa é um valor específico obtido ao aplicar um estimador a um conjunto de dados da amostra.
+* O parâmetro é sempre conhecido, pois pode ser calculado diretamente a partir dos dados da amostra.
+* Estatística e parâmetro são sinônimos e podem ser usados indistintamente.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. A média salarial calculada a partir de uma amostra é uma estatística, não um parâmetro, pois os parâmetros referem-se à população inteira.
+* FALSA. Um estimador é uma função ou regra que define como obter um valor a partir dos dados da amostra, não um valor numérico específico.
+* CORRETA.
+* FALSA. O parâmetro geralmente é desconhecido e precisa ser estimado a partir de uma amostra.
+* FALSA. Estatística refere-se a valores calculados a partir de uma amostra, enquanto parâmetro refere-se a valores da população.
+
+Meta-information
+================
+
+exname: estimador_estimativa  
+extype: schoice  
+exsolution: 00100  
+exshuffle: TRUE  

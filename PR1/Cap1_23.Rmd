@@ -1,0 +1,60 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Número de termos na sequência (aleatório entre 5 e 9)
+n <- sample(5:9, 1)
+
+# Gera números inteiros aleatórios para a sequência
+x <- sample(5:25, n, replace = TRUE)
+
+# Calcula as somas e operações relacionadas
+soma_x <- sum(x)
+soma_x2 <- sum(x^2)
+soma_x_cubo <- sum(x^3)
+produto_x <- prod(x)
+media_x <- mean(x)
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Uma empresa deseja analisar os dados de vendas diárias de um produto ao longo de `r n` dias. A sequência de vendas registradas foi:
+</p>
+
+$\displaystyle \{`r paste(x, collapse=", ")`\}$
+
+<p style="text-align: justify;">
+Com base nesses dados, responda:
+</p>
+
+Questionlist
+------------
+* $\displaystyle \sum_{i=1}^{`r n`} X_i$: 
+* $\displaystyle \sum_{i=1}^{`r n`} X_i^2$: 
+* $\displaystyle \sum_{i=1}^{`r n`} X_i^3$: 
+* $\displaystyle \prod_{i=1}^{`r n`} X_i$:
+* $\displaystyle \frac{1}{n} \sum_{i=1}^{`r n`} X_i$: 
+
+Solution
+========
+
+Solutionlist
+------------
+* `r soma_x`
+* `r soma_x2`
+* `r soma_x_cubo`
+* `r produto_x`
+* `r round(media_x, 2)`
+
+Meta-information
+================
+
+exname: analise_vendas_somatorio  
+extype: cloze  
+exclozetype: num|num|num|num|num  
+exsolution: `r paste(c(soma_x, soma_x2, soma_x_cubo, produto_x, round(media_x, 2)), collapse="|")`  
+extol: 0.5

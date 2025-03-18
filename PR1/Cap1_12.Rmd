@@ -1,0 +1,41 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+n <- round(runif(1, min = 30, max = 250))
+
+```
+
+Question
+========
+<p style="text-align: justify;">
+Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de `r n` alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
+</p>
+
+Com base nessas informações, qual das seguintes afirmativas está correta?
+
+Answerlist
+----------
+* O conjunto de `r n` alunos cujas notas foram analisadas representa a população do estudo.
+* A média e o desvio padrão calculados a partir dos `r n` alunos são parâmetros da população.
+* O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
+* Se `r n` for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
+* A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
+
+Solution
+========
+Answerlist
+----------
+* FALSA. O conjunto de `r n` alunos representa uma amostra, não a população, pois há mais estudantes no curso.
+* FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
+* CORRETA.
+* FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
+* FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
+
+Meta-information
+================
+exname: populacao_amostra_dificil
+extype: schoice
+exsolution: 00100
+exshuffle: TRUE

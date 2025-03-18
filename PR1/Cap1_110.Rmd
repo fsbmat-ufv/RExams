@@ -1,0 +1,46 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+n <- round(runif(1, min = 30, max = 250))
+x <- round(runif(1, min = 1, max = n))
+
+
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Um instituto de pesquisa deseja estimar a proporção de eleitores que votarão em determinado candidato em uma eleição. Como não é possível consultar todos os eleitores, uma amostra aleatória de `r n` pessoas é entrevistada, e `r x` delas afirmam que votarão nesse candidato. Com base nessas informações, qual das afirmativas a seguir está correta?
+</p>
+
+Answerlist
+----------
+
+* A proporção calculada a partir da amostra é um parâmetro populacional.
+* O estimador da proporção populacional é a função matemática que define como a proporção amostral é calculada.
+* A estimativa da proporção é sempre igual ao verdadeiro valor do parâmetro populacional.
+* A estatística populacional pode ser calculada a partir de uma única amostra, independentemente do seu tamanho.
+* O parâmetro populacional é obtido diretamente a partir da estatística amostral sem erro.
+
+Solution
+========
+
+Answerlist
+----------
+
+* FALSA. A proporção calculada na amostra é uma **estatística**, não um parâmetro, pois representa apenas um subconjunto da população.
+* CORRETA. O **estimador** da proporção populacional é a regra que define como calcular a proporção a partir da amostra, enquanto o valor obtido é a **estimativa**.
+* FALSA. A estimativa da proporção pode variar de uma amostra para outra e pode não ser exatamente igual ao verdadeiro valor do parâmetro populacional.
+* FALSA. O valor populacional real é geralmente desconhecido e não pode ser obtido a partir de uma única amostra sem incerteza.
+* FALSA. A estatística amostral é apenas uma aproximação do parâmetro e está sujeita a erro amostral.
+
+Meta-information
+================
+
+exname: estimador_proporcao  
+extype: schoice  
+exsolution: 01000  
+exshuffle: TRUE  

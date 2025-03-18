@@ -1,0 +1,60 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Número de parcelas do somatório (aleatório entre 6 e 10)
+n <- sample(6:10, 1)
+
+# Gera números inteiros aleatórios para representar os valores das parcelas
+x <- sample(10:30, n, replace = TRUE)
+
+# Calcula os valores necessários
+soma_x <- sum(x)
+soma_x2 <- sum(x^2)
+soma_x_quadrado <- soma_x^2
+num_parcelas <- n
+soma_x_soma_n <- soma_x * num_parcelas
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere o somatório abaixo, onde cada $x_{i}$ representa um valor real.
+</p>
+
+$\displaystyle \sum_{i=1}^{`r n`} X_i = \{`r paste(x, collapse=", ")`\}$
+
+<p style="text-align: justify;">
+Com base nas informações acima, preencha corretamente as seguintes expressões:
+</p>
+
+Questionlist
+------------
+* Número de parcelas do somatório: $n$
+* $\displaystyle \sum_{i=1}^{`r n`}X_{i}$
+* $\displaystyle \sum_{i=1}^{`r n`}X_{i}^{2}$
+* $\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)^{2}$
+* $n\times\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)$
+
+Solution
+========
+
+Solutionlist
+------------
+* `r num_parcelas`
+* `r soma_x`
+* `r soma_x2`
+* `r soma_x_quadrado`
+* `r soma_x_soma_n`
+
+Meta-information
+================
+
+exname: numero_parcelas_somatorio  
+extype: cloze  
+exclozetype: num|num|num|num|num  
+exsolution: `r paste(c(num_parcelas, soma_x, soma_x2, soma_x_quadrado, soma_x_soma_n), collapse="|")`  
+extol: 0.5  

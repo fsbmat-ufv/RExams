@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_15/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> CORRETA. </li>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> CORRETA. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+<li> CORRETA. </li>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> CORRETA. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> CORRETA. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> CORRETA. </li>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> CORRETA. </li>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_15 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em Estatística, os conceitos de parâmetro e valor amostral são fundamentais para a análise de dados. Considerando uma pesquisa sobre a altura média de estudantes de uma universidade, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O valor amostral representa um dado específico da amostra, não uma estatística. </li>
+<li> FALSA. O parâmetro é uma medida da população e não depende da amostra. </li>
+<li> CORRETA. </li>
+<li> FALSA. O valor amostral pode mudar dependendo da amostra escolhida. </li>
+<li> FALSA. Diferentes amostras podem gerar diferentes valores amostrais. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é uma estatística que representa toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral representa um dado específico da amostra, não uma estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O parâmetro é sempre calculado a partir de uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O parâmetro é uma medida da população e não depende da amostra.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O parâmetro é uma medida numérica que descreve uma característica da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O valor amostral é um número fixo e inalterável, independentemente da amostra coletada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor amostral pode mudar dependendo da amostra escolhida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Em um estudo estatístico, os valores amostrais nunca variam entre diferentes amostras.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Diferentes amostras podem gerar diferentes valores amostrais.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

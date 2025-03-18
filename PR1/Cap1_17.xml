@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_17/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+<li> CORRETA. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+<li> CORRETA. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_17 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A Estatística é uma área do conhecimento que envolve a coleta, organização, análise e interpretação de dados. Com base nos conceitos fundamentais da Estatística, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras. </li>
+<li> FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida. </li>
+<li> CORRETA. </li>
+<li> FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada. </li>
+<li> FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística é aplicada exclusivamente em áreas acadêmicas e não possui utilidade prática no mercado de trabalho.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística é amplamente aplicada em diversas áreas, como economia, saúde, marketing, engenharia, entre outras.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma amostra deve sempre conter todos os elementos da população para que a análise estatística seja válida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Uma amostra é um subconjunto da população e não precisa conter todos os elementos para que seja válida.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O objetivo da Estatística Inferencial é fazer previsões ou generalizações sobre a população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Uma variável estatística é sempre um número fixo e não pode mudar entre diferentes observações.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Variáveis estatísticas podem assumir diferentes valores dependendo da unidade observada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva trata da análise de dados populacionais, enquanto a Estatística Inferencial estuda apenas dados amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Estatística Descritiva resume e organiza dados, seja de uma população ou de uma amostra, enquanto a Inferencial utiliza amostras para fazer inferências sobre a população.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

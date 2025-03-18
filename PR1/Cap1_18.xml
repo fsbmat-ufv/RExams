@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_18/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R01 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 81 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 81 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 81 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R02 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 96 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 96 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 96 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R03 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 186 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 186 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 186 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R04 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 141 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 141 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 141 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R05 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 91 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 91 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 91 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R06 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 244 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 244 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 244 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R07 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 63 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 63 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 63 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R08 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 85 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 85 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 85 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R09 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 117 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 117 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 117 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R10 Q1 : Cap1_18 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Um pesquisador deseja estudar o tempo médio de vida útil de um novo tipo de bateria para celulares. Para isso, ele seleciona aleatoriamente 187 baterias desse modelo e registra o tempo, em horas, que cada uma delas dura até parar de funcionar. Com base nesses dados, ele calcula a média e o desvio padrão da amostra. A partir dessas informações, qual das afirmativas a seguir está correta?
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população. </li>
+<li> FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro. </li>
+<li> FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral. </li>
+<li> FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas. </li>
+<li> CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O tempo médio de vida útil calculado com base nas 187 baterias representa o parâmetro populacional.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O tempo médio calculado a partir da amostra representa uma <strong>estatística</strong>, não um parâmetro, pois foi obtido de um subconjunto da população.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O desvio padrão calculado a partir da amostra é um parâmetro, pois representa a variabilidade real da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O desvio padrão da amostra é uma estatística e apenas aproxima o desvio padrão da população, que é o verdadeiro parâmetro.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+O verdadeiro tempo médio de vida útil das baterias pode ser exatamente conhecido apenas analisando uma única amostra suficientemente grande.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Mesmo com uma amostra grande, a média amostral pode aproximar o parâmetro, mas nunca determiná-lo com exatidão devido à variabilidade amostral.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A população, nesse estudo, é composta apenas pelas 187 baterias analisadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A população inclui todas as baterias desse modelo, não apenas aquelas que foram analisadas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+O estimador da média populacional é a regra que define como calcular a média a partir da amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA. O <strong>estimador</strong> é uma regra ou função usada para calcular a média a partir da amostra. O valor obtido a partir dessa regra é a <strong>estimativa</strong>.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>
