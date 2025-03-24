@@ -39,29 +39,27 @@
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
 </p>
-<p>[
-X = {75, 70, 54, 61, 59, 54, 57, 51}, Y = {35, 39, 45, 52, 55, 36, 54, 42}
-]</p>
+<p><span class="math inline">\(X = \{61, 80, 61, 63, 72, 62\}, \quad Y = \{56, 50, 52, 45, 51, 45\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{8}X</em>{i}) {1:NUMERICAL:=481:0.5}
-(_{i=1}<sup>{8}X_{i}</sup>{2}) {1:NUMERICAL:=29409:0.5}
-((_{i=1}<sup>{8}X_{i})</sup>{2}) {1:NUMERICAL:=231361:0.5}
-(<em>{i=1}^{8}X</em>{i}Y_{i}) {1:NUMERICAL:=21366:0.5}
-((<em>{i=1}^{8}X</em>{i})(<em>{i=1}^{8}Y</em>{i})) {1:NUMERICAL:=172198:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}\)</span> {1:NUMERICAL:=399:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}^{2}\)</span> {1:NUMERICAL:=26839:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=159201:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}Y_{i}\)</span> {1:NUMERICAL:=19885:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{6}Y_{i}\Big)\)</span> {1:NUMERICAL:=119301:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 481 </li>
-<li> 29409 </li>
-<li> 231361 </li>
-<li> 21366 </li>
-<li> 172198 </li>
+<li> 399 </li>
+<li> 26839 </li>
+<li> 159201 </li>
+<li> 19885 </li>
+<li> 119301 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -100,29 +98,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
 </p>
-<p>[
-X = {76, 76, 75, 53, 75, 66, 73, 71}, Y = {46, 58, 33, 41, 57, 52, 36, 48}
-]</p>
+<p><span class="math inline">\(X = \{68, 54, 60, 72, 65, 62\}, \quad Y = \{46, 56, 51, 59, 52, 37\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{8}X</em>{i}) {1:NUMERICAL:=565:0.5}
-(_{i=1}<sup>{8}X_{i}</sup>{2}) {1:NUMERICAL:=40337:0.5}
-((_{i=1}<sup>{8}X_{i})</sup>{2}) {1:NUMERICAL:=319225:0.5}
-(<em>{i=1}^{8}X</em>{i}Y_{i}) {1:NUMERICAL:=26295:0.5}
-((<em>{i=1}^{8}X</em>{i})(<em>{i=1}^{8}Y</em>{i})) {1:NUMERICAL:=209615:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}\)</span> {1:NUMERICAL:=381:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}^{2}\)</span> {1:NUMERICAL:=24393:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=145161:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}Y_{i}\)</span> {1:NUMERICAL:=19134:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{6}Y_{i}\Big)\)</span> {1:NUMERICAL:=114681:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 565 </li>
-<li> 40337 </li>
-<li> 319225 </li>
-<li> 26295 </li>
-<li> 209615 </li>
+<li> 381 </li>
+<li> 24393 </li>
+<li> 145161 </li>
+<li> 19134 </li>
+<li> 114681 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -161,29 +157,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
 </p>
-<p>[
-X = {74, 77, 64, 73, 51, 65}, Y = {32, 51, 37, 55, 32, 44}
-]</p>
+<p><span class="math inline">\(X = \{63, 67, 68, 66, 65, 60\}, \quad Y = \{44, 52, 50, 48, 60, 38\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=404:0.5}
-(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=27656:0.5}
-((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=163216:0.5}
-(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=17170:0.5}
-((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=101404:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}\)</span> {1:NUMERICAL:=389:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}^{2}\)</span> {1:NUMERICAL:=25263:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=151321:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}Y_{i}\)</span> {1:NUMERICAL:=19004:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{6}Y_{i}\Big)\)</span> {1:NUMERICAL:=113588:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 404 </li>
-<li> 27656 </li>
-<li> 163216 </li>
-<li> 17170 </li>
-<li> 101404 </li>
+<li> 389 </li>
+<li> 25263 </li>
+<li> 151321 </li>
+<li> 19004 </li>
+<li> 113588 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -222,29 +216,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
 </p>
-<p>[
-X = {59, 76, 74, 60, 66, 56}, Y = {56, 33, 37, 34, 40, 40}
-]</p>
+<p><span class="math inline">\(X = \{61, 69, 75, 55, 50, 56, 50, 68\}, \quad Y = \{43, 57, 47, 57, 56, 30, 47, 40\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=391:0.5}
-(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=25825:0.5}
-((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=152881:0.5}
-(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=15470:0.5}
-((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=93840:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}\)</span> {1:NUMERICAL:=484:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}^{2}\)</span> {1:NUMERICAL:=29892:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{8}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=234256:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}Y_{i}\)</span> {1:NUMERICAL:=22766:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{8}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{8}Y_{i}\Big)\)</span> {1:NUMERICAL:=182468:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 391 </li>
-<li> 25825 </li>
-<li> 152881 </li>
-<li> 15470 </li>
-<li> 93840 </li>
+<li> 484 </li>
+<li> 29892 </li>
+<li> 234256 </li>
+<li> 22766 </li>
+<li> 182468 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -283,29 +275,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 7 alunos.
 </p>
-<p>[
-X = {71, 57, 54, 57, 58, 74}, Y = {42, 32, 40, 48, 58, 51}
-]</p>
+<p><span class="math inline">\(X = \{60, 55, 59, 56, 65, 72, 59\}, \quad Y = \{33, 57, 52, 44, 47, 51, 39\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=371:0.5}
-(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=23295:0.5}
-((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=137641:0.5}
-(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=16840:0.5}
-((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=100541:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{7}X_{i}\)</span> {1:NUMERICAL:=426:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{7}X_{i}^{2}\)</span> {1:NUMERICAL:=26132:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{7}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=181476:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{7}X_{i}Y_{i}\)</span> {1:NUMERICAL:=19675:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{7}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{7}Y_{i}\Big)\)</span> {1:NUMERICAL:=137598:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 371 </li>
-<li> 23295 </li>
-<li> 137641 </li>
-<li> 16840 </li>
-<li> 100541 </li>
+<li> 426 </li>
+<li> 26132 </li>
+<li> 181476 </li>
+<li> 19675 </li>
+<li> 137598 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -344,29 +334,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
 </p>
-<p>[
-X = {64, 71, 55, 60, 51, 61}, Y = {52, 40, 58, 55, 30, 42}
-]</p>
+<p><span class="math inline">\(X = \{79, 61, 67, 72, 58, 72, 50, 55\}, \quad Y = \{42, 33, 44, 49, 52, 60, 47, 57\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=362:0.5}
-(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=22084:0.5}
-((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=131044:0.5}
-(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=16750:0.5}
-((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=100274:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}\)</span> {1:NUMERICAL:=514:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}^{2}\)</span> {1:NUMERICAL:=33708:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{8}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=264196:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}Y_{i}\)</span> {1:NUMERICAL:=24628:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{8}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{8}Y_{i}\Big)\)</span> {1:NUMERICAL:=197376:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 362 </li>
-<li> 22084 </li>
-<li> 131044 </li>
-<li> 16750 </li>
-<li> 100274 </li>
+<li> 514 </li>
+<li> 33708 </li>
+<li> 264196 </li>
+<li> 24628 </li>
+<li> 197376 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -405,29 +393,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
 </p>
-<p>[
-X = {70, 78, 56, 61, 60, 75, 79, 67}, Y = {38, 30, 58, 44, 49, 53, 46, 48}
-]</p>
+<p><span class="math inline">\(X = \{67, 64, 62, 55, 74, 80\}, \quad Y = \{39, 51, 44, 50, 44, 48\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{8}X</em>{i}) {1:NUMERICAL:=546:0.5}
-(_{i=1}<sup>{8}X_{i}</sup>{2}) {1:NUMERICAL:=37796:0.5}
-((_{i=1}<sup>{8}X_{i})</sup>{2}) {1:NUMERICAL:=298116:0.5}
-(<em>{i=1}^{8}X</em>{i}Y_{i}) {1:NUMERICAL:=24697:0.5}
-((<em>{i=1}^{8}X</em>{i})(<em>{i=1}^{8}Y</em>{i})) {1:NUMERICAL:=199836:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}\)</span> {1:NUMERICAL:=402:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}^{2}\)</span> {1:NUMERICAL:=27330:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=161604:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}Y_{i}\)</span> {1:NUMERICAL:=18451:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{6}Y_{i}\Big)\)</span> {1:NUMERICAL:=110952:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 546 </li>
-<li> 37796 </li>
-<li> 298116 </li>
-<li> 24697 </li>
-<li> 199836 </li>
+<li> 402 </li>
+<li> 27330 </li>
+<li> 161604 </li>
+<li> 18451 </li>
+<li> 110952 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -466,29 +452,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 8 alunos.
 </p>
-<p>[
-X = {68, 59, 57, 54, 80, 79}, Y = {55, 56, 40, 41, 42, 33}
-]</p>
+<p><span class="math inline">\(X = \{55, 51, 61, 77, 64, 51, 54, 53\}, \quad Y = \{60, 40, 52, 35, 33, 32, 56, 30\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=397:0.5}
-(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=26911:0.5}
-((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=157609:0.5}
-(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=17505:0.5}
-((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=105999:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}\)</span> {1:NUMERICAL:=466:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}^{2}\)</span> {1:NUMERICAL:=27698:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{8}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=217156:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{8}X_{i}Y_{i}\)</span> {1:NUMERICAL:=19565:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{8}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{8}Y_{i}\Big)\)</span> {1:NUMERICAL:=157508:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 397 </li>
-<li> 26911 </li>
-<li> 157609 </li>
-<li> 17505 </li>
-<li> 105999 </li>
+<li> 466 </li>
+<li> 27698 </li>
+<li> 217156 </li>
+<li> 19565 </li>
+<li> 157508 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -527,29 +511,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 7 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
 </p>
-<p>[
-X = {67, 73, 80, 64, 63, 53, 75}, Y = {35, 32, 32, 60, 53, 47, 60}
-]</p>
+<p><span class="math inline">\(X = \{70, 77, 57, 58, 60, 63\}, \quad Y = \{50, 49, 49, 44, 38, 31\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{7}X</em>{i}) {1:NUMERICAL:=475:0.5}
-(_{i=1}<sup>{7}X_{i}</sup>{2}) {1:NUMERICAL:=32717:0.5}
-((_{i=1}<sup>{7}X_{i})</sup>{2}) {1:NUMERICAL:=225625:0.5}
-(<em>{i=1}^{7}X</em>{i}Y_{i}) {1:NUMERICAL:=21411:0.5}
-((<em>{i=1}^{7}X</em>{i})(<em>{i=1}^{7}Y</em>{i})) {1:NUMERICAL:=151525:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}\)</span> {1:NUMERICAL:=385:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}^{2}\)</span> {1:NUMERICAL:=25011:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=148225:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}Y_{i}\)</span> {1:NUMERICAL:=16851:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{6}Y_{i}\Big)\)</span> {1:NUMERICAL:=100485:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 475 </li>
-<li> 32717 </li>
-<li> 225625 </li>
-<li> 21411 </li>
-<li> 151525 </li>
+<li> 385 </li>
+<li> 25011 </li>
+<li> 148225 </li>
+<li> 16851 </li>
+<li> 100485 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -588,29 +570,27 @@ Preencha com o resultado de cada somatório:
 </style>
 <p>
 <p style="text-align: justify;">
-Considere as Variáveis (X) e (Y) que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
+Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as notas de duas disciplinas, para um grupo de 6 alunos.
 </p>
-<p>[
-X = {55, 63, 53, 80, 50, 70}, Y = {45, 52, 43, 59, 47, 60}
-]</p>
+<p><span class="math inline">\(X = \{57, 57, 73, 62, 51, 70\}, \quad Y = \{56, 57, 52, 30, 58, 42\}\)</span></p>
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
 </p>
-(<em>{i=1}^{6}X</em>{i}) {1:NUMERICAL:=371:0.5}
-(_{i=1}<sup>{6}X_{i}</sup>{2}) {1:NUMERICAL:=23603:0.5}
-((_{i=1}<sup>{6}X_{i})</sup>{2}) {1:NUMERICAL:=137641:0.5}
-(<em>{i=1}^{6}X</em>{i}Y_{i}) {1:NUMERICAL:=19300:0.5}
-((<em>{i=1}^{6}X</em>{i})(<em>{i=1}^{6}Y</em>{i})) {1:NUMERICAL:=113526:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}\)</span> {1:NUMERICAL:=370:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}^{2}\)</span> {1:NUMERICAL:=23172:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)^{2}\)</span> {1:NUMERICAL:=136900:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{6}X_{i}Y_{i}\)</span> {1:NUMERICAL:=17995:0.5}
+<span class="math inline">\(\Big(\displaystyle \sum_{i=1}^{6}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{6}Y_{i}\Big)\)</span> {1:NUMERICAL:=109150:0.5}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 371 </li>
-<li> 23603 </li>
-<li> 137641 </li>
-<li> 19300 </li>
-<li> 113526 </li>
+<li> 370 </li>
+<li> 23172 </li>
+<li> 136900 </li>
+<li> 17995 </li>
+<li> 109150 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>

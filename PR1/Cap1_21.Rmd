@@ -23,12 +23,10 @@ Question
 ========
 
 <p style="text-align: justify;">
-Considere as Variáveis \(X\) e \(Y\) que representam, respectivamente, as notas de duas disciplinas, para um grupo de `r n` alunos.
+Considere as Variáveis $X$ e $Y$ que representam, respectivamente, as notas de duas disciplinas, para um grupo de `r n` alunos.
 </p>
 
-\[
-X = \{`r paste(x, collapse=", ")`\}, \quad Y = \{`r paste(y, collapse=", ")`\}
-\]
+$X = \{`r paste(x, collapse=", ")`\}, \quad Y = \{`r paste(y, collapse=", ")`\}$
 
 <p style="text-align: justify;">
 Preencha com o resultado de cada somatório:
@@ -36,11 +34,11 @@ Preencha com o resultado de cada somatório:
 
 Questionlist
 ------------
-* \(\displaystyle \sum_{i=1}^{`r n`}X_{i}\)
-* \(\displaystyle \sum_{i=1}^{`r n`}X_{i}^{2}\)
-* \(\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)^{2}\)
-* \(\displaystyle \sum_{i=1}^{`r n`}X_{i}Y_{i}\)
-* \(\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{`r n`}Y_{i}\Big)\)
+* $\displaystyle \sum_{i=1}^{`r n`}X_{i}$
+* $\displaystyle \sum_{i=1}^{`r n`}X_{i}^{2}$
+* $\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)^{2}$
+* $\displaystyle \sum_{i=1}^{`r n`}X_{i}Y_{i}$
+* $\Big(\displaystyle \sum_{i=1}^{`r n`}X_{i}\Big)\Big(\displaystyle \sum_{i=1}^{`r n`}Y_{i}\Big)$
 
 Solution
 ========

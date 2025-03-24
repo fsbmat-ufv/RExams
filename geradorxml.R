@@ -4,7 +4,7 @@ require(exams)
 require(magrittr)
 require(knitr)
 
-exams::exams2moodle(file = "Cap1_25.Rmd", 
+exams::exams2moodle(file = "Cap1_21.Rmd", 
                     n=10, 
                     verbose = TRUE, 
-                    name = "Cap1_25")
+                    name = "Cap1_21")
