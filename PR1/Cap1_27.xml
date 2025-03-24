@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_27/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R1 Q1 : Cap1_27 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere a dízima periódica <span class="math inline">\(8.7777...\)</span>. Sabemos que essa dízima pode ser representada por uma soma infinita e, consequentemente, por uma fração geradora. Com base nisso, responda:
+</p>
+<ul>
+<li>Qual é a fração geradora da dízima periódica? {1:SHORTANSWER:=79/9}</li>
+</ul>
+</p>]]></text>
+</questiontext>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R2 Q1 : Cap1_27 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere a dízima periódica <span class="math inline">\(10.2222...\)</span>. Sabemos que essa dízima pode ser representada por uma soma infinita e, consequentemente, por uma fração geradora. Com base nisso, responda:
+</p>
+<ul>
+<li>Qual é a fração geradora da dízima periódica? {1:SHORTANSWER:=92/9}</li>
+</ul>
+</p>]]></text>
+</questiontext>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+</question>
+
+</quiz>

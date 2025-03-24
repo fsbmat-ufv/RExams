@@ -1,0 +1,67 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Define limites da soma telescópica
+n_inicial <- round(runif(1, 2, 10))
+n_final <- n_inicial + sample(n_inicial:(n_inicial+20), 1)
+
+# Gera vetor dos termos da soma telescópica 1/n - 1/(n+1)
+n <- n_inicial:n_final
+termos <- 1/n - 1/(n + 1)
+soma_termos <- sum(termos)
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere a seguinte soma finita:
+</p>
+
+$$\displaystyle \sum_{n=`r n_inicial`}^{`r n_final`} \left( \frac{1}{n} - \frac{1}{n+1} \right)$$
+
+<p style="text-align: justify;">
+Utilize as propriedades da soma para encontrar o valor exato da expressão.
+</p>
+
+Questionlist
+------------
+
+* Qual o primeiro termo da soma?  
+
+* Qual o último termo que não é cancelado na soma?  
+
+* Qual o valor da soma $\, \displaystyle \sum_{n=`r n_inicial`}^{`r n_final`} \left( \frac{1}{n} - \frac{1}{n+1} \right)$? (Use quatro casas decimais sem arrendodamentos)
+
+* Quantos termos foram somados?  
+
+* Qual o valor de $\displaystyle \frac{1}{`r n_inicial`} - \frac{1}{`r n_final + 1`}$? (Use quatro casas decimais sem arrendodamentos)
+
+Solution
+========
+
+Solutionlist
+------------
+
+* $\frac{1}{`r n_inicial`}$
+
+* $\frac{1}{`r n_final + 1`}$
+
+* `r round(soma_termos, 4)`
+
+* `r length(n)`
+
+* `r round(1/n_inicial - 1/(n_final + 1), 4)`
+
+Meta-information
+================
+
+exname: soma_telescopica  
+extype: cloze  
+exclozetype: str|str|num|num|num  
+exsolution: `r paste(c(paste0("1/", n_inicial), paste0("1/", n_final + 1), round(soma_termos, 4), length(n), round(1/n_inicial - 1/(n_final + 1), 4)), collapse = "|")`  
+extol: 0.0001
+

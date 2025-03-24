@@ -1,0 +1,94 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Define os limites inferior e superior do somatório
+limite_inferior <- sample(1:5, 1)
+limite_superior <- limite_inferior + sample(5:10, 1)
+
+# Número de termos do somatório
+num_termos <- limite_superior - limite_inferior + 1
+
+# Gera uma sequência de valores para X_i de tamanho maior para permitir diferentes limites inferiores
+seq1 <- 2 * seq(1:100)  # Garante que os valores de X sejam múltiplos de 2
+x_completo <- sample(seq1, limite_superior, replace = TRUE)
+
+# Seleciona apenas os valores de X_i dentro dos limites do somatório
+x <- x_completo[limite_inferior:limite_superior]
+
+# Calcula as somas e operações relacionadas considerando apenas o intervalo correto
+soma_x <- sum(x)
+
+# Define um valor final para cada somatório garantindo que c seja um número inteiro
+candidatos_c <- seq(2, 20)
+candidatos_c <- candidatos_c[soma_x %% candidatos_c == 0]  # Filtra divisores inteiros de soma_x
+
+if (length(candidatos_c) > 0) {
+  c <- sample(candidatos_c, 1)
+} else {
+  c <- 2 # Caso não haja divisor válido, define c como 2 para evitar 1 sempre
+}
+
+soma_cx_final <- c * soma_x
+soma_x_mais_c_final <- sum(x + c)
+soma_x_menos_c_final <- sum(x - c)
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere os seguintes somatórios, onde $c$ é uma constante e $X_i$ são variáveis, com os seguintes valores:
+</p>
+
+$X = \{`r paste(x_completo, collapse=", ")`\}$
+
+<p style="text-align: justify;">
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de $X_i$ do índice `r limite_inferior` até `r limite_superior` são considerados:
+</p>
+
+$\displaystyle \sum_{i=`r limite_inferior`}^{`r limite_superior`} cX_i = `r soma_cx_final`$
+
+$\displaystyle \sum_{i=`r limite_inferior`}^{`r limite_superior`} (X_i + c) = `r soma_x_mais_c_final`$
+
+$\displaystyle \sum_{i=`r limite_inferior`}^{`r limite_superior`} (X_i - c) = `r soma_x_menos_c_final`$
+
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
+</p>
+
+Questionlist
+------------
+
+* A propriedade $\sum_{i=1}^{n} (a_i + b_i) = \sum_{i=1}^{n} a_i + \sum_{i=1}^{n} b_i$ é verdadeira. {6:MC:=Verdadeiro~Falso}
+
+* A propriedade $\sum_{i=1}^{n} c a_i = c \sum_{i=1}^{n} a_i$ é válida para qualquer constante real $c$. {7:MC:=Verdadeiro~Falso}
+
+* A identidade $\sum_{i=1}^{n} a_i - b_i = \sum_{i=1}^{n} a_i - \sum_{i=1}^{n} b_i$ é válida. {8:MC:=Verdadeiro~Falso}
+
+* A propriedade $\sum_{i=1}^{n} a_i b_i = \sum_{i=1}^{n} a_i \cdot \sum_{i=1}^{n} b_i$ é válida. {9:MC:=Falso~Verdadeiro}
+
+
+Solution
+========
+
+Solutionlist
+------------
+
+* Verdadeiro
+* Verdadeiro
+* Verdadeiro
+* Falso
+
+
+Meta-information
+================
+
+exname: somatorio_propriedades  
+extype: cloze  
+exclozetype: schoice|schoice|schoice|schoice
+exsolution: 0, 0, 0, 1
+
+

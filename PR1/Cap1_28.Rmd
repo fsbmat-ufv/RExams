@@ -1,0 +1,58 @@
+```{r}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Soma infinita para dízima periódica com 4 dígitos e sem arredondamento
+numerador <- sample((20:99)[(20:99) %% 9 != 0], 1)
+denominador <- 9
+frac_geradora <- numerador / denominador
+valor_dizima <- floor(frac_geradora * 10000) / 10000  # trunca para 4 casas sem arredondar
+
+frac <- paste0("\\frac{", numerador, "}{", denominador, "}")
+
+# Nova questão: somatório de uma progressão aritmética
+n <- sample(5:10, 1)
+a1 <- sample(1:5, 1)
+r <- sample(2:5, 1)
+ult_termo <- a1 + (n - 1) * r
+soma_pa <- n * (a1 + ult_termo) / 2
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere a progressão aritmética de $`r n`$ termos, cujo primeiro termo é $a_1 = `r a1`$ e a razão é $r = `r r`$. Sabemos que a soma dos termos de uma PA finita é dada por:
+</p>
+
+$$\displaystyle S_n = \frac{n(a_1 + a_n)}{2}$$
+
+<p style="text-align: justify;">
+Com base nessas informações, calcule a soma dos termos dessa progressão:
+</p>
+
+Questionlist
+------------
+
+* Qual é o valor do último termo $a_n$ da progressão?  
+
+* Qual é a soma dos $`r n`$ termos da progressão?   
+
+Solution
+========
+
+Solutionlist
+------------
+* `r ult_termo`
+* `r soma_pa`
+
+Meta-information
+================
+
+exname: soma_pa
+extype: cloze
+exclozetype: num|num
+exsolution: `r paste(c(ult_termo, soma_pa), collapse = "|")`
+

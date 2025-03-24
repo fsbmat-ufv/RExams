@@ -11,7 +11,7 @@
 
 
 
-<title>Cap1_21.knit</title>
+<title>Cap1_29.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -355,29 +355,36 @@ display: none;
 <div id="question" class="section level1">
 <h1>Question</h1>
 <p style="text-align: justify;">
-Considere as Variáveis <span class="math inline">\(X\)</span> e <span class="math inline">\(Y\)</span> que representam, respectivamente, as
-notas de duas disciplinas, para um grupo de 6 alunos.
+Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes
+valores:
 </p>
-<p><span class="math display">\[
-X = \{60, 59, 79, 55, 61, 73\}, \quad Y = \{30, 51, 59, 35, 34, 51\}
-\]</span></p>
+<p><span class="math inline">\(X = \{178, 122, 64, 114, 78, 186, 66,
+156, 34\}\)</span></p>
 <p style="text-align: justify;">
-Preencha com o resultado de cada somatório:
+Agora, considere os somatórios abaixo e seus valores finais, onde apenas
+os valores de <span class="math inline">\(X_i\)</span> do índice 4 até 9
+são considerados:
+</p>
+<p><span class="math inline">\(\displaystyle \sum_{i=4}^{9} cX_i =
+1268\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=4}^{9} (X_i + c) =
+646\)</span></p>
+<p><span class="math inline">\(\displaystyle \sum_{i=4}^{9} (X_i - c) =
+622\)</span></p>
+<p style="text-align: justify;">
+Com base nesses somatórios e nas propriedades da soma, responda:
 </p>
 <div id="questionlist" class="section level2">
 <h2>Questionlist</h2>
 <ul>
-<li><span class="math inline">\(\displaystyle
-\sum_{i=1}^{6}X_{i}\)</span></li>
-<li><span class="math inline">\(\displaystyle
-\sum_{i=1}^{6}X_{i}^{2}\)</span></li>
-<li><span class="math inline">\(\Big(\displaystyle
-\sum_{i=1}^{6}X_{i}\Big)^{2}\)</span></li>
-<li><span class="math inline">\(\displaystyle
-\sum_{i=1}^{6}X_{i}Y_{i}\)</span></li>
-<li><span class="math inline">\(\Big(\displaystyle
-\sum_{i=1}^{6}X_{i}\Big)\Big(\displaystyle
-\sum_{i=1}^{6}Y_{i}\Big)\)</span></li>
+<li><p>Qual o número de termos do somatório? {1:NUMERICAL:=6}</p></li>
+<li><p>Qual o valor da constante <span class="math inline">\(c\)</span>?
+{2:NUMERICAL:=2}</p></li>
+<li><p>Qual o valor de <span class="math inline">\(\displaystyle
+\sum_{i=4}^{9} (X_i + c)\)</span>? {3:NUMERICAL:=646}</p></li>
+<li><p>Qual o valor de <span class="math inline">\(\displaystyle
+\sum_{i=4}^{9} (X_i - c)\)</span>? {4:NUMERICAL:=622}</p></li>
+<li><p>Qual o limite superior do somatório? {5:NUMERICAL:=9}</p></li>
 </ul>
 </div>
 </div>
@@ -386,20 +393,19 @@ Preencha com o resultado de cada somatório:
 <div id="solutionlist" class="section level2">
 <h2>Solutionlist</h2>
 <ul>
-<li>387</li>
-<li>25397</li>
-<li>149769</li>
-<li>17192</li>
-<li>100620</li>
+<li>6</li>
+<li>2</li>
+<li>646</li>
+<li>622</li>
+<li>9</li>
 </ul>
 </div>
 </div>
 <div id="meta-information" class="section level1">
 <h1>Meta-information</h1>
-<p>exname: soma_valores<br />
+<p>exname: somatorio_propriedades<br />
 extype: cloze<br />
 exclozetype: num|num|num|num|num<br />
-exsolution: 387|25397|149769|17192|100620<br />
 extol: 0.5</p>
 </div>
 

@@ -11,7 +11,7 @@
 
 
 
-<title>Cap1_24.knit</title>
+<title>Cap1_28.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -352,25 +352,53 @@ display: none;
 </div>
 
 
+<pre class="r"><code>library(exams)</code></pre>
+<pre><code>## Warning: pacote &#39;exams&#39; foi compilado no R versão 4.4.3</code></pre>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ forcats   1.0.0     ✔ stringr   1.5.1
+## ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+## ✔ purrr     1.0.2     
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+<pre class="r"><code>library(knitr)
+options(scipen = 999)
+
+# Soma infinita para dízima periódica com 4 dígitos e sem arredondamento
+numerador &lt;- sample((20:99)[(20:99) %% 9 != 0], 1)
+denominador &lt;- 9
+frac_geradora &lt;- numerador / denominador
+valor_dizima &lt;- floor(frac_geradora * 10000) / 10000  # trunca para 4 casas sem arredondar
+
+frac &lt;- paste0(&quot;\\frac{&quot;, numerador, &quot;}{&quot;, denominador, &quot;}&quot;)
+
+# Nova questão: somatório de uma progressão aritmética
+n &lt;- sample(5:10, 1)
+a1 &lt;- sample(1:5, 1)
+r &lt;- sample(2:5, 1)
+ult_termo &lt;- a1 + (n - 1) * r
+soma_pa &lt;- n * (a1 + ult_termo) / 2</code></pre>
 <div id="question" class="section level1">
 <h1>Question</h1>
 <p style="text-align: justify;">
-Considere o seguinte somatório onde <span class="math inline">\(c\)</span> é uma constante:
+Considere a progressão aritmética de <span class="math inline">\(10\)</span> termos, cujo primeiro termo é <span class="math inline">\(a_1 = 1\)</span> e a razão é <span class="math inline">\(r = 4\)</span>. Sabemos que a soma dos termos de
+uma PA finita é dada por:
 </p>
-<p><span class="math inline">\(49=\displaystyle \sum_{i=2}^{8}
-c\)</span></p>
+<p><span class="math display">\[\displaystyle S_n = \frac{n(a_1 +
+a_n)}{2}\]</span></p>
 <p style="text-align: justify;">
-Com base nesse somatório, responda:
+Com base nessas informações, calcule a soma dos termos dessa progressão:
 </p>
 <div id="questionlist" class="section level2">
 <h2>Questionlist</h2>
 <ul>
-<li>Qual o número de termos do somatório?</li>
-<li>Qual o limite inferior do somatório?</li>
-<li>Qual o limite superior do somatório?</li>
-<li>Qual o valor da constante <span class="math inline">\(c\)</span>?</li>
-<li>Qual o valor do somatório <span class="math inline">\(\displaystyle
-\sum_{i=2}^{8} c\)</span>?</li>
+<li><p>Qual é o valor do último termo <span class="math inline">\(a_n\)</span> da progressão?</p></li>
+<li><p>Qual é a soma dos <span class="math inline">\(10\)</span> termos
+da progressão?</p></li>
 </ul>
 </div>
 </div>
@@ -379,21 +407,15 @@ Com base nesse somatório, responda:
 <div id="solutionlist" class="section level2">
 <h2>Solutionlist</h2>
 <ul>
-<li>7</li>
-<li>2</li>
-<li>8</li>
-<li>7</li>
-<li>49</li>
+<li>37</li>
+<li>190</li>
 </ul>
 </div>
 </div>
 <div id="meta-information" class="section level1">
 <h1>Meta-information</h1>
-<p>exname: somatorio_constante<br />
-extype: cloze<br />
-exclozetype: num|num|num|num|num<br />
-exsolution: 7|2|8|7|49<br />
-extol: 0.5</p>
+<p>exname: soma_pa extype: cloze exclozetype: num|num exsolution:
+37|190</p>
 </div>
 
 

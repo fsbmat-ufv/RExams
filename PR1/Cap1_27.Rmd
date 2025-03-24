@@ -1,0 +1,31 @@
+```{r}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Soma infinita para dízima periódica com 4 dígitos e sem arredondamento
+numerador <- sample((20:99)[(20:99) %% 9 != 0], 1)
+denominador <- 9
+frac_geradora <- numerador / denominador
+valor_dizima <- floor(frac_geradora * 10000) / 10000  # trunca para 4 casas sem arredondar
+
+resposta_certa <- sprintf("%s/%s", numerador, denominador)
+```
+
+Question
+========
+
+<p style="text-align: justify;">
+Considere a dízima periódica $`r valor_dizima`...$. Sabemos que essa dízima pode ser representada por uma soma infinita e, consequentemente, por uma fração geradora. Com base nisso, responda:
+</p>
+
+* Qual é a fração geradora da dízima periódica? {1:SHORTANSWER:=`r resposta_certa`}
+
+Meta-information
+================
+
+exname: dizima_fracao_geradora  
+extype: cloze  
+exclozetype: str  
+exsolution: `r sprintf("\"%s/%s\"", numerador, denominador)`

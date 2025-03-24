@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap1_28/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R1 Q1 : Cap1_28 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere a progressão aritmética de <span class="math inline">\(10\)</span> termos, cujo primeiro termo é <span class="math inline">\(a_1 = 2\)</span> e a razão é <span class="math inline">\(r = 4\)</span>. Sabemos que a soma dos termos de uma PA finita é dada por:
+</p>
+<p><span class="math display">\[\displaystyle S_n = \frac{n(a_1 + a_n)}{2}\]</span></p>
+<p style="text-align: justify;">
+Com base nessas informações, calcule a soma dos termos dessa progressão:
+</p>
+Qual é o valor do último termo <span class="math inline">\(a_n\)</span> da progressão? {1:NUMERICAL:=38:0}
+Qual é a soma dos <span class="math inline">\(10\)</span> termos da progressão? {1:NUMERICAL:=200:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> {1:NUMERICAL:=38} </li>
+<li> {2:NUMERICAL:=200} </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>2</defaultgrade>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> R2 Q1 : Cap1_28 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere a progressão aritmética de <span class="math inline">\(8\)</span> termos, cujo primeiro termo é <span class="math inline">\(a_1 = 3\)</span> e a razão é <span class="math inline">\(r = 2\)</span>. Sabemos que a soma dos termos de uma PA finita é dada por:
+</p>
+<p><span class="math display">\[\displaystyle S_n = \frac{n(a_1 + a_n)}{2}\]</span></p>
+<p style="text-align: justify;">
+Com base nessas informações, calcule a soma dos termos dessa progressão:
+</p>
+Qual é o valor do último termo <span class="math inline">\(a_n\)</span> da progressão? {1:NUMERICAL:=17:0}
+Qual é a soma dos <span class="math inline">\(8\)</span> termos da progressão? {1:NUMERICAL:=80:0}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> {1:NUMERICAL:=17} </li>
+<li> {2:NUMERICAL:=80} </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>2</defaultgrade>
+</question>
+
+</quiz>
