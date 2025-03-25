@@ -1,0 +1,38 @@
+Question
+========
+<p style="text-align: justify;">Marque todas as alternativas corretas sobre as diferenças entre Estatística Descritiva e Inferência Estatística.</p>
+
+Answerlist
+----------
+* A Estatística Descritiva tem como objetivo principal resumir e organizar os dados de uma amostra ou população.
+* A Inferência Estatística permite fazer generalizações sobre uma população com base em uma amostra.
+* A Estatística Descritiva utiliza técnicas como teste de hipóteses e intervalos de confiança.
+* A Inferência Estatística não depende da teoria das probabilidades para suas conclusões.
+* A Inferência Estatística está relacionada à estimação de parâmetros populacionais.
+* A Estatística Descritiva pode ser aplicada tanto em dados populacionais quanto amostrais.
+* A Inferência Estatística requer que os dados amostrais sejam representativos da população.
+* A Estatística Descritiva envolve o uso de gráficos, tabelas e medidas como média e desvio padrão.
+* A Inferência Estatística é útil quando não é viável coletar dados de toda a população.
+* A Estatística Descritiva busca prever comportamentos futuros a partir dos dados observados.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* FALSA. Testes de hipóteses e intervalos de confiança são técnicas da Inferência Estatística.
+* FALSA. A Inferência Estatística se baseia fortemente na teoria das probabilidades.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. A previsão de comportamentos futuros é uma característica da Inferência, não da Descritiva.
+
+Meta-information
+================
+exname: estatistica-descritiva-vs-inferencia
+extype: mchoice
+exsolution: 1100111110
+exshuffle: TRUE

@@ -1,0 +1,38 @@
+Question
+========
+<p style="text-align: justify;">Marque todas as alternativas corretas sobre os principais tipos de gráficos utilizados em Estatística Descritiva.</p>
+
+Answerlist
+----------
+* O gráfico de barras é adequado para representar variáveis qualitativas nominais ou ordinais.
+* O gráfico de pizza é útil para mostrar a proporção de cada categoria em relação ao total.
+* O gráfico de pontos é mais indicado para variáveis quantitativas contínuas em conjuntos de dados grandes.
+* O histograma é apropriado para representar frequências de variáveis qualitativas.
+* O gráfico de ramos e folhas preserva os valores originais dos dados, facilitando a visualização da distribuição.
+* O gráfico de barras utiliza barras encostadas umas nas outras, sem espaçamento entre elas.
+* O gráfico de caixa (boxplot) permite observar a mediana, os quartis e possíveis outliers.
+* O gráfico de dispersão é usado para analisar a relação entre duas variáveis quantitativas.
+* O gráfico de linhas é especialmente útil para visualizar séries temporais.
+* O gráfico de pizza deve ser evitado quando há muitas categorias, pois dificulta a interpretação.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* FALSA. O gráfico de pontos é mais indicado para pequenos conjuntos de dados, geralmente discretos.
+* FALSA. O histograma é usado para variáveis quantitativas contínuas, não qualitativas.
+* CORRETA.
+* FALSA. O gráfico de barras tem espaçamento entre as barras; quem não tem é o histograma.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+
+Meta-information
+================
+exname: graficos-estatistica
+extype: mchoice
+exsolution: 1100111111
+exshuffle: TRUE

@@ -1,0 +1,46 @@
+Question
+========
+<p style="text-align: justify;">Observe o gráfico de pizza gerado e marque todas as afirmativas corretas com base nas informações apresentadas.</p>
+
+```{r plot, echo = FALSE, results = "hide", fig.height = 4.5, fig.width = 4.5, fig.path = "", fig.cap = ""}
+categorias <- c("A", "B", "C", "D")
+valores <- c(25, 35, 20, 20)
+cores <- c("skyblue", "orange", "lightgreen", "pink")
+
+pie(valores, labels = paste(categorias, "-", valores, "%"), col = cores)
+```
+
+Answerlist
+----------
+* A categoria B é a mais preferida entre as quatro.
+* As categorias C e D possuem a mesma porcentagem de preferência.
+* A soma das preferências das categorias A e B corresponde a 60% do total.
+* O gráfico de pizza é ideal para comparar quantidades absolutas em vez de proporções relativas.
+* O gráfico mostra que nenhuma das categorias tem mais da metade das preferências.
+* A categoria A tem a menor fatia do gráfico.
+* As cores utilizadas no gráfico ajudam a distinguir visualmente cada categoria.
+* A interpretação do gráfico depende da ordem em que as fatias são desenhadas.
+* O gráfico de pizza permite observar diretamente a frequência absoluta de cada categoria.
+* O gráfico é mais adequado para variáveis quantitativas contínuas.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. O gráfico de pizza é ideal para mostrar proporções relativas, não quantidades absolutas.
+* CORRETA.
+* FALSA. A menor fatia é de 20%, presente nas categorias C e D.
+* CORRETA.
+* FALSA. A ordem das fatias não afeta a interpretação das proporções.
+* FALSA. O gráfico mostra proporções, não frequências absolutas diretamente.
+* FALSA. O gráfico de pizza é adequado para variáveis qualitativas, não quantitativas contínuas.
+
+Meta-information
+================
+exname: grafico-pizza-categorias
+extype: mchoice
+exsolution: 1110111010
+exshuffle: TRUE

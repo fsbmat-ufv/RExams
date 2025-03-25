@@ -1,0 +1,48 @@
+Question
+========
+<p style="text-align: justify;">Observe o gráfico de barras gerado e marque todas as afirmativas corretas com base nas informações apresentadas.</p>
+
+```{r barras, echo = FALSE, results = "hide", fig.height = 4.5, fig.width = 4.5, fig.path = "", fig.cap = ""}
+categorias <- c("A", "B", "C", "D")
+valores <- c(25, 35, 20, 20)
+cores <- c("skyblue", "orange", "lightgreen", "pink")
+
+barplot(valores, names.arg = categorias, col = cores, 
+        main = "Distribuição de Preferência por Categoria", 
+        ylab = "Frequência")
+```
+
+Answerlist
+----------
+* A categoria B possui a maior frequência no gráfico.
+* As categorias C e D apresentam a mesma frequência.
+* O gráfico de barras é adequado para representar dados de variáveis qualitativas.
+* As barras deveriam estar encostadas umas nas outras, sem espaçamento.
+* A categoria A tem menor frequência que a categoria B.
+* As cores das barras auxiliam na distinção entre as categorias.
+* O gráfico de barras representa dados quantitativos contínuos.
+* A soma das frequências das categorias A e B é igual a 60.
+* A altura de cada barra representa a frequência da categoria correspondente.
+* O gráfico de barras deve ser utilizado apenas para variáveis numéricas.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. No gráfico de barras as barras são separadas por espaçamento.
+* CORRETA.
+* CORRETA.
+* FALSA. O gráfico de barras é usado para dados qualitativos ou discretos.
+* CORRETA.
+* CORRETA.
+* FALSA. Pode ser usado com variáveis categóricas também.
+
+Meta-information
+================
+exname: grafico-barras-categorias
+extype: mchoice
+exsolution: 1110101101
+exshuffle: TRUE

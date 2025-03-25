@@ -1,0 +1,44 @@
+Question
+========
+<p style="text-align: justify;">Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas corretas com base nas informações apresentadas.</p>
+
+```{r ramos, echo = FALSE, results = 'asis'}
+dados <- c(23, 24, 25, 27, 28, 28, 31, 33, 34, 36, 36, 36, 38, 41, 44)
+stem_output <- capture.output(stem(dados))
+cat("<pre>", paste(stem_output, collapse = "\n"), "</pre>")
+```
+
+Answerlist
+----------
+* O número 36 aparece três vezes no conjunto de dados.
+* O menor valor do conjunto é 23.
+* O maior valor do conjunto é 44.
+* O número 28 aparece apenas uma vez no conjunto.
+* O diagrama de ramos e folhas preserva os valores originais dos dados.
+* O número 34 pertence à classe de valores com stem 3.
+* O diagrama de ramos e folhas é útil apenas para variáveis qualitativas.
+* A moda do conjunto é 36.
+* O diagrama mostra que os dados estão concentrados na casa dos 30.
+* O diagrama de ramos e folhas não permite identificar valores repetidos.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. O número 28 aparece duas vezes.
+* CORRETA.
+* CORRETA.
+* FALSA. O diagrama é para variáveis quantitativas, não qualitativas.
+* CORRETA.
+* CORRETA.
+* FALSA. O diagrama permite identificar valores repetidos com clareza.
+
+Meta-information
+================
+exname: grafico-ramos-e-folhas
+extype: mchoice
+exsolution: 1110011011
+exshuffle: TRUE

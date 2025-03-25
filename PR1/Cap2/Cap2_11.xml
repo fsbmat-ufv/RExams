@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_11/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R1 Q1 : Cap2_11 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Marque todas as alternativas corretas sobre as diferenças entre Estatística Descritiva e Inferência Estatística.
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. Testes de hipóteses e intervalos de confiança são técnicas da Inferência Estatística. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. A Inferência Estatística se baseia fortemente na teoria das probabilidades. </li>
+<li> FALSA. A previsão de comportamentos futuros é uma característica da Inferência, não da Descritiva. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva tem como objetivo principal resumir e organizar os dados de uma amostra ou população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva pode ser aplicada tanto em dados populacionais quanto amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva envolve o uso de gráficos, tabelas e medidas como média e desvio padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística está relacionada à estimação de parâmetros populacionais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva utiliza técnicas como teste de hipóteses e intervalos de confiança.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Testes de hipóteses e intervalos de confiança são técnicas da Inferência Estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística permite fazer generalizações sobre uma população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística requer que os dados amostrais sejam representativos da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística é útil quando não é viável coletar dados de toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística não depende da teoria das probabilidades para suas conclusões.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Inferência Estatística se baseia fortemente na teoria das probabilidades.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva busca prever comportamentos futuros a partir dos dados observados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A previsão de comportamentos futuros é uma característica da Inferência, não da Descritiva.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R2 Q1 : Cap2_11 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Marque todas as alternativas corretas sobre as diferenças entre Estatística Descritiva e Inferência Estatística.
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. Testes de hipóteses e intervalos de confiança são técnicas da Inferência Estatística. </li>
+<li> FALSA. A Inferência Estatística se baseia fortemente na teoria das probabilidades. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. A previsão de comportamentos futuros é uma característica da Inferência, não da Descritiva. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva utiliza técnicas como teste de hipóteses e intervalos de confiança.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Testes de hipóteses e intervalos de confiança são técnicas da Inferência Estatística.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística não depende da teoria das probabilidades para suas conclusões.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A Inferência Estatística se baseia fortemente na teoria das probabilidades.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística requer que os dados amostrais sejam representativos da população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística permite fazer generalizações sobre uma população com base em uma amostra.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva tem como objetivo principal resumir e organizar os dados de uma amostra ou população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística é útil quando não é viável coletar dados de toda a população.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva pode ser aplicada tanto em dados populacionais quanto amostrais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Inferência Estatística está relacionada à estimação de parâmetros populacionais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva busca prever comportamentos futuros a partir dos dados observados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A previsão de comportamentos futuros é uma característica da Inferência, não da Descritiva.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A Estatística Descritiva envolve o uso de gráficos, tabelas e medidas como média e desvio padrão.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>
