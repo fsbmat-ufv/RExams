@@ -39,38 +39,24 @@
 </style>
 <p>
 <p style="text-align: justify;">
-Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+Calcule:
 </p>
-<p><span class="math inline">\(X = \{12, 144, 172, 172, 78, 62, 162, 100, 68, 8, 26, 138, 50, 104\}\)</span></p>
-<p style="text-align: justify;">
-Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 4 até 14 são considerados:
-</p>
-<p><span class="math inline">\(\displaystyle \sum_{i=4}^{14} cX_i = 3872\)</span></p>
-<p><span class="math inline">\(\displaystyle \sum_{i=4}^{14} (X_i + c) = 1012\)</span></p>
-<p><span class="math inline">\(\displaystyle \sum_{i=4}^{14} (X_i - c) = 924\)</span></p>
-<p style="text-align: justify;">
-Com base nesses somatórios e nas propriedades da soma, responda:
-</p>
-Qual o número de termos do somatório? {1:NUMERICAL:=11} {1:NUMERICAL:=11:0.5}
-Qual o valor da constante <span class="math inline">\(c\)</span>? {2:NUMERICAL:=4} {1:NUMERICAL:=4:0.5}
-Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=4}^{14} (X_i + c)\)</span>? {3:NUMERICAL:=1012} {1:NUMERICAL:=1012:0.5}
-Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=4}^{14} (X_i - c)\)</span>? {4:NUMERICAL:=924} {1:NUMERICAL:=924:0.5}
-Qual o limite superior do somatório? {5:NUMERICAL:=14} {1:NUMERICAL:=14:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=5}^{11} (2i-i^{2})\)</span> {1:NUMERICAL:=588:0}
+<span class="math inline">\(\displaystyle \sum_{i=5}^{11} i\)</span> {1:NUMERICAL:=56:0}
+<span class="math inline">\(\displaystyle \sum_{i=5}^{11} (i-\bar{i})\)</span> {1:NUMERICAL:=0:0}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 11 </li>
-<li> 4 </li>
-<li> 1012 </li>
-<li> 924 </li>
-<li> 14 </li>
+<li> 588 </li>
+<li> 56 </li>
+<li> 0 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
 <penalty>0</penalty>
-<defaultgrade>5</defaultgrade>
+<defaultgrade>3</defaultgrade>
 </question>
 
 
@@ -104,38 +90,24 @@ Qual o limite superior do somatório? {5:NUMERICAL:=14} {1:NUMERICAL:=14:0.5}
 </style>
 <p>
 <p style="text-align: justify;">
-Considere os seguintes somatórios, onde <span class="math inline">\(c\)</span> é uma constante e <span class="math inline">\(X_i\)</span> são variáveis, com os seguintes valores:
+Calcule:
 </p>
-<p><span class="math inline">\(X = \{50, 174, 70, 80, 60, 24, 62, 60, 128, 198, 28\}\)</span></p>
-<p style="text-align: justify;">
-Agora, considere os somatórios abaixo e seus valores finais, onde apenas os valores de <span class="math inline">\(X_i\)</span> do índice 1 até 11 são considerados:
-</p>
-<p><span class="math inline">\(\displaystyle \sum_{i=1}^{11} cX_i = 934\)</span></p>
-<p><span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i + c) = 945\)</span></p>
-<p><span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i - c) = 923\)</span></p>
-<p style="text-align: justify;">
-Com base nesses somatórios e nas propriedades da soma, responda:
-</p>
-Qual o número de termos do somatório? {1:NUMERICAL:=11} {1:NUMERICAL:=11:0.5}
-Qual o valor da constante <span class="math inline">\(c\)</span>? {2:NUMERICAL:=1} {1:NUMERICAL:=1:0.5}
-Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i + c)\)</span>? {3:NUMERICAL:=945} {1:NUMERICAL:=945:0.5}
-Qual o valor de <span class="math inline">\(\displaystyle \sum_{i=1}^{11} (X_i - c)\)</span>? {4:NUMERICAL:=923} {1:NUMERICAL:=923:0.5}
-Qual o limite superior do somatório? {5:NUMERICAL:=11} {1:NUMERICAL:=11:0.5}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{7} (2i-i^{2})\)</span> {1:NUMERICAL:=196:0}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{7} i\)</span> {1:NUMERICAL:=28:0}
+<span class="math inline">\(\displaystyle \sum_{i=1}^{7} (i-\bar{i})\)</span> {1:NUMERICAL:=0:0}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 11 </li>
-<li> 1 </li>
-<li> 945 </li>
-<li> 923 </li>
-<li> 11 </li>
+<li> 196 </li>
+<li> 28 </li>
+<li> 0 </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
 <penalty>0</penalty>
-<defaultgrade>5</defaultgrade>
+<defaultgrade>3</defaultgrade>
 </question>
 
 </quiz>
