@@ -1,0 +1,89 @@
+```{r setup, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+set.seed(NULL)
+
+n <- sample(20:30, 1)
+grupo <- rep(c("Grupo A", "Grupo B"), each = n)
+dados_A <- sample(20:35, size = n, replace = TRUE)
+dados_B <- sample(25:40, size = n, replace = TRUE)
+dados <- data.frame(
+  grupo = grupo,
+  valor = c(dados_A, dados_B)
+)
+
+medias <- dados %>%
+  group_by(grupo) %>%
+  summarise(media = mean(valor), mediana = median(valor), desvio = sd(valor))
+
+media_A <- round(medias$media[1], 1)
+media_B <- round(medias$media[2], 1)
+desvio_A <- round(medias$desvio[1], 1)
+desvio_B <- round(medias$desvio[2], 1)
+mediana_A <- medias$mediana[1]
+mediana_B <- medias$mediana[2]
+
+grafico <- ggplot(dados, aes(x = valor, fill = grupo)) +
+  geom_dotplot(binaxis = "x", stackdir = "up", binwidth = 1, dotsize = 0.7,
+               position = position_dodge(width = 1)) +
+  theme_minimal() +
+  labs(x = "Valores", y = "Frequência", title = "Diagrama de Pontos - Grupo A e Grupo B") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_manual(values = c("steelblue", "tomato"))
+```
+
+Question
+========
+<p style="text-align: justify;">Observe o diagrama de pontos apresentado a seguir, que compara dois grupos distintos (Grupo A e Grupo B). Com base na visualização, analise e marque todas as afirmativas corretas sobre as medidas de tendência central e dispersão dos dados.</p>
+
+```{r grafico, echo=FALSE}
+grafico
+```
+
+Answerlist
+----------
+* O Grupo A apresenta uma média aproximadamente igual a `r media_A`.
+* O Grupo B apresenta uma média aproximadamente igual a `r media_B`.
+* O Grupo B apresenta maior dispersão dos dados que o Grupo A.
+* O Grupo A apresenta uma mediana igual a `r mediana_A`.
+* O Grupo B apresenta uma mediana igual a `r mediana_B`.
+* O Grupo A possui maior variabilidade em relação ao Grupo B.
+* O diagrama de pontos permite visualizar tanto a concentração quanto a dispersão dos dados.
+* O valor médio do Grupo A está mais próximo dos valores extremos do que o do Grupo B.
+* A distribuição dos dados no Grupo B é mais concentrada que a do Grupo A.
+* A mediana e a média de ambos os grupos são iguais, o que indica simetria em ambos os conjuntos.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* `r if (desvio_B > desvio_A) "CORRETA." else "FALSA."`
+* CORRETA.
+* CORRETA.
+* `r if (desvio_A > desvio_B) "CORRETA." else "FALSA."`
+* CORRETA.
+* FALSA. O valor médio do Grupo A está mais centralizado em relação ao seu conjunto.
+* `r if (desvio_B < desvio_A) "CORRETA." else "FALSA."`
+* FALSA. Apesar de próximas, média e mediana não são exatamente iguais para ambos os grupos.
+
+Meta-information
+================
+exname: diagrama-pontos-grupos
+extype: mchoice
+exsolution: `r paste0(as.integer(c(
+  TRUE,        # média A
+  TRUE,        # média B
+  desvio_B > desvio_A, # maior dispersão no B
+  TRUE,        # mediana A
+  TRUE,        # mediana B
+  desvio_A > desvio_B, # maior variabilidade A
+  TRUE,        # visualiza concentração e dispersão
+  FALSE,       # média próxima aos extremos
+  desvio_B < desvio_A, # mais concentrado B
+  FALSE        # média = mediana => simetria
+)), collapse = "")`
+exshuffle: TRUE

@@ -42,5 +42,5 @@ Meta-information
 ================
 exname: grafico-pizza-categorias
 extype: mchoice
-exsolution: 1110111010
+exsolution: 1110101000
 exshuffle: TRUE

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_26/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R1 Q1 : Cap2_26 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o diagrama de pontos gerado abaixo e marque todas as afirmativas corretas com base nas informações apresentadas.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/dotplot-1.png" alt="plot of chunk dotplot" />
+<div class="figcaption">plot of chunk dotplot</div>
+</div>
+</p>]]></text>
+<file name="dotplot-1.png" encoding="base64">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</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. O diagrama de pontos permite sim observar padrões de assimetria. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. A distribuição tem moda. </li>
+<li> FALSA. Embora seja muito usado em Estatística Descritiva, também é utilizado em outras áreas como Educação, Psicologia e Economia. </li>
+<li> FALSA. É especialmente útil para conjuntos pequenos ou moderados. </li>
+<li> FALSA. Os valores repetidos são representados por múltiplos pontos sobrepostos. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos não permite identificar padrões de assimetria nos dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O diagrama de pontos permite sim observar padrões de assimetria.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+A amplitude total dos dados é 40.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O maior valor do conjunto de dados é 60.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O menor valor do conjunto de dados é 20.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos permite observar a concentração dos dados, facilitando a visualização da tendência central.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+A distribuição apresentada é amodal.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A distribuição tem moda.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos é uma ferramenta exclusivamente utilizada na Estatística Descritiva.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Embora seja muito usado em Estatística Descritiva, também é utilizado em outras áreas como Educação, Psicologia e Economia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos não é útil para conjuntos pequenos, sendo indicado apenas para grandes volumes de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. É especialmente útil para conjuntos pequenos ou moderados.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+A representação gráfica acima não apresenta valores repetidos no conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Os valores repetidos são representados por múltiplos pontos sobrepostos.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos permite identificar a presença de valores extremos no conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R2 Q1 : Cap2_26 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o diagrama de pontos gerado abaixo e marque todas as afirmativas corretas com base nas informações apresentadas.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/dotplot-1.png" alt="plot of chunk dotplot" />
+<div class="figcaption">plot of chunk dotplot</div>
+</div>
+</p>]]></text>
+<file name="dotplot-1.png" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAMAAAC3Ycb+AAABLFBMVEUAAAAAADoAAGYAOjoAOmYAOpAAZpAAZrY6AAA6ADo6AGY6OgA6Ojo6OmY6ZmY6ZpA6ZrY6kLY6kNtGgrRNTU1NTW5NTY5NbqtNjshmAABmADpmOgBmOmZmOpBmkJBmkLZmkNtmtpBmtttmtv9uTU1uTW5uTY5ubo5ubqtuq+SOTU2OTW6OTY6Obk2ObquOyP+QOgCQOmaQZgCQZjqQZmaQkDqQkLaQtpCQttuQ27aQ2/+rbk2rbm6rbo6rjk2ryKur5OSr5P+2ZgC2kDq2tpC2ttu229u22/+2/9u2///Ijk3I///bkDrbkGbbkJDbtmbbtpDb27bb29vb/7bb/9vb///kq27k///r6+v/tmb/yI7/25D/27b/29v/5Kv//7b//8j//9v//+T////dcWMwAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAOWklEQVR4nO2dC5/axhXFhe0tNGnjlGA72H0ap826D+gz7tppaprG3TWt06a7Lou7LKvv/x06d/QYiZWEJGZ2DvTcn21AOsy9zJ+5dwaEJwhpUBb4DoCWNwIBMwIBMwIBMwIBMwIBMwIBMwIBMzQgs0Dbd1+p+6vJwamlZleTbpmrO89KnrP4/rEl700MFEgQjG4KiHZVGMotAkl6YfX3XufIZrOFQKIOfxOUYCcQsaQX5kE/HiFv3g+Czo/l2Jte0PmR6lnVu7Pg1qv0zKLXf9NTd+a94K70rXlGGD/tzlcayLtHcTLMuZrKrZy680qPyi/fl2evJmrs9M2JcPVb1epj5x2ACkRgaCCzNK3E9wTI7Z56W6dnFr0PeqqzPuvps5lnRC3qQvGoK+Dkbjr0skDmySnNQZ4dA1k/MQodGyoQ6aYIihoKqiu74XLYeRa+m2gg8tY1Z1RHP1aZRx1c9LLP0JZ9mrzBv05OmJSlW3ws6OTZQVfeBd3ovDmx6H14alp1Z+hA1L1/ffm7nuogSWJRR6suj0TxGd1Ny6ES55+hTeWzMOHWz3lIirp6+8cdPe0cRW0vhzEQc2LRu/3Dr26gA+CBRHlGde9M55qVriG629Mzuqd1H4bT7DO0zXWWkafNDYDIlZlhL3ojrRUg0raeA0RAkhPhVMR3X4WODRVIUkOWw+CDP/z1m+F1IOZMHog5rq0CiJlF1QESfq3Ke+B85oUKJJllRT0imSObsqTTzJk8EHNcW5SolprbqNCVUU8LgCQntO6fv3Fe1TGBqHWIrqjSvarGqqmnvPNNdY6AJGfWgSTHdYPqaY+lNuuirhbl7yZpDTFAskXdAInmVvGJefA9VaP+Ynd5VGBwQNZW6sk01EyAEyDmTB5I5hna5um0N85Z/cRVJv1kZrcGSNG019pnB2WGCaRzN/0sSy/MnunFmywMfzJMi3p6Zq2oZ56hTeX+O3/TC8OFOnM7XdvlVuILszBMgCwfyQx4kVsYfuiaBxyQTbYc9jeLdtl2B8ii9y2VxKfu18p+bXeA3FQS92y7A+Smkrhn2yEg/x9GIGBGIGBGIGBGIGBGIGBGIGBmBch/QFWwgVWoCARMRSBgKgIBUxEImIpAwFQEAqYiEDAVgYCpCARMRSBgqmogFz99rW8vnw4evE1v7EfhSAUbWFsg54P7GsjV83F49nFy4yAKRyrYwFoCObn3RTRCLn/xWgZLfOMgCkcq2MC2TVkXn74NL3/+Mr5JGqXZtEZAzh9oEvFNI+BeVbCBORkhNqNwpIINbFsgrCE3p6oF5Or5YTTLOuQsy7VqMxD5y3UICJCaBvWK/LokEDCXBALmkkDAXBIImEsCAXNJIGAuCQTMJYGAuSQQMJcEAuaSQMBcEgiYSwIBc0kgYC4JBMwlgYC5JBAwlwQC5pJAwFwSCJhLAgFzSSBgLgkEzCWBgLkkEDCXBALmkkDAXBIImEsCAXNJIGAuPQLx/SvJPbPtgWTZgKpgA2PK2h0VgYCpCARMRSBgKgIBUxEImIpAwFQEAqYiEDAVgYCpCARMRSBgKgIBUxEImIpAwFQEAqYiEDAVgYCpCARMRSBgKgIBUxEImIpAwFQEAqYiEDAVgYCpCARMRSBgKgIBUxEImIpAwFRVQNL9W84GYmN9e59bHjlVVQDJ7yMpW7SdjB1F4UgFG1g7ILk9wGR3tqsXBTu0WYnCkQo2sHZAcrvkyVBRKUwSV9IozabVAJLdR1LfXnxSMkqg3mJ+Xd7UCDlPd2crqiNQr8ivy5uqISeHyVECcauqnGWl+0hGiUqGydXnnPY6VW1eh+iNJaPMpdYh94omWlCvyK9LrtTBXBIImEsCAXNJIGAuCQTMJYGAuSQQMJcEAuaSQMBcEgiYSwIBc0kgYC4JBMwlgYC5JBAwlwQC5pJAwFwSCJhLAgFzSSBgLgkEzCWBgLkkEDCXBALmkkDAXBIImEsCAXNJIGAuCQTMJYGAuSQQMJcegfj+leSeWSGQRS8Qu3XclA2oCjawmiNkNemvJqPlcFSrUZtROFLBBlYTiKCY9sP5wWmtVi1G4UgFG1gDILNuOGfK8qjK1ZCppjHjCPGoygFRRSScBp2jWo3ajMKRCjYwrkN2R0UgYKoUiKroy2HAdYhvFUcImIpAwFTXZlmrSbdWm1ajcKSCDazBOiRsQwTqFfl1aX2lrowrdZ8qAgFT5VLWTFAsh/1ajdqMwpEKNrDas6y5LEMa88B6RX5dctoL5pJAwFzaBcKvcP2r8l/hNl8T2onCkQo2sGbT3uYG9Yr8urQ8Qka1mrMfhSMVbGB1a0jzJaGlKBypYAOrnbL4fYh3Fae9YCoCAVMZIKtfH4ezIBg1vwoI6xX5dWkPiHymOD34Zjji9yFeVQbID071dQ4jfvzuVZUCUQODQABUmaL+j+OZpCx+H+JVVfV9SLqxZLKjpDlgOQpHKtjA2k17MxtLRhtP5XeatBmFIxVsYO2AmE3B4r3ycjtNWo3CkQo2sHYfnZht8+IdJXM7TfI3hnatCEiM5WH8cwSzsWS8o2R2p0m7bwtHKtjAmqWs5Cdt+QGh6sjaAYtROFLBBtYQSJyy1krGyZg15AZUBUCm8QgxG0vGO0pmdpq0HIUjFWxgzYp6+pM2s7FkvKMk1yHuVfz4HUxFIGCqonVI429xoV6RX5d2R8hcygc/XPSq4s8RwFQEAqbi70PAVPlZ1kwK+qhWm1ajcKSCDYzT3t1REQiY6lrK4nVZflX536nzuizvqrVpLy8D8q0iEDBVfh3C67K8q/g7dTAVp71gKv7GEEzFX+GCqdaKeuM1oZ0oHKlgA6s9QvijT+8qFnUwFYGAqbL/b2+ttpxE4UgFG1htIC3/KweoV+TXJYGAuSQQMJcEAuaSQMBc2gTS8jpSG1E4UsEGxnXI7qi4sSSIbQ8kywZUBRsYU9buqAgETEUgYCoCAVMRCJiKQMBUBAKmIhAwFYGAqQgETEUgYCoCAVMRCJiKQMBUBAKmIhAwFYGAqQgETEUgYCoCAVMRCJiKQMBUBAKmIhAwFYGAqQgETEUgYCoCAVMRCJiKQMBUBAKmIhAwVRUQs6HOxRPZNi/Z8NN+FI5UsIG1A2I29pSt2WTrvGjDTwdROFLBBtYOiNmU7VywnIzjDT8dROFIBRtYOyD5bQvVvXjDz6RRmk2rASS3sadsmRdv+NkIuFcVbGDbj5DLp4fx0aI6AvWK/Lq8mRqiZlkpBgJxq6qcZSUbe8Y84g0/HUThSAUb2FbrEDVIZP0h5Tze8NN+FI5UsIFxpb47KgIBUxEImIpAwFQEAqYiEDAVgYCpCARMRSBgKgIBUxEImIpAwFQEAqYiEDAVgYCpCARMRSBgKgIBUxEImIpAwFQEAqYiEDAVgYCpCARMRSBgKgIBUxEImIpAwFQEAqYiEDAVN5YEse2BZNmAqmADY8raHRWBgKkIBExFIGAq70CCoI6qnUesrq6n8g0k+OijYLOqpUesrq6n8gxE8VgjQiAWjEDsqZiywFS+gbCor9l+AFlvZKvG/Kp8A7GSsq41sk1jnlX7UNSvN7J9YN5UBAKmYsoCU/kGwqK+ZjaBlHVLZRQbgJS0SSA12i9NHFVRbEhZZW0yZW1uv7y0VkSxoaiXtsmivrl9ArGiYsoCU7Gog6nQgKy3UQ0kOUsgRe3bSFnrbVSnrOQsU1ZR+zaK+nob1UU9OcuiXtg+gVhRMWWBqVjUwVTeP1x0qYIN7GZHSNmbvHgclTysfu9vUKUPobraWFUqsV9DSstAYaUpeVhdHTaozENMIJXF1vosq3yiVDQXK3lYPX/aoMo8hARSPR2tAmI2lozvmQMFURBITVVrIGZjyfieOVAYBVNWTVXblGU2BYvvZXYJK4yCRd1tUTfb5sX38jtN+v6V5J5ZDSBmY8n4Xm6nyayBvhFxA2u3DtkwQmxG4UgFG1g7II1rSPsoHKlgA2sHxGwsGd8zB2xH4UgFG1jLj07SjSVrrUO2icKRCjYwfri4OyoCAVMRCJiKQMBUBAKmIhAwFYGAqQgETGUFCM2eEQiYEQiYEQiYEQiYEQiYEQiYEQiYEQiYbQnk4slgMC7/KrGRnQ8G919baiuMru6z09jZQEdmpa2r54N7L6vi2g6IXINy8cnL0ksam5h8VVx1eWRTO1PvFDuNnYzlX2ttnT94W9HWdkDOP9Y+Si9HaWpVl7Y0bepnvxyHVhq7eqGvfLLSljRS3db2NaTqgq2mpt41ltq6evFn9S600phKL5KXrbR18emfJGVVtLU1ELk2qPSSxmZ28UTFaqmts0NJC1YaUzlZRomdtp5oshVtbQvk8ulhaOtdbXG0qVaubI0QbSdjSyOk+hpQC7MsKXjWaoi1eiQTo8HgEC6wy19pEs5qSMSj/JLGJhYPYyttRUGN7QV29flrO4GdjKPRW9rWdkCiN+LY2nS/eorezKyuQ6wFphqpXmxxpQ5mBAJmBAJmBAJmBAJmBAJmBAJmewJkNenq21k3ObL49pG3aLaxPQESzm4dh8JllBwgEL8W9f/iveP8gd2zfQESTvthlLEWvSAI+hrIahIEcuS93we3juWBDCN9fuQ73FLbGyDzg1OdsZbDkU5gCogUFvm76HXjKjM7ONUjZ9Eb+Y63zPYGyPLhkc5Y/z0Ndb5Sf+YyINQ/uvv1A0Urk9UgbW+ASM6K5lhzlZI6GogaNDEbNTgCbf1wqtMYrO0PkPnBv2WOtRx2jpIRkgMiDyJbDnUxwbT9AbJ8+JlkI01hHo0QhUanLAGiH6RaKTSYtj9Awul3JBVJxy96Gkha1AXIaqJIqZO6lgDPifcIyDyazKoa0fmjKt6Zaa/ufnmgh0wQ3YLaHgHZDyMQMCMQMCMQMCMQMCMQMCMQMCMQMCMQMCMQMPsfDTma6M9mq2IAAAAASUVORK5CYII=</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. A distribuição tem moda. </li>
+<li> FALSA. É especialmente útil para conjuntos pequenos ou moderados. </li>
+<li> CORRETA. </li>
+<li> FALSA. Embora seja muito usado em Estatística Descritiva, também é utilizado em outras áreas como Educação, Psicologia e Economia. </li>
+<li> FALSA. O diagrama de pontos permite sim observar padrões de assimetria. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. Os valores repetidos são representados por múltiplos pontos sobrepostos. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O maior valor do conjunto de dados é 60.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O menor valor do conjunto de dados é 21.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+A distribuição apresentada é amodal.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A distribuição tem moda.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos não é útil para conjuntos pequenos, sendo indicado apenas para grandes volumes de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. É especialmente útil para conjuntos pequenos ou moderados.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+A amplitude total dos dados é 39.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos é uma ferramenta exclusivamente utilizada na Estatística Descritiva.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Embora seja muito usado em Estatística Descritiva, também é utilizado em outras áreas como Educação, Psicologia e Economia.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos não permite identificar padrões de assimetria nos dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O diagrama de pontos permite sim observar padrões de assimetria.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos permite identificar a presença de valores extremos no conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos permite observar a concentração dos dados, facilitando a visualização da tendência central.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+A representação gráfica acima não apresenta valores repetidos no conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Os valores repetidos são representados por múltiplos pontos sobrepostos.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

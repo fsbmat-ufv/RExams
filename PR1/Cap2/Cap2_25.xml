@@ -4,14 +4,14 @@
 
 <question type="category">
 <category>
-<text>$course$/Cap2_24/Exercise 1</text>
+<text>$course$/Cap2_25/Exercise 1</text>
 </category>
 </question>
 
 
 <question type="multichoice">
 <name>
-<text> R1 Q1 : Cap2_24 </text>
+<text> R1 Q1 : Cap2_25 </text>
 </name>
 <questiontext format="html">
 <text><![CDATA[
@@ -44,11 +44,11 @@ Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas
 <pre> 
   The decimal point is 1 digit(s) to the right of the |
 
-  2 | 34
-  2 | 5788
-  3 | 134
-  3 | 6668
-  4 | 14
+  2 | 02344
+  2 | 556778899
+  3 | 011123
+  3 | 69
+  4 | 234
  </pre>
 </p>]]></text>
 </questiontext>
@@ -57,14 +57,14 @@ Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas
 <ul>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
+<li> FALSA. O Diagrama de Ramos e Folhas é utilizado em diversas áreas. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
-<li> FALSA. O diagrama é para variáveis quantitativas, não qualitativas. </li>
 <li> CORRETA. </li>
-<li> FALSA. O número 28 aparece duas vezes. </li>
-<li> CORRETA. </li>
-<li> FALSA. O diagrama permite identificar valores repetidos com clareza. </li>
-<li> CORRETA. </li>
+<li> FALSA. O conjunto de dados possui moda. </li>
+<li> FALSA. O menor valor dos dados é 20 e o maior valor é 44. </li>
+<li> FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a forma da distribuição dos dados, detectar assimetrias e padrões. </li>
+<li> FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a distribuição dos valores originais. </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -73,9 +73,9 @@ Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas
 <shuffleanswers>false</shuffleanswers>
 <single>false</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-O número 36 aparece três vezes no conjunto de dados.
+O Diagrama de Ramos e Folhas permite identificar visualmente a concentração dos valores, facilitando a visualização da tendência central e da dispersão.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -83,9 +83,9 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-A moda do conjunto é 36.
+O Diagrama de Ramos e Folhas permite identificar visualmente a existência de valores atípicos, destacando possíveis outliers no conjunto de dados.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -93,9 +93,19 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O menor valor do conjunto é 23.
+O Diagrama de Ramos e Folhas não é utilizado em diversas áreas, somente na disciplina de Estatística.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O Diagrama de Ramos e Folhas é utilizado em diversas áreas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+No Diagrama acima, os valores são organizados de forma que os ramos representam as dezenas e as folhas representam as unidades.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -103,9 +113,9 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-O maior valor do conjunto é 44.
+A amplitude Total dos Dados é 24.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -113,19 +123,9 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas é útil apenas para variáveis qualitativas.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O diagrama é para variáveis quantitativas, não qualitativas.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O conjunto é formado por 15 valores e a sua mediana é o 33.
+O Menor valor dos dados é 20.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -133,43 +133,43 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O número 28 aparece apenas uma vez no conjunto.
+O conjunto de dados é amodal.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O número 28 aparece duas vezes.
+FALSA. O conjunto de dados possui moda.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas preserva os valores originais dos dados.
+Como temos uma amostra o Menor e o Maior Valor dos dados não necessariamente faz parte deste conjunto.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-CORRETA.
+FALSA. O menor valor dos dados é 20 e o maior valor é 44.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas não permite identificar valores repetidos.
+O Diagrama de Ramos e Folhas não permite identificar visualmente a forma da distribuição dos dados, mas permite detectar assimetrias e padrões.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O diagrama permite identificar valores repetidos com clareza.
+FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a forma da distribuição dos dados, detectar assimetrias e padrões.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O número 34 pertence à classe de valores com ramo 3.
+O Diagrama de Ramos e Folhas não permite identificar visualmente a distribuição dos valores originais.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-CORRETA.
+FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a distribuição dos valores originais.
 </p>]]></text>
 </feedback>
 </answer>
@@ -178,7 +178,7 @@ CORRETA.
 
 <question type="multichoice">
 <name>
-<text> R2 Q1 : Cap2_24 </text>
+<text> R2 Q1 : Cap2_25 </text>
 </name>
 <questiontext format="html">
 <text><![CDATA[
@@ -211,27 +211,28 @@ Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas
 <pre> 
   The decimal point is 1 digit(s) to the right of the |
 
-  2 | 34
-  2 | 5788
-  3 | 134
-  3 | 6668
-  4 | 14
+  2 | 1134
+  2 | 5678
+  3 | 00234
+  3 | 55777889
+  4 | 013
+  4 | 5
  </pre>
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
+<li> FALSA. O Diagrama de Ramos e Folhas é utilizado em diversas áreas. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
+<li> FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a distribuição dos valores originais. </li>
 <li> CORRETA. </li>
-<li> FALSA. O número 28 aparece duas vezes. </li>
-<li> FALSA. O diagrama permite identificar valores repetidos com clareza. </li>
+<li> FALSA. O menor valor dos dados é 21 e o maior valor é 45. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
-<li> CORRETA. </li>
-<li> FALSA. O diagrama é para variáveis quantitativas, não qualitativas. </li>
-<li> CORRETA. </li>
+<li> FALSA. O conjunto de dados possui moda. </li>
+<li> FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a forma da distribuição dos dados, detectar assimetrias e padrões. </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -240,9 +241,19 @@ Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas
 <shuffleanswers>false</shuffleanswers>
 <single>false</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas preserva os valores originais dos dados.
+O Diagrama de Ramos e Folhas não é utilizado em diversas áreas, somente na disciplina de Estatística.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O Diagrama de Ramos e Folhas é utilizado em diversas áreas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O Menor valor dos dados é 21.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -250,9 +261,9 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-O número 34 pertence à classe de valores com ramo 3.
+O Diagrama de Ramos e Folhas permite identificar visualmente a existência de valores atípicos, destacando possíveis outliers no conjunto de dados.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -260,9 +271,19 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O maior valor do conjunto é 44.
+O Diagrama de Ramos e Folhas não permite identificar visualmente a distribuição dos valores originais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a distribuição dos valores originais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+No Diagrama acima, os valores são organizados de forma que os ramos representam as dezenas e as folhas representam as unidades.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -270,29 +291,19 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O número 28 aparece apenas uma vez no conjunto.
+Como temos uma amostra o Menor e o Maior Valor dos dados não necessariamente faz parte deste conjunto.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O número 28 aparece duas vezes.
+FALSA. O menor valor dos dados é 21 e o maior valor é 45.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas não permite identificar valores repetidos.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O diagrama permite identificar valores repetidos com clareza.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O menor valor do conjunto é 23.
+A amplitude Total dos Dados é 24.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -300,9 +311,9 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-O conjunto é formado por 15 valores e a sua mediana é o 33.
+O Diagrama de Ramos e Folhas permite identificar visualmente a concentração dos valores, facilitando a visualização da tendência central e da dispersão.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -310,33 +321,23 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O número 36 aparece três vezes no conjunto de dados.
+O conjunto de dados é amodal.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-CORRETA.
+FALSA. O conjunto de dados possui moda.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas é útil apenas para variáveis qualitativas.
+O Diagrama de Ramos e Folhas não permite identificar visualmente a forma da distribuição dos dados, mas permite detectar assimetrias e padrões.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O diagrama é para variáveis quantitativas, não qualitativas.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-A moda do conjunto é 36.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
+FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a forma da distribuição dos dados, detectar assimetrias e padrões.
 </p>]]></text>
 </feedback>
 </answer>

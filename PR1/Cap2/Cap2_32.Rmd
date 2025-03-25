@@ -1,0 +1,53 @@
+```{r setup, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+
+set.seed(NULL)
+
+# Classes e dados
+classes <- c("10 |-- 20", "20 |-- 30", "30 |-- 40", "40 |-- 50", "50 |-- 60")
+lim_inf <- c(10, 20, 30, 40, 50)
+lim_sup <- c(20, 30, 40, 50, 60)
+ponto_medio <- (lim_inf + lim_sup) / 2
+
+freq_abs <- sample(10:30, 5)
+freq_total <- sum(freq_abs)
+freq_rel <- round(freq_abs / freq_total, 2)
+freq_abs_ac <- cumsum(freq_abs)
+
+# Seleciona uma classe aleatória para perguntar
+classe_questao <- sample(1:5, 1)
+classe_nome <- classes[classe_questao]
+frequencia_abs_classe <- freq_abs[classe_questao]
+frequencia_rel_classe <- freq_rel[classe_questao]
+frequencia_acumulada <- freq_abs_ac[classe_questao]
+ponto_medio_classe <- ponto_medio[classe_questao]
+```
+
+Question
+========
+<p style="text-align: justify;">A tabela a seguir mostra a distribuição de frequências de uma variável quantitativa contínua:</p>
+
+```{r tabela_freq, echo=FALSE, results='asis'}
+tabela <- data.frame(
+  Classe = classes,
+  "Frequência Absoluta" = freq_abs
+)
+knitr::kable(tabela, align = "c")
+```
+
+<p style="text-align: justify;">Considerando a tabela acima, responda:</p>
+
+**Qual é a frequência relativa (com duas casas decimais) da classe `r classe_nome`?**
+
+Solution
+========
+`r frequencia_rel_classe`
+
+Meta-information
+================
+exname: frequencia-relativa-classe
+extype: num
+exsolution: `r frequencia_rel_classe`
+extol: 0.05

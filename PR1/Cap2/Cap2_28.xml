@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_28/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R1 Q1 : Cap2_28 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o gráfico de barras gerado a partir de uma distribuição de frequências absolutas por categoria. Com base no gráfico, analise as afirmativas a seguir e marque todas as alternativas corretas.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/grafico_freq-1.png" alt="plot of chunk grafico_freq" />
+<div class="figcaption">plot of chunk grafico_freq</div>
+</div>
+</p>]]></text>
+<file name="grafico_freq-1.png" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAMAAAC3Ycb+AAACVVBMVEUAAAAAADoAAGYAOjoAOmYAOpAAZpAAZrYAsPYAsPcAsPkAvfsAv30Av5QAv6oAysEAy/wA1dU6AAA6ADo6AGY6OgA6OmY6OpA6ZmY6ZpA6ZrY6kLY6kNs6sPY6v3062P064OpNTU1NTW5NTY5NbqtNjshmAABmADpmOgBmOmZmOpBmkJBmkLZmkNtmsPZmtpBmtttmtv9mv31m5f9m6v9uTU1uTW5uTY5ubo5ubqtuq+SOTU2OTW6OTY6Obk2ObquOjo6OyP+QOgCQOmaQZgCQZjqQZmaQkDqQkGaQkLaQtpCQttuQvfaQyn2Q27aQ2/+Q8v+Q9P+jpQCjpWajtJCjxLarbk2rbm6rbo6ryKur5Mir5OSr5P+zpQCz09u2ZgC2Zma2kDq2kGa2tpC2ttu2y/a21X2225C229u22/+2/9u2///CpQDC4f/Ijk3I///StADbkDrbkGbbkJDbtmbbtpDb2Pfb25Db27bb29vb2//b4JTb9Orb/7bb/9vb/+rb//zb///hxADh///kq27k///na/Pna/fnhvnnn/vra/Pruf3r6+vva/Pv0P/w0zrw///zhvP3n/P3///4dm34dof4dqD4j7n4ptH5dm35vej7dm37ufX71P/75/37//v7//37///8j238pm381P/86f/8///+vYf+/+j+////tmb/trb/yI7/0Pf/1KD/25D/27b/29v/4Wb/5Kv/5fn/5/n/6bn/6qr/8ZD/8vv/9MH//7b//8j//9H//9X//9v//+T//+j//+r///v///z///3///8SAKP+AAAACXBIWXMAAA9hAAAPYQGoP6dpAAARlklEQVR4nO2diZscRRnGezfECRAgjAFJXCVLcAmeWUlAg9eu4oUYkMsDXRHFrCuJgxFFJbiyXIqIohIQL/AcVye6isdEZ73677KOrqnqa7aPqumve9/3ebIzme7+6p36TdVX1dM95fkQKXlVG4DCAhBiAhBiAhBiAhBiAhBiAhBiogCkt29if39mtmobNFQYSMcTunCRPR/Mb13WW3qXLwXP+Ov9mVbs2PD+/gIPNHE4uZzBfPz4oGxvcinhgCT12t5UWviQlWwafOICz9uyP1LG5dncbFBiWSCeNxstozOZD0h/ZurUNd7u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</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> FALSA. As frequências são diferentes, logo a distribuição não é simétrica. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. A distribuição é categórica, não contínua. </li>
+<li> FALSA. O gráfico permite sim identificar visualmente a moda. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A categoria com maior frequência é a categoria A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A distribuição é simétrica, pois todas as categorias possuem frequências iguais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. As frequências são diferentes, logo a distribuição não é simétrica.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A proporção da categoria mais frequente em relação ao total é de aproximadamente 0.4.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A distribuição apresentada possui uma única moda.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A moda da distribuição é a categoria A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A frequência relativa da categoria mais frequente é inferior a 50%.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A variável em questão é qualitativa.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A soma total das frequências é igual a 100.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico representa uma distribuição contínua de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A distribuição é categórica, não contínua.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico não permite visualizar a moda da distribuição.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico permite sim identificar visualmente a moda.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R2 Q1 : Cap2_28 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o gráfico de barras gerado a partir de uma distribuição de frequências absolutas por categoria. Com base no gráfico, analise as afirmativas a seguir e marque todas as alternativas corretas.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/grafico_freq-1.png" alt="plot of chunk grafico_freq" />
+<div class="figcaption">plot of chunk grafico_freq</div>
+</div>
+</p>]]></text>
+<file name="grafico_freq-1.png" encoding="base64">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</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> FALSA. A distribuição é categórica, não contínua. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. As frequências são diferentes, logo a distribuição não é simétrica. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. O gráfico permite sim identificar visualmente a moda. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico representa uma distribuição contínua de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A distribuição é categórica, não contínua.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A frequência relativa da categoria mais frequente é inferior a 50%.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A soma total das frequências é igual a 100.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A distribuição é simétrica, pois todas as categorias possuem frequências iguais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. As frequências são diferentes, logo a distribuição não é simétrica.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A moda da distribuição é a categoria A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A distribuição apresentada possui uma única moda.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A proporção da categoria mais frequente em relação ao total é de aproximadamente 0.4.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A categoria com maior frequência é a categoria A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A variável em questão é qualitativa.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico não permite visualizar a moda da distribuição.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico permite sim identificar visualmente a moda.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

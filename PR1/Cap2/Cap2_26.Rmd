@@ -1,0 +1,64 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+set.seed(NULL)
+
+n <- sample(25:30, 1)
+dados <- c(sample(20:40, size = n, replace = TRUE), 60)
+Min <- min(dados)
+Max <- max(dados)
+AT <- Max - Min
+
+# Dotplot com ggplot2
+plot_dot <- ggplot(data.frame(x = dados), aes(x = x)) +
+  geom_dotplot(binwidth = 1, dotsize = 0.8, fill = "steelblue", color = "black") +
+  theme_minimal() +
+  labs(x = "Valores", y = "Frequência", title = "Diagrama de Pontos") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+Question
+========
+<p style="text-align: justify;">Observe o diagrama de pontos gerado abaixo e marque todas as afirmativas corretas com base nas informações apresentadas.</p>
+
+```{r dotplot, echo = FALSE}
+plot_dot
+```
+
+Answerlist
+----------
+* A amplitude total dos dados é `r AT`.
+* O menor valor do conjunto de dados é `r Min`.
+* O maior valor do conjunto de dados é `r Max`.
+* O diagrama de pontos permite observar a concentração dos dados, facilitando a visualização da tendência central.
+* O diagrama de pontos permite identificar a presença de valores extremos no conjunto de dados.
+* O diagrama de pontos não permite identificar padrões de assimetria nos dados.
+* O diagrama de pontos não é útil para conjuntos pequenos, sendo indicado apenas para grandes volumes de dados.
+* A distribuição apresentada é amodal.
+* A representação gráfica acima não apresenta valores repetidos no conjunto de dados.
+* O diagrama de pontos é uma ferramenta exclusivamente utilizada na Estatística Descritiva.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. O diagrama de pontos permite sim observar padrões de assimetria.
+* FALSA. É especialmente útil para conjuntos pequenos ou moderados.
+* FALSA. A distribuição tem moda.
+* FALSA. Os valores repetidos são representados por múltiplos pontos sobrepostos.
+* FALSA. Embora seja muito usado em Estatística Descritiva, também é utilizado em outras áreas como Educação, Psicologia e Economia.
+
+Meta-information
+================
+exname: diagrama-de-pontos
+extype: mchoice
+exsolution: 1111100000
+exshuffle: TRUE

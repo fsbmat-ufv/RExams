@@ -1,0 +1,57 @@
+```{r code, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+n <- round(runif(1, min = 30, max = 250))
+
+```
+
+Question
+========
+<p style="text-align: justify;">Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas corretas com base nas informações apresentadas.</p>
+
+```{r ramos, echo = FALSE, results = 'asis'}
+n <- sample(25:30, 1)
+dados <- round(runif(25, min = 20, max = 45))
+Min <- min(dados)
+Max <- max(dados)
+AT <- Max-Min
+stem_output <- capture.output(stem(dados))
+cat("<pre>", paste(stem_output, collapse = "\n"), "</pre>")
+```
+
+Answerlist
+----------
+* A amplitude Total dos Dados é `r AT`.
+* O Menor valor dos dados é `r Min`.
+* Como temos uma amostra o Menor e o Maior Valor dos dados não necessariamente faz parte deste conjunto. 
+* O Diagrama de Ramos e Folhas não permite identificar visualmente a distribuição dos valores originais.
+* O Diagrama de Ramos e Folhas não permite identificar visualmente a forma da distribuição dos dados, mas permite detectar assimetrias e padrões.
+* O Diagrama de Ramos e Folhas permite identificar visualmente a concentração dos valores, facilitando a visualização da tendência central e da dispersão.
+* O Diagrama de Ramos e Folhas permite identificar visualmente a existência de valores atípicos, destacando possíveis outliers no conjunto de dados. 
+* No Diagrama acima, os valores são organizados de forma que os ramos representam as dezenas e as folhas representam as unidades.
+* O Diagrama de Ramos e Folhas não é utilizado em diversas áreas, somente na disciplina de Estatística.
+* O conjunto de dados é amodal.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* FALSA. O menor valor dos dados é `r Min` e o maior valor é `r Max`.
+* FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a distribuição dos valores originais.
+* FALSA. O Diagrama de Ramos e Folhas PERMITE identificar visualmente a forma da distribuição dos dados, detectar assimetrias e padrões.
+* CORRETA.
+* CORRETA. 
+* CORRETA.
+* FALSA. O Diagrama de Ramos e Folhas é utilizado em diversas áreas.
+* FALSA. O conjunto de dados possui moda.
+
+Meta-information
+================
+exname: grafico-ramos-e-folhas
+extype: mchoice
+exsolution: 1100011100
+exshuffle: TRUE

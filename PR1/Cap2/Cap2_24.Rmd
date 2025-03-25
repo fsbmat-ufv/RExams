@@ -15,10 +15,10 @@ Answerlist
 * O maior valor do conjunto é 44.
 * O número 28 aparece apenas uma vez no conjunto.
 * O diagrama de ramos e folhas preserva os valores originais dos dados.
-* O número 34 pertence à classe de valores com stem 3.
+* O número 34 pertence à classe de valores com ramo 3.
 * O diagrama de ramos e folhas é útil apenas para variáveis qualitativas.
 * A moda do conjunto é 36.
-* O diagrama mostra que os dados estão concentrados na casa dos 30.
+* O conjunto é formado por 15 valores e a sua mediana é o 33.
 * O diagrama de ramos e folhas não permite identificar valores repetidos.
 
 Solution
@@ -40,5 +40,5 @@ Meta-information
 ================
 exname: grafico-ramos-e-folhas
 extype: mchoice
-exsolution: 1110011011
+exsolution: 1110110110
 exshuffle: TRUE

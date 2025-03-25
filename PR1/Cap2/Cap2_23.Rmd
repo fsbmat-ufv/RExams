@@ -44,5 +44,5 @@ Meta-information
 ================
 exname: grafico-barras-categorias
 extype: mchoice
-exsolution: 1110101101
+exsolution: 1110110110
 exshuffle: TRUE

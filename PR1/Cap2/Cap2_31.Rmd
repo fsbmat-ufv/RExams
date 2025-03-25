@@ -1,0 +1,77 @@
+```{r setup, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+
+set.seed(NULL)
+
+# Definindo classes e suas frequências
+classes <- c("15 |-- 25", "25 |-- 35", "35 |-- 45", "45 |-- 55", "55 |-- 65")
+lim_inf <- c(15, 25, 35, 45, 55)
+lim_sup <- c(25, 35, 45, 55, 65)
+amplitudes <- lim_sup - lim_inf
+
+freq_abs <- sample(10:35, 5)
+total <- sum(freq_abs)
+freq_rel <- round(freq_abs / total, 2)
+freq_abs_ac <- cumsum(freq_abs)
+freq_rel_ac <- round(cumsum(freq_rel), 2)
+
+tabela <- data.frame(
+  Classe = classes,
+  "Frequência Absoluta" = freq_abs,
+  "Frequência Relativa" = freq_rel,
+  "Frequência Acumulada" = freq_abs_ac,
+  "Frequência Relativa Acumulada" = freq_rel_ac
+)
+
+classe_moda <- classes[which.max(freq_abs)]
+amplitude_moda <- amplitudes[which.max(freq_abs)]
+classe_menor_freq <- classes[which.min(freq_abs)]
+classe_acima_75 <- classes[which(freq_rel_ac >= 0.75)[1]]
+```
+
+Question
+========
+<p style="text-align: justify;">A tabela abaixo representa a distribuição de frequências de uma variável fictícia. Analise cuidadosamente as informações e, em seguida, responda às questões a seguir.</p>
+
+```{r tabela, echo=FALSE, results='asis'}
+knitr::kable(tabela, align = "c")
+```
+
+<p style="text-align: justify;">Marque todas as alternativas corretas com base na tabela de distribuição de frequências apresentada.</p>
+
+Answerlist
+----------
+* A soma total das frequências absolutas é igual a `r total`.
+* A classe modal é `r classe_moda`, pois possui a maior frequência absoluta.
+* A amplitude da classe modal é de `r amplitude_moda` unidades.
+* A frequência relativa da classe com menor frequência absoluta é `r freq_rel[which.min(freq_abs)]`.
+* A classe que ultrapassa 75% de frequência relativa acumulada é `r classe_acima_75`.
+* A variável apresentada é qualitativa nominal.
+* Todas as classes possuem a mesma amplitude.
+* A última classe possui frequência relativa acumulada igual a 1.
+* A frequência acumulada da segunda classe é `r freq_abs_ac[2]`.
+* A frequência relativa acumulada da primeira classe é `r freq_rel_ac[1]`.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. A variável é quantitativa contínua.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+
+Meta-information
+================
+exname: tabela-frequencia-geral
+extype: mchoice
+exsolution: 1111101111
+exshuffle: TRUE

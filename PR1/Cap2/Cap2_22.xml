@@ -43,20 +43,20 @@ Observe o gráfico de pizza gerado e marque todas as afirmativas corretas com ba
 </p>
 <p><img src="@@PLUGINFILE@@/plot-1.png" /></p>
 </p>]]></text>
-<file name="plot-1.png" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCCAMAAABLxjl3AAAAZlBMVEUAAAAAADoAAGYAOpAAZrY6AAA6ADo6AGY6Ojo6OpA6kNtmAABmAGZmZmZmtv+HzuuQOgCQOjqQ2/+Q7pC2ZgC225C2///bkDrbtrbb/9vb////pQD/tmb/wMv/25D//7b//9v////5XxPmAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAMkElEQVR4nO3dD1fiSBaG8bStPTs669rKyk4vi+b7f8nNP2yQAJXk3qr74vOcM2O3NFLW71QSkMSqJvGq0gOgpUEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJ9EcLqXKUHtzD18SfUKv33oOpfB4krSg/+Uv0i++9Rnwh7RVlI0WEnNIp3ilB5OSqOOaEzfmcIh+VYevATUxtvSuf9zhMKLkapwaZ00e8yoZiizkhTSvFLIlRSFBlmUml+qYSdYulvKSWJQSaVDJhOqIEoMMSkJgBOIVRADD/ApCYBTiOMjxh8eElNBJxK2CCW/g7PFnt0KU0GnE4YeyFGHltKMwBnEIZGjDuypOYAziIMjBh1XGnNE5xHGHaXGHRYSc3aiC4gDLoQQw4qrbmA8wlPL8RVdTt+w7qqupveHqrhT3X/t5vX5uP2j1eDeVj+Jco0ewkuIjxhuL3757fnsRvW1X29aeU2B7evbuv191/Nx0eLmTD4GgVaAriIcNxwffPvu/uRz7893Ha3vnb/7X36vt7+eK63f/6ymAuDr5G/RYDLCMd2iK3U6vsIx/auXWbrZgWubg/+/WN70/vP0ZU7eTIsvkjuFgouIxxZiJvqsfvvRKub1/enfzS7wt1C7Qh/PG9O7D+nzobJV8nbUsGlhEeGjdGwzRyr3R92t74/7f5Jty/8++fzpqrGFu/E6Vj6BfK3WHAx4SfD7V1Ls7oZP7rc/D5Y/Tim6Y5IN7fNPvE36/z5WPoFsrdccDnh4Q5xPbyl+H7vr/e/b/x9nHOwsX3767UlXS9ehnKEBoIGhB8LsWqXVKfw/jSGsdoTPCRcN083Ph+qzpuRhffPnYWgCWFn2C3GHcx65IBm97nh0HSPq1mE9ZdchSaCNoSNYT95u53gyAHNdvdssdvlvT/trcj2WX23Lxx7PjltTpZ+gZwte0JvTThsSz+Y6tXRKzTDXrL9/Kr5uLdK+2f127svdkRqBGhGGORHFzFGkZSZoBlhDMMQg0jKTtCOMIRhhDEkZShoSBjBMMAQ0gpKGMCw/AjSshQ0JSxvWHwAaZkK2hIWNyz9+GnZCkKYP2NBY8LShhDKGyoQWguaE5Y1FCA0F7QnLGoIIYTu2Qs6EJY0DE/oIOhBWNAwOqGHIITnW/U/5Rx9U2VzW/dT0fQTDFwEXQjLGdoTdhxj7yPpbureaJJ+ggGEl3MiHHtjbPcWoO5NJMknGPgI+hAWM3QjPPGuno4w+QQDKcJShl4b0lPv6mlPEUk+wcBJEMLzDYcz429w3XRyyScYiBEWMnRahf1pBiMNb32uU04w8BKE8HzDG2N37489PMGg7rekXedOMOhHJUdYxtCNcPzE5T25sycYtO90dxOE8Hw7wuPjmY9TXpNOMLB653ZWwiKGToSb6vhJRbena59tpJ1gAGFiuV9g62kTTjBwFHQkLGEY9mVuCJNnKv9DJuUp6ElYwBBCCH1yFXQlzG8IIYQ+CRNmN4xJ6CsIYYakCXMbQgihR86CEPonTpjZEEIIHfIWhNA9ecK8hhBCaJ+7IITeXQFhVkMIITTPXxBC5yCcOmEZHystCKdOWMbHSgvCqROW8bGSyiAIoW/XQZjTEEIIrYNw8ozle6i0roQwoyGEEBqXQxBC1yCcPmXZHiktCKdPWbZHSgvC6VOW7ZHSgnD6lGV7pLQgnD5l2R4pLQinT1m2R0rragjzGUIIoXEQTp+yXA+UGITTpyzXAyUG4fQpy/VAiUE4fcpyPVBaWQQh9AzCGXOW64HSykSYpWxzluuB0sryA9+q+l+GIPQTfHl5yWEIoacghJ55X66kE4TQM+crd70MZTCE0APwQxBCxzyvyP3yAmGGHH+zwctLVkMIrQEPBf0J+am9teDLC4SZcvqdk58F/Q0hNAUcEYTQLY9fgT4CCKFj1oajSzCDIYRmgicAIfTLlvC0IIRuWRKe3IhC6Jkh4TlAd0MIDQAvCPoSfuXLJVgZXgKE0C8bwsuCvoYQLgVMEfQk/NIX8LIgTAKE0K+lhmlL0NcQwgxL0JWQy6tnEoTQqyWE6RtRV0MIsyxBR8Iv/wt/ZhNOXIIQ+jXTcDKgmyGE8wjnCELo1BzC6RtRP8LMcxqRcIbhPEAnQwhnEM4WhNCpiYQzN6JehLmnNCThNMMFgC6GELZNIFyyBCF0LNlwIaADYfYZFSdcLGhvCOFQkuHSjSiEnqUQWgCaE+af0KiElw1NlqC9IYQfXSK0AjQmLDCfqoR2ghC6dc7QbCNqbVhiOiUJTQEh9OuUoe0SNCUsMpt6hNaAEDo2amgvaGdYZjLFCM03ohD6dmToAmhGWGguQxN+NnQSNDIsNZVChD4bUQidqzIsQSPCYjMZnPDD0HEJGhlCeKLKfwnaEJabyOiEvaG3IISuVd4bURPDgvMYn7DOALiYsOQ0ChBmMVxGWJWcRwgtDJtZHH7N1qr/lVv3o9/Iurnltv3DZveHtreH6ua1+bj943Xe9My6V+aiL8N+Erv/r3qNu9uRb2PdyG5auk312MDt/snqtl5//9V8fJw5O/PulrnYxzP7c9gTdkif69HWN6/vT+0fNt+eh0/f19sfz/X2z18zJ2fe3TIXehkeTOFA+P70/Qhke9eyrr89b+/uu7/2W9u3h8f2pvefz3MnZ+b9Mhd4GR7O4ED48fGo5obesl19dT0Q/njejG160+Zm7h0z5284k/DTBF4i7PeHPeGA1u0L//753BzjHC/dlKmZcZ8iBTX8PH8XCD+OZvYIuyPSzW2zKvud5OSZmXGfMoV8ke1o+j4Trg+eYqyrfi+4vyHtevvrtT28Wc9ZhjqE7oaWhL+fMhzc2GPuDmf2DlrXzea1uef61B707LxMv0ux4hkez96ZJxXNGuw/efikoq1ZhPVXWIXxCEcmryfcVCOLcPcs4vNT+7p/Vt/tC8df1bkwLTPuUyxnw6mEY3M3vMA29kLLur+pXXwHL7DVw7P67d2VH5F2RfrZfRVl6qKMIzVXwymEcSYuzkgSC/IuqEDzFmgoicUwDDRvgYaSWoT3k0aatkhjSa70u7rDHMl0hRpMcmUNg81ZsOGk5mWYQhhtyqKNJzWnHWICYbgZCzeg5MqcaRhrN9gVb0TJuSzEC4YRpyvimJJzMDxLGHAJ1uKEDoZnCGMCqhNmNIwKKE9ov0McJ4wLqE9ojjhKGHqWQg8uMe8rskVegvV1ENoifiYMDngthJaIlRbg9RC2iEaKlRTgNRHWVkuxkgK8MkIbxGrwU5kalXEmZ4BYCfnVV0i4fKco5VdfJWGHOFdRza++VsK6Z5wKKehXXyfh3veUqNh7i86F6LDPdvg9VWfXo7LdUMDRvz1Up05ZTrtwy+j3VI1nP/zsxfseujNh35++jVwAwunCLeKFIxzOwnt7OF6HXhduES8c4e4k9f8ce3hduEW8aIRjq+8w+wu3iBeP8IKEw4VbxFMj9Lhwi3jRCI8uXpbhwi3iRSPcu+bOyFMEnwu3iBeOcDjOHLuUoNeFW8QLR3jmqb3XhVvEi0fYXn9l/NDS68It4gUkpGlBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKB+E8kEoH4TyQSgfhPJBKN//AdFgPtY0qAM6AAAAAElFTkSuQmCC</file>
+<file name="plot-1.png" encoding="base64">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</file>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> CORRETA. </li>
+<li> FALSA. A menor fatia é de 20%, presente nas categorias C e D. </li>
+<li> FALSA. O gráfico mostra proporções, não frequências absolutas diretamente. </li>
+<li> FALSA. A ordem das fatias não afeta a interpretação das proporções. </li>
 <li> FALSA. O gráfico de pizza é adequado para variáveis qualitativas, não quantitativas contínuas. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
-<li> CORRETA. </li>
-<li> FALSA. A ordem das fatias não afeta a interpretação das proporções. </li>
 <li> FALSA. O gráfico de pizza é ideal para mostrar proporções relativas, não quantidades absolutas. </li>
-<li> FALSA. O gráfico mostra proporções, não frequências absolutas diretamente. </li>
-<li> FALSA. A menor fatia é de 20%, presente nas categorias C e D. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
 <li> CORRETA. </li>
 </ul>
 </p>]]></text>
@@ -66,87 +66,7 @@ Observe o gráfico de pizza gerado e marque todas as afirmativas corretas com ba
 <shuffleanswers>false</shuffleanswers>
 <single>false</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O gráfico mostra que nenhuma das categorias tem mais da metade das preferências.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
-O gráfico é mais adequado para variáveis quantitativas contínuas.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O gráfico de pizza é adequado para variáveis qualitativas, não quantitativas contínuas.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-A categoria B é a mais preferida entre as quatro.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-A soma das preferências das categorias A e B corresponde a 60% do total.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-As categorias C e D possuem a mesma porcentagem de preferência.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
-A interpretação do gráfico depende da ordem em que as fatias são desenhadas.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A ordem das fatias não afeta a interpretação das proporções.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
-O gráfico de pizza é ideal para comparar quantidades absolutas em vez de proporções relativas.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O gráfico de pizza é ideal para mostrar proporções relativas, não quantidades absolutas.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O gráfico de pizza permite observar diretamente a frequência absoluta de cada categoria.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O gráfico mostra proporções, não frequências absolutas diretamente.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
 A categoria A tem a menor fatia do gráfico.
 </p>]]></text>
@@ -156,9 +76,89 @@ FALSA. A menor fatia é de 20%, presente nas categorias C e D.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O gráfico de pizza permite observar diretamente a frequência absoluta de cada categoria.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico mostra proporções, não frequências absolutas diretamente.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+A interpretação do gráfico depende da ordem em que as fatias são desenhadas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A ordem das fatias não afeta a interpretação das proporções.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O gráfico é mais adequado para variáveis quantitativas contínuas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico de pizza é adequado para variáveis qualitativas, não quantitativas contínuas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+As categorias C e D possuem a mesma porcentagem de preferência.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+A soma das preferências das categorias A e B corresponde a 60% do total.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O gráfico de pizza é ideal para comparar quantidades absolutas em vez de proporções relativas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico de pizza é ideal para mostrar proporções relativas, não quantidades absolutas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+O gráfico mostra que nenhuma das categorias tem mais da metade das preferências.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
 As cores utilizadas no gráfico ajudam a distinguir visualmente cada categoria.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+A categoria B é a mais preferida entre as quatro.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -203,21 +203,21 @@ Observe o gráfico de pizza gerado e marque todas as afirmativas corretas com ba
 </p>
 <p><img src="@@PLUGINFILE@@/plot-1.png" /></p>
 </p>]]></text>
-<file name="plot-1.png" encoding="base64">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</file>
+<file name="plot-1.png" encoding="base64">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</file>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
+<li> FALSA. A ordem das fatias não afeta a interpretação das proporções. </li>
+<li> CORRETA. </li>
+<li> FALSA. A menor fatia é de 20%, presente nas categorias C e D. </li>
 <li> FALSA. O gráfico de pizza é adequado para variáveis qualitativas, não quantitativas contínuas. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
-<li> FALSA. A menor fatia é de 20%, presente nas categorias C e D. </li>
-<li> CORRETA. </li>
 <li> FALSA. O gráfico mostra proporções, não frequências absolutas diretamente. </li>
-<li> CORRETA. </li>
 <li> FALSA. O gráfico de pizza é ideal para mostrar proporções relativas, não quantidades absolutas. </li>
 <li> CORRETA. </li>
-<li> FALSA. A ordem das fatias não afeta a interpretação das proporções. </li>
+<li> CORRETA. </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -226,27 +226,17 @@ Observe o gráfico de pizza gerado e marque todas as afirmativas corretas com ba
 <shuffleanswers>false</shuffleanswers>
 <single>false</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-33.33333" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-O gráfico é mais adequado para variáveis quantitativas contínuas.
+A interpretação do gráfico depende da ordem em que as fatias são desenhadas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O gráfico de pizza é adequado para variáveis qualitativas, não quantitativas contínuas.
+FALSA. A ordem das fatias não afeta a interpretação das proporções.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-As categorias C e D possuem a mesma porcentagem de preferência.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
 O gráfico mostra que nenhuma das categorias tem mais da metade das preferências.
 </p>]]></text>
@@ -256,7 +246,7 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
 A categoria A tem a menor fatia do gráfico.
 </p>]]></text>
@@ -266,27 +256,17 @@ FALSA. A menor fatia é de 20%, presente nas categorias C e D.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
-As cores utilizadas no gráfico ajudam a distinguir visualmente cada categoria.
+O gráfico é mais adequado para variáveis quantitativas contínuas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-CORRETA.
+FALSA. O gráfico de pizza é adequado para variáveis qualitativas, não quantitativas contínuas.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O gráfico de pizza permite observar diretamente a frequência absoluta de cada categoria.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O gráfico mostra proporções, não frequências absolutas diretamente.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
 A categoria B é a mais preferida entre as quatro.
 </p>]]></text>
@@ -296,7 +276,27 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="20" format="html">
+<text><![CDATA[<p>
+As categorias C e D possuem a mesma porcentagem de preferência.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
+<text><![CDATA[<p>
+O gráfico de pizza permite observar diretamente a frequência absoluta de cada categoria.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico mostra proporções, não frequências absolutas diretamente.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-20" format="html">
 <text><![CDATA[<p>
 O gráfico de pizza é ideal para comparar quantidades absolutas em vez de proporções relativas.
 </p>]]></text>
@@ -306,7 +306,7 @@ FALSA. O gráfico de pizza é ideal para mostrar proporções relativas, não qu
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
 A soma das preferências das categorias A e B corresponde a 60% do total.
 </p>]]></text>
@@ -316,13 +316,13 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
+<answer fraction="20" format="html">
 <text><![CDATA[<p>
-A interpretação do gráfico depende da ordem em que as fatias são desenhadas.
+As cores utilizadas no gráfico ajudam a distinguir visualmente cada categoria.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. A ordem das fatias não afeta a interpretação das proporções.
+CORRETA.
 </p>]]></text>
 </feedback>
 </answer>

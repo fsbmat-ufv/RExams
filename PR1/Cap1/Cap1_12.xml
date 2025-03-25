@@ -11,7 +11,7 @@
 
 <question type="multichoice">
 <name>
-<text> R01 Q1 : Cap1_12 </text>
+<text> R1 Q1 : Cap1_12 </text>
 </name>
 <questiontext format="html">
 <text><![CDATA[
@@ -39,7 +39,7 @@
 </style>
 <p>
 <p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 77 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
+Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 133 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
 </p>
 <p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
 </p>]]></text>
@@ -47,11 +47,11 @@ Considere um estudo estatístico realizado em uma universidade para analisar o d
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> FALSA. O conjunto de 77 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
+<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
 <li> CORRETA. </li>
 <li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
+<li> FALSA. O conjunto de 133 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
+<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -60,244 +60,6 @@ Considere um estudo estatístico realizado em uma universidade para analisar o d
 <shuffleanswers>false</shuffleanswers>
 <single>true</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 77 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 77 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 77 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 77 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
-</p>]]></text>
-</feedback>
-</answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R02 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 37 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. O conjunto de 37 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> CORRETA. </li>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 37 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 37 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 37 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 37 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
-</p>]]></text>
-</feedback>
-</answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R03 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 198 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> FALSA. O conjunto de 198 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-<li> CORRETA. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 198 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 198 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 198 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 198 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="0" format="html">
 <text><![CDATA[<p>
 A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
@@ -318,63 +80,9 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R04 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 91 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-<li> FALSA. O conjunto de 91 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> CORRETA. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
 <answer fraction="0" format="html">
 <text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 91 alunos são parâmetros da população.
+A média e o desvio padrão calculados a partir dos 133 alunos são parâmetros da população.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -384,37 +92,17 @@ FALSA. A média e o desvio padrão calculados a partir da amostra são estatíst
 </answer>
 <answer fraction="0" format="html">
 <text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
+O conjunto de 133 alunos cujas notas foram analisadas representa a população do estudo.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
+FALSA. O conjunto de 133 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="0" format="html">
 <text><![CDATA[<p>
-O conjunto de 91 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 91 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 91 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
+Se 133 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -427,7 +115,7 @@ FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, nã
 
 <question type="multichoice">
 <name>
-<text> R05 Q1 : Cap1_12 </text>
+<text> R2 Q1 : Cap1_12 </text>
 </name>
 <questiontext format="html">
 <text><![CDATA[
@@ -455,319 +143,7 @@ FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, nã
 </style>
 <p>
 <p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 35 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. O conjunto de 35 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> CORRETA. </li>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 35 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 35 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 35 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 35 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
-</p>]]></text>
-</feedback>
-</answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R06 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 91 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> CORRETA. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-<li> FALSA. O conjunto de 91 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 91 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 91 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 91 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 91 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R07 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 32 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-<li> CORRETA. </li>
-<li> FALSA. O conjunto de 32 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 32 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 32 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 32 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 32 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
-</p>]]></text>
-</feedback>
-</answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R08 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 238 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
+Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 80 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
 </p>
 <p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
 </p>]]></text>
@@ -777,9 +153,9 @@ Considere um estudo estatístico realizado em uma universidade para analisar o d
 <ul>
 <li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
 <li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-<li> FALSA. O conjunto de 238 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
+<li> FALSA. O conjunto de 80 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
 <li> CORRETA. </li>
+<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -800,7 +176,7 @@ FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca mai
 </answer>
 <answer fraction="0" format="html">
 <text><![CDATA[<p>
-Se 238 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
+Se 80 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -810,105 +186,11 @@ FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, nã
 </answer>
 <answer fraction="0" format="html">
 <text><![CDATA[<p>
-O conjunto de 238 alunos cujas notas foram analisadas representa a população do estudo.
+O conjunto de 80 alunos cujas notas foram analisadas representa a população do estudo.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O conjunto de 238 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 238 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R09 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 164 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. O conjunto de 164 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-<li> CORRETA. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 164 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 164 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 164 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
+FALSA. O conjunto de 80 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
 </p>]]></text>
 </feedback>
 </answer>
@@ -924,125 +206,11 @@ CORRETA.
 </answer>
 <answer fraction="0" format="html">
 <text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 164 alunos são parâmetros da população.
+A média e o desvio padrão calculados a partir dos 80 alunos são parâmetros da população.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-</question>
-
-
-<question type="multichoice">
-<name>
-<text> R10 Q1 : Cap1_12 </text>
-</name>
-<questiontext format="html">
-<text><![CDATA[
-<style type="text/css" rel="stylesheet">
-/* tables with alternating shading */
-.table_shade {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:1px solid #FFFFFF;
-    background-color: #FFFFFF;
-}
-.table_shade th {
-    border:1px solid #FFFFFF;
-    background: #D5D5D5;
-}
-.table_shade td {
-    border:1px solid #FFFFFF;
-}
-.table_shade .odd {
-    background: #EEEEEE;
-}
-.table_shade .even {
-    background: #FBFBFB;
-}
-</style>
-<p>
-<p style="text-align: justify;">
-Considere um estudo estatístico realizado em uma universidade para analisar o desempenho acadêmico dos estudantes. No estudo, foram coletadas informações sobre as notas finais de 191 alunos do curso de Estatística no último semestre. A análise dos dados resultou em estatísticas descritivas, como média e desvio padrão das notas.
-</p>
-<p>Com base nessas informações, qual das seguintes afirmativas está correta?</p>
-</p>]]></text>
-</questiontext>
-<generalfeedback format="html">
-<text><![CDATA[<p>
-<ul>
-<li> FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros. </li>
-<li> CORRETA. </li>
-<li> FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior. </li>
-<li> FALSA. O conjunto de 191 alunos representa uma amostra, não a população, pois há mais estudantes no curso. </li>
-<li> FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população. </li>
-</ul>
-</p>]]></text>
-</generalfeedback>
-<penalty>0</penalty>
-<defaultgrade>1</defaultgrade>
-<shuffleanswers>false</shuffleanswers>
-<single>true</single>
-<answernumbering>abc</answernumbering>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A média e o desvio padrão calculados a partir dos 191 alunos são parâmetros da população.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A média e o desvio padrão calculados a partir da amostra são estatísticas, não parâmetros.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="100" format="html">
-<text><![CDATA[<p>
-O conjunto de todos os alunos do curso de Estatística da universidade pode ser considerado a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-A amostra é sempre maior que a população, pois contém apenas uma parte dos indivíduos estudados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. A amostra é sempre menor ou, no máximo, igual à população, nunca maior.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-O conjunto de 191 alunos cujas notas foram analisadas representa a população do estudo.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O conjunto de 191 alunos representa uma amostra, não a população, pois há mais estudantes no curso.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="0" format="html">
-<text><![CDATA[<p>
-Se 191 for suficientemente grande, os valores calculados representam exatamente os parâmetros populacionais.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Mesmo com uma amostra grande, os valores calculados são estimativas, não os parâmetros exatos da população.
 </p>]]></text>
 </feedback>
 </answer>

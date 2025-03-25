@@ -43,21 +43,21 @@ Observe o gráfico de barras gerado e marque todas as afirmativas corretas com b
 </p>
 <p><img src="@@PLUGINFILE@@/barras-1.png" /></p>
 </p>]]></text>
-<file name="barras-1.png" encoding="base64">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</file>
+<file name="barras-1.png" encoding="base64">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</file>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
+<li> FALSA. Pode ser usado com variáveis categóricas também. </li>
 <li> CORRETA. </li>
-<li> CORRETA. </li>
-<li> FALSA. No gráfico de barras as barras são separadas por espaçamento. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
 <li> FALSA. O gráfico de barras é usado para dados qualitativos ou discretos. </li>
-<li> FALSA. Pode ser usado com variáveis categóricas também. </li>
 <li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. No gráfico de barras as barras são separadas por espaçamento. </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -66,9 +66,9 @@ Observe o gráfico de barras gerado e marque todas as afirmativas corretas com b
 <shuffleanswers>false</shuffleanswers>
 <single>false</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-33.33333" format="html">
+<answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-A altura de cada barra representa a frequência da categoria correspondente.
+As categorias C e D apresentam a mesma frequência.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -86,9 +86,29 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico de barras deve ser utilizado apenas para variáveis numéricas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Pode ser usado com variáveis categóricas também.
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-As categorias C e D apresentam a mesma frequência.
+A categoria B possui a maior frequência no gráfico.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+As cores das barras auxiliam na distinção entre as categorias.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -108,11 +128,11 @@ CORRETA.
 </answer>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-As barras deveriam estar encostadas umas nas outras, sem espaçamento.
+O gráfico de barras representa dados quantitativos contínuos.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. No gráfico de barras as barras são separadas por espaçamento.
+FALSA. O gráfico de barras é usado para dados qualitativos ou discretos.
 </p>]]></text>
 </feedback>
 </answer>
@@ -128,41 +148,21 @@ CORRETA.
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-A categoria B possui a maior frequência no gráfico.
+A altura de cada barra representa a frequência da categoria correspondente.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
 CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O gráfico de barras representa dados quantitativos contínuos.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O gráfico de barras é usado para dados qualitativos ou discretos.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O gráfico de barras deve ser utilizado apenas para variáveis numéricas.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Pode ser usado com variáveis categóricas também.
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-As cores das barras auxiliam na distinção entre as categorias.
+As barras deveriam estar encostadas umas nas outras, sem espaçamento.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-CORRETA.
+FALSA. No gráfico de barras as barras são separadas por espaçamento.
 </p>]]></text>
 </feedback>
 </answer>
@@ -203,21 +203,21 @@ Observe o gráfico de barras gerado e marque todas as afirmativas corretas com b
 </p>
 <p><img src="@@PLUGINFILE@@/barras-1.png" /></p>
 </p>]]></text>
-<file name="barras-1.png" encoding="base64">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</file>
+<file name="barras-1.png" encoding="base64">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</file>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> FALSA. No gráfico de barras as barras são separadas por espaçamento. </li>
-<li> CORRETA. </li>
-<li> FALSA. Pode ser usado com variáveis categóricas também. </li>
-<li> CORRETA. </li>
-<li> CORRETA. </li>
-<li> CORRETA. </li>
-<li> CORRETA. </li>
-<li> CORRETA. </li>
 <li> CORRETA. </li>
 <li> FALSA. O gráfico de barras é usado para dados qualitativos ou discretos. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. No gráfico de barras as barras são separadas por espaçamento. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. Pode ser usado com variáveis categóricas também. </li>
 </ul>
 </p>]]></text>
 </generalfeedback>
@@ -226,49 +226,39 @@ Observe o gráfico de barras gerado e marque todas as afirmativas corretas com b
 <shuffleanswers>false</shuffleanswers>
 <single>false</single>
 <answernumbering>abc</answernumbering>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
-As barras deveriam estar encostadas umas nas outras, sem espaçamento.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. No gráfico de barras as barras são separadas por espaçamento.
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-A categoria B possui a maior frequência no gráfico.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O gráfico de barras deve ser utilizado apenas para variáveis numéricas.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. Pode ser usado com variáveis categóricas também.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-As categorias C e D apresentam a mesma frequência.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
 A altura de cada barra representa a frequência da categoria correspondente.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico de barras representa dados quantitativos contínuos.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico de barras é usado para dados qualitativos ou discretos.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O gráfico de barras é adequado para representar dados de variáveis qualitativas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+As cores das barras auxiliam na distinção entre as categorias.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -288,7 +278,7 @@ CORRETA.
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-A categoria A tem menor frequência que a categoria B.
+As categorias C e D apresentam a mesma frequência.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -298,7 +288,17 @@ CORRETA.
 </answer>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-As cores das barras auxiliam na distinção entre as categorias.
+As barras deveriam estar encostadas umas nas outras, sem espaçamento.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. No gráfico de barras as barras são separadas por espaçamento.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A categoria A tem menor frequência que a categoria B.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -308,7 +308,7 @@ CORRETA.
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O gráfico de barras é adequado para representar dados de variáveis qualitativas.
+A categoria B possui a maior frequência no gráfico.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -316,13 +316,13 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="14.28571" format="html">
+<answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-O gráfico de barras representa dados quantitativos contínuos.
+O gráfico de barras deve ser utilizado apenas para variáveis numéricas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O gráfico de barras é usado para dados qualitativos ou discretos.
+FALSA. Pode ser usado com variáveis categóricas também.
 </p>]]></text>
 </feedback>
 </answer>

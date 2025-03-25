@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_33/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap2_33 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere a tabela de distribuição de frequências apresentada a seguir. Note que uma das classes possui um valor de frequência absoluta e relativa faltante (marcado com “-”).
+</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Classe</th>
+<th style="text-align: center;">Frequência.Absoluta</th>
+<th style="text-align: center;">Frequência.Relativa</th>
+<th style="text-align: center;">Frequência.Acumulada</th>
+<th style="text-align: center;">Frequência.Relativa.Acumulada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10 |– 20</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">0.23</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">0.23</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20 |– 30</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">51</td>
+<td style="text-align: center;">0.42</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30 |– 40</td>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">0.2</td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;">0.62</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">40 |– 50</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">0.15</td>
+<td style="text-align: center;">93</td>
+<td style="text-align: center;">0.77</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">50 |– 60</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">0.24</td>
+<td style="text-align: center;">123</td>
+<td style="text-align: center;">1.01</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">
+Com base na tabela e nos conceitos de frequência absoluta, relativa e acumulada, responda diretamente nos campos abaixo:
+</p>
+Qual o valor da Frequência Absoluta faltante? {1:NUMERICAL:=23:0.05}
+Qual o valor da Frequência Absoluta Total da amostra? {1:NUMERICAL:=123:0.05}
+Qual o valor da Frequência Relativa faltante? {1:NUMERICAL:=0.18:0.05}
+Qual o valor do Intervalo de Classe? {1:NUMERICAL:=10:0.05}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> 23 </li>
+<li> 123 </li>
+<li> 0.18 </li>
+<li> 10 </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>4</defaultgrade>
+</question>
+
+</quiz>

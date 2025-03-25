@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_29/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R1 Q1 : Cap2_29 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere a tabela de distribuição de frequências apresentada a seguir. Note que uma das classes possui um valor de frequência absoluta e relativa faltante (marcado com “-”).
+</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Classe</th>
+<th style="text-align: center;">Frequência.Absoluta</th>
+<th style="text-align: center;">Frequência.Relativa</th>
+<th style="text-align: center;">Frequência.Acumulada</th>
+<th style="text-align: center;">Frequência.Relativa.Acumulada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10 |– 20</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">0.19</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">0.19</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20 |– 30</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0.12</td>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">0.31</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30 |– 40</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">44</td>
+<td style="text-align: center;">0.49</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">40 |– 50</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">0.34</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">0.83</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">50 |– 60</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">0.16</td>
+<td style="text-align: center;">88</td>
+<td style="text-align: center;">0.99</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">
+Com base na tabela e nos conceitos de frequência absoluta, relativa e acumulada, marque todas as afirmativas corretas.
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. A tabela representa uma variável quantitativa contínua. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência relativa da classe 30 |– 40 é aproximadamente 0.18.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+O intervalo da classe 40 |– 50 é de 10 unidades.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência relativa acumulada ultrapassa 50% a partir da classe 40 |– 50.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe 30 |– 40 apresenta uma frequência absoluta igual a 16.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe de maior concentração de dados é a 40 |– 50.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe com menor frequência relativa acumulada é a primeira.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência absoluta total da amostra é 88.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe com maior frequência absoluta é 40 |– 50.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-50" format="html">
+<text><![CDATA[<p>
+A tabela representa uma variável qualitativa ordinal.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tabela representa uma variável quantitativa contínua.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência relativa acumulada da última classe é igual a 1.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R2 Q1 : Cap2_29 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Considere a tabela de distribuição de frequências apresentada a seguir. Note que uma das classes possui um valor de frequência absoluta e relativa faltante (marcado com “-”).
+</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Classe</th>
+<th style="text-align: center;">Frequência.Absoluta</th>
+<th style="text-align: center;">Frequência.Relativa</th>
+<th style="text-align: center;">Frequência.Acumulada</th>
+<th style="text-align: center;">Frequência.Relativa.Acumulada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10 |– 20</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">0.14</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">0.14</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20 |– 30</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">0.22</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">0.36</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30 |– 40</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">0.23</td>
+<td style="text-align: center;">56</td>
+<td style="text-align: center;">0.59</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">40 |– 50</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">0.78</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">50 |– 60</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">0.21</td>
+<td style="text-align: center;">94</td>
+<td style="text-align: center;">0.99</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">
+Com base na tabela e nos conceitos de frequência absoluta, relativa e acumulada, marque todas as afirmativas corretas.
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. A tabela representa uma variável quantitativa contínua. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe 40 |– 50 apresenta uma frequência absoluta igual a 18.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+O intervalo da classe 30 |– 40 é de 10 unidades.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-50" format="html">
+<text><![CDATA[<p>
+A tabela representa uma variável qualitativa ordinal.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. A tabela representa uma variável quantitativa contínua.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência relativa acumulada da última classe é igual a 1.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe de maior concentração de dados é a 30 |– 40.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência absoluta total da amostra é 94.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe com menor frequência relativa acumulada é a primeira.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A classe com maior frequência absoluta é 30 |– 40.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência relativa acumulada ultrapassa 50% a partir da classe 30 |– 40.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="11.11111" format="html">
+<text><![CDATA[<p>
+A frequência relativa da classe 40 |– 50 é aproximadamente 0.19.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

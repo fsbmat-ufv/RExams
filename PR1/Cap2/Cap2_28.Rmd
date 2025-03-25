@@ -1,0 +1,81 @@
+```{r setup, include=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Gerando dados categóricos
+categorias <- c("A", "B", "C", "D", "E")
+valores <- c(40, sample(c(15, 25, 7, 13), size = (length(categorias)-1), replace = FALSE))
+df <- data.frame(Categoria = categorias, Frequência = valores)
+
+moda_cat <- df$Categoria[which.max(df$Frequência)]
+freq_total <- sum(df$Frequência)
+proporcao_moda <- round(max(df$Frequência) / freq_total, 2)
+
+grafico_barras <- ggplot(df, aes(x = Categoria, y = Frequência, fill = Categoria)) +
+  geom_bar(stat = "identity", show.legend = FALSE) +
+  geom_text(aes(label = Frequência), vjust = 1.5, color = "white", size = 4) +
+  labs(
+    title = "Distribuição de Frequência por Categoria",
+    x = "Categoria",
+    y = "Frequência Absoluta"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+```
+
+Question
+========
+<p style="text-align: justify;">Observe o gráfico de barras gerado a partir de uma distribuição de frequências absolutas por categoria. Com base no gráfico, analise as afirmativas a seguir e marque todas as alternativas corretas.</p>
+
+```{r grafico_freq, echo=FALSE}
+grafico_barras
+```
+
+Answerlist
+----------
+* A categoria com maior frequência é a categoria `r moda_cat`.
+* A soma total das frequências é igual a `r freq_total`.
+* A proporção da categoria mais frequente em relação ao total é de aproximadamente `r proporcao_moda`.
+* A moda da distribuição é a categoria `r moda_cat`.
+* A distribuição é simétrica, pois todas as categorias possuem frequências iguais.
+* A distribuição apresentada possui uma única moda.
+* O gráfico representa uma distribuição contínua de dados.
+* A frequência relativa da categoria mais frequente é inferior a 50%.
+* O gráfico não permite visualizar a moda da distribuição.
+* A variável em questão é qualitativa.
+
+Solution
+========
+Answerlist
+----------
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. As frequências são diferentes, mas a distribuição não é simétrica.
+* CORRETA.
+* FALSA. A distribuição é categórica, não contínua.
+* `r if (proporcao_moda < 0.5) "CORRETA." else "FALSA."`
+* FALSA. O gráfico permite sim identificar visualmente a moda.
+* CORRETA.
+
+Meta-information
+================
+exname: distribuicao-frequencias
+extype: mchoice
+exsolution: `r paste0(as.integer(c(
+  TRUE,        # maior frequência
+  TRUE,        # soma total correta
+  TRUE,        # proporção correta
+  TRUE,        # moda
+  FALSE,       # simetria
+  TRUE,        # única moda
+  FALSE,       # contínua
+  proporcao_moda < 0.5, # frequência relativa < 50%
+  FALSE,       # não permite ver moda
+  TRUE         # qualitativa
+)), collapse = "")`
+exshuffle: TRUE

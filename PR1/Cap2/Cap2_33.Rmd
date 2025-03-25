@@ -16,10 +16,12 @@ classe_faltante <- sample(2:4, 1) # posição da classe com valor faltante
 freq_faltante <- freq_abs[classe_faltante]
 freq_abs[classe_faltante] <- NA
 
+
 # Frequência relativa
 total <- sum(freq_abs, na.rm = TRUE) + freq_faltante
 freq_rel <- round(freq_abs / total, 2)
 freq_rel[classe_faltante] <- NA
+
 
 # Acumuladas
 freq_abs_comp <- replace(freq_abs, is.na(freq_abs), freq_faltante)
@@ -41,6 +43,7 @@ tabela <- data.frame(
 classe_moda <- classes[which.max(freq_abs_comp)]
 classe_freq_acima_50 <- classes[which(freq_rel_ac >= 0.5)[1]]
 classe_faltante_nome <- classes[classe_faltante]
+FreqRelaFalt <- 1-sum(freq_rel, na.rm = TRUE)
 ```
 
 Question
@@ -51,39 +54,33 @@ Question
 knitr::kable(tabela, align = "c")
 ```
 
-<p style="text-align: justify;">Com base na tabela e nos conceitos de frequência absoluta, relativa e acumulada, marque todas as afirmativas corretas.</p>
+<p style="text-align: justify;">Com base na tabela e nos conceitos de frequência absoluta, relativa e acumulada, responda diretamente nos campos abaixo:</p>
 
 Answerlist
 ----------
-* A classe com maior frequência absoluta é `r classe_moda`.
-* A frequência absoluta total da amostra é `r total`.
-* A classe `r classe_faltante_nome` apresenta uma frequência absoluta igual a `r freq_faltante`.
-* A frequência relativa da classe `r classe_faltante_nome` é aproximadamente `r round(freq_faltante / total, 2)`.
-* A frequência relativa acumulada ultrapassa 50% a partir da classe `r classe_freq_acima_50`.
-* A classe de maior concentração de dados é a `r classe_moda`.
-* A tabela representa uma variável qualitativa ordinal.
-* A classe com menor frequência relativa acumulada é a primeira.
-* A frequência relativa acumulada da última classe é igual a 1.
-* O intervalo da classe `r classe_moda` é de 10 unidades.
+* Qual o valor da Frequência Absoluta faltante?  
+
+* Qual o valor da Frequência Absoluta Total da amostra?
+
+* Qual o valor da Frequência Relativa faltante?
+
+* Qual o valor do Intervalo de Classe?
+
+
 
 Solution
 ========
-Answerlist
-----------
-* CORRETA.
-* CORRETA.
-* CORRETA.
-* CORRETA.
-* CORRETA.
-* CORRETA.
-* FALSA. A tabela representa uma variável quantitativa contínua.
-* CORRETA.
-* CORRETA.
-* CORRETA.
+Solutionlist
+------------
+* `r freq_faltante`
+* `r total`
+* `r FreqRelaFalt`
+* 10
 
 Meta-information
 ================
-exname: tabela-frequencia-incompleta
-extype: mchoice
-exsolution: 1111110111
-exshuffle: TRUE
+exname: frequencia-relativa-classe
+extype: cloze
+exclozetype: num|num|num|num
+exsolution: `r freq_faltante`|`r total`|`r FreqRelaFalt`|10
+extol: 0.05

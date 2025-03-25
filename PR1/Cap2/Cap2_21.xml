@@ -4,14 +4,14 @@
 
 <question type="category">
 <category>
-<text>$course$/Cap2_24/Exercise 1</text>
+<text>$course$/Cap2_21/Exercise 1</text>
 </category>
 </question>
 
 
 <question type="multichoice">
 <name>
-<text> R1 Q1 : Cap2_24 </text>
+<text> R1 Q1 : Cap2_21 </text>
 </name>
 <questiontext format="html">
 <text><![CDATA[
@@ -39,31 +39,22 @@
 </style>
 <p>
 <p style="text-align: justify;">
-Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas corretas com base nas informações apresentadas.
+Marque todas as alternativas corretas sobre os principais tipos de gráficos utilizados em Estatística Descritiva.
 </p>
-<pre> 
-  The decimal point is 1 digit(s) to the right of the |
-
-  2 | 34
-  2 | 5788
-  3 | 134
-  3 | 6668
-  4 | 14
- </pre>
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
 <li> CORRETA. </li>
+<li> FALSA. O gráfico de pontos é mais indicado para pequenos conjuntos de dados, geralmente discretos. </li>
+<li> FALSA. O gráfico de barras tem espaçamento entre as barras; quem não tem é o histograma. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
-<li> FALSA. O diagrama é para variáveis quantitativas, não qualitativas. </li>
 <li> CORRETA. </li>
-<li> FALSA. O número 28 aparece duas vezes. </li>
+<li> FALSA. O histograma é usado para variáveis quantitativas contínuas, não qualitativas. </li>
 <li> CORRETA. </li>
-<li> FALSA. O diagrama permite identificar valores repetidos com clareza. </li>
 <li> CORRETA. </li>
 </ul>
 </p>]]></text>
@@ -75,37 +66,7 @@ Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas
 <answernumbering>abc</answernumbering>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O número 36 aparece três vezes no conjunto de dados.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-A moda do conjunto é 36.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O menor valor do conjunto é 23.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-CORRETA.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="14.28571" format="html">
-<text><![CDATA[<p>
-O maior valor do conjunto é 44.
+O gráfico de linhas é especialmente útil para visualizar séries temporais.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -115,17 +76,57 @@ CORRETA.
 </answer>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas é útil apenas para variáveis qualitativas.
+O gráfico de pontos é mais indicado para variáveis quantitativas contínuas em conjuntos de dados grandes.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O diagrama é para variáveis quantitativas, não qualitativas.
+FALSA. O gráfico de pontos é mais indicado para pequenos conjuntos de dados, geralmente discretos.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico de barras utiliza barras encostadas umas nas outras, sem espaçamento entre elas.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico de barras tem espaçamento entre as barras; quem não tem é o histograma.
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O conjunto é formado por 15 valores e a sua mediana é o 33.
+O gráfico de ramos e folhas preserva os valores originais dos dados, facilitando a visualização da distribuição.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O gráfico de pizza deve ser evitado quando há muitas categorias, pois dificulta a interpretação.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O gráfico de pizza é útil para mostrar a proporção de cada categoria em relação ao total.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O gráfico de dispersão é usado para analisar a relação entre duas variáveis quantitativas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -135,17 +136,17 @@ CORRETA.
 </answer>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-O número 28 aparece apenas uma vez no conjunto.
+O histograma é apropriado para representar frequências de variáveis qualitativas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O número 28 aparece duas vezes.
+FALSA. O histograma é usado para variáveis quantitativas contínuas, não qualitativas.
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas preserva os valores originais dos dados.
+O gráfico de caixa (boxplot) permite observar a mediana, os quartis e possíveis outliers.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -153,19 +154,9 @@ CORRETA.
 </p>]]></text>
 </feedback>
 </answer>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
-O diagrama de ramos e folhas não permite identificar valores repetidos.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O diagrama permite identificar valores repetidos com clareza.
-</p>]]></text>
-</feedback>
-</answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O número 34 pertence à classe de valores com ramo 3.
+O gráfico de barras é adequado para representar variáveis qualitativas nominais ou ordinais.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -178,7 +169,7 @@ CORRETA.
 
 <question type="multichoice">
 <name>
-<text> R2 Q1 : Cap2_24 </text>
+<text> R2 Q1 : Cap2_21 </text>
 </name>
 <questiontext format="html">
 <text><![CDATA[
@@ -206,31 +197,22 @@ CORRETA.
 </style>
 <p>
 <p style="text-align: justify;">
-Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas corretas com base nas informações apresentadas.
+Marque todas as alternativas corretas sobre os principais tipos de gráficos utilizados em Estatística Descritiva.
 </p>
-<pre> 
-  The decimal point is 1 digit(s) to the right of the |
-
-  2 | 34
-  2 | 5788
-  3 | 134
-  3 | 6668
-  4 | 14
- </pre>
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
+<li> FALSA. O gráfico de pontos é mais indicado para pequenos conjuntos de dados, geralmente discretos. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
-<li> FALSA. O número 28 aparece duas vezes. </li>
-<li> FALSA. O diagrama permite identificar valores repetidos com clareza. </li>
+<li> FALSA. O gráfico de barras tem espaçamento entre as barras; quem não tem é o histograma. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
 <li> CORRETA. </li>
-<li> FALSA. O diagrama é para variáveis quantitativas, não qualitativas. </li>
+<li> FALSA. O histograma é usado para variáveis quantitativas contínuas, não qualitativas. </li>
 <li> CORRETA. </li>
 </ul>
 </p>]]></text>
@@ -240,9 +222,19 @@ Observe o diagrama de ramos e folhas gerado abaixo e marque todas as afirmativas
 <shuffleanswers>false</shuffleanswers>
 <single>false</single>
 <answernumbering>abc</answernumbering>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O gráfico de pontos é mais indicado para variáveis quantitativas contínuas em conjuntos de dados grandes.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O gráfico de pontos é mais indicado para pequenos conjuntos de dados, geralmente discretos.
+</p>]]></text>
+</feedback>
+</answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas preserva os valores originais dos dados.
+O gráfico de linhas é especialmente útil para visualizar séries temporais.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -252,7 +244,7 @@ CORRETA.
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O número 34 pertence à classe de valores com ramo 3.
+O gráfico de dispersão é usado para analisar a relação entre duas variáveis quantitativas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -262,7 +254,7 @@ CORRETA.
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O maior valor do conjunto é 44.
+O gráfico de ramos e folhas preserva os valores originais dos dados, facilitando a visualização da distribuição.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -272,27 +264,17 @@ CORRETA.
 </answer>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-O número 28 aparece apenas uma vez no conjunto.
+O gráfico de barras utiliza barras encostadas umas nas outras, sem espaçamento entre elas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O número 28 aparece duas vezes.
-</p>]]></text>
-</feedback>
-</answer>
-<answer fraction="-33.33333" format="html">
-<text><![CDATA[<p>
-O diagrama de ramos e folhas não permite identificar valores repetidos.
-</p>]]></text>
-<feedback format="html">
-<text><![CDATA[<p>
-FALSA. O diagrama permite identificar valores repetidos com clareza.
+FALSA. O gráfico de barras tem espaçamento entre as barras; quem não tem é o histograma.
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O menor valor do conjunto é 23.
+O gráfico de barras é adequado para representar variáveis qualitativas nominais ou ordinais.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -302,7 +284,7 @@ CORRETA.
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O conjunto é formado por 15 valores e a sua mediana é o 33.
+O gráfico de caixa (boxplot) permite observar a mediana, os quartis e possíveis outliers.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -312,7 +294,7 @@ CORRETA.
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-O número 36 aparece três vezes no conjunto de dados.
+O gráfico de pizza deve ser evitado quando há muitas categorias, pois dificulta a interpretação.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
@@ -322,17 +304,17 @@ CORRETA.
 </answer>
 <answer fraction="-33.33333" format="html">
 <text><![CDATA[<p>
-O diagrama de ramos e folhas é útil apenas para variáveis qualitativas.
+O histograma é apropriado para representar frequências de variáveis qualitativas.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>
-FALSA. O diagrama é para variáveis quantitativas, não qualitativas.
+FALSA. O histograma é usado para variáveis quantitativas contínuas, não qualitativas.
 </p>]]></text>
 </feedback>
 </answer>
 <answer fraction="14.28571" format="html">
 <text><![CDATA[<p>
-A moda do conjunto é 36.
+O gráfico de pizza é útil para mostrar a proporção de cada categoria em relação ao total.
 </p>]]></text>
 <feedback format="html">
 <text><![CDATA[<p>

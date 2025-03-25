@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_32/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R1 Q1 : Cap2_32 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A tabela a seguir mostra a distribuição de frequências de uma variável quantitativa contínua:
+</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Classe</th>
+<th style="text-align: center;">Frequência.Absoluta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10 |– 20</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20 |– 30</td>
+<td style="text-align: center;">25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30 |– 40</td>
+<td style="text-align: center;">27</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">40 |– 50</td>
+<td style="text-align: center;">18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">50 |– 60</td>
+<td style="text-align: center;">14</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">
+Considerando a tabela acima, responda:
+</p>
+<p><strong>Qual é a frequência relativa (com duas casas decimais) da classe 30 |– 40?</strong></p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>0.29</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.29</text>
+<tolerance>0.05</tolerance>
+</answer>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> R2 Q1 : Cap2_32 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A tabela a seguir mostra a distribuição de frequências de uma variável quantitativa contínua:
+</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Classe</th>
+<th style="text-align: center;">Frequência.Absoluta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10 |– 20</td>
+<td style="text-align: center;">22</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20 |– 30</td>
+<td style="text-align: center;">27</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30 |– 40</td>
+<td style="text-align: center;">17</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">40 |– 50</td>
+<td style="text-align: center;">19</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">50 |– 60</td>
+<td style="text-align: center;">10</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">
+Considerando a tabela acima, responda:
+</p>
+<p><strong>Qual é a frequência relativa (com duas casas decimais) da classe 20 |– 30?</strong></p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<p>0.28</p>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>0.28</text>
+<tolerance>0.05</tolerance>
+</answer>
+</question>
+
+</quiz>

@@ -34,5 +34,5 @@ Meta-information
 ================
 exname: graficos-estatistica
 extype: mchoice
-exsolution: 1100111111
+exsolution: 1100101111
 exshuffle: TRUE

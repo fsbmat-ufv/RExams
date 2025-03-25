@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_27/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R1 Q1 : Cap2_27 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o diagrama de pontos apresentado a seguir, que compara dois grupos distintos (Grupo A e Grupo B). Com base na visualização, analise e marque todas as afirmativas corretas sobre as medidas de tendência central e dispersão dos dados.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/grafico-1.png" alt="plot of chunk grafico" />
+<div class="figcaption">plot of chunk grafico</div>
+</div>
+</p>]]></text>
+<file name="grafico-1.png" encoding="base64">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</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. O valor médio do Grupo A está mais centralizado em relação ao seu conjunto. </li>
+<li> FALSA. </li>
+<li> CORRETA. </li>
+<li> FALSA. </li>
+<li> CORRETA. </li>
+<li> FALSA. Apesar de próximas, média e mediana não são exatamente iguais para ambos os grupos. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="16.66667" format="html">
+<text><![CDATA[<p>
+O Grupo B apresenta uma mediana igual a 33.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="16.66667" format="html">
+<text><![CDATA[<p>
+O Grupo A apresenta uma mediana igual a 28.5.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="16.66667" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos permite visualizar tanto a concentração quanto a dispersão dos dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="16.66667" format="html">
+<text><![CDATA[<p>
+O Grupo B apresenta uma média aproximadamente igual a 32.6.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+O valor médio do Grupo A está mais próximo dos valores extremos do que o do Grupo B.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor médio do Grupo A está mais centralizado em relação ao seu conjunto.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+O Grupo A possui maior variabilidade em relação ao Grupo B.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="16.66667" format="html">
+<text><![CDATA[<p>
+O Grupo A apresenta uma média aproximadamente igual a 27.3.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+A distribuição dos dados no Grupo B é mais concentrada que a do Grupo A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="16.66667" format="html">
+<text><![CDATA[<p>
+O Grupo B apresenta maior dispersão dos dados que o Grupo A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-25" format="html">
+<text><![CDATA[<p>
+A mediana e a média de ambos os grupos são iguais, o que indica simetria em ambos os conjuntos.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Apesar de próximas, média e mediana não são exatamente iguais para ambos os grupos.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> R2 Q1 : Cap2_27 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o diagrama de pontos apresentado a seguir, que compara dois grupos distintos (Grupo A e Grupo B). Com base na visualização, analise e marque todas as afirmativas corretas sobre as medidas de tendência central e dispersão dos dados.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/grafico-1.png" alt="plot of chunk grafico" />
+<div class="figcaption">plot of chunk grafico</div>
+</div>
+</p>]]></text>
+<file name="grafico-1.png" encoding="base64">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</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. Apesar de próximas, média e mediana não são exatamente iguais para ambos os grupos. </li>
+<li> FALSA. O valor médio do Grupo A está mais centralizado em relação ao seu conjunto. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> CORRETA. </li>
+<li> FALSA. </li>
+<li> CORRETA. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+A distribuição dos dados no Grupo B é mais concentrada que a do Grupo A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O Grupo B apresenta uma mediana igual a 31.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+A mediana e a média de ambos os grupos são iguais, o que indica simetria em ambos os conjuntos.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. Apesar de próximas, média e mediana não são exatamente iguais para ambos os grupos.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O valor médio do Grupo A está mais próximo dos valores extremos do que o do Grupo B.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA. O valor médio do Grupo A está mais centralizado em relação ao seu conjunto.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O Grupo B apresenta uma média aproximadamente igual a 31.3.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O Grupo A apresenta uma média aproximadamente igual a 27.1.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O Grupo A possui maior variabilidade em relação ao Grupo B.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O diagrama de pontos permite visualizar tanto a concentração quanto a dispersão dos dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-33.33333" format="html">
+<text><![CDATA[<p>
+O Grupo B apresenta maior dispersão dos dados que o Grupo A.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+FALSA.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="14.28571" format="html">
+<text><![CDATA[<p>
+O Grupo A apresenta uma mediana igual a 27.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+CORRETA.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>
