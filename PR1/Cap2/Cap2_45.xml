@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_45/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap2_45 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Dois grupos de pesquisadores coletaram amostras independentes, sobre a produtividade de milho (em sacas por hectare) em duas regiões agrícolas distintas: <strong>Região Norte</strong> e <strong>Região Sul</strong>. A tabela abaixo resume os dados obtidos:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Região</th>
+<th style="text-align: center;">Tamanho</th>
+<th style="text-align: center;">Média</th>
+<th style="text-align: center;">Erro.padrão</th>
+<th style="text-align: center;">Desvio.padrão</th>
+<th style="text-align: center;">CV</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Região Norte</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">5,4</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Região Sul</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">28%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Obs:</strong> Use na resposta a vírgula como separador decimal! E use duas casas decimais.</p>
+Calcule o desvio padrão da amostra da Região Norte. {1:NUMERICAL:=24.01:0.02}
+Determine a média amostral da Região Sul. {1:NUMERICAL:=82.1:0.02}
+Calcule o erro padrão da média para a Região Sul. {1:NUMERICAL:=4.8:0.02}
+Qual das médias é mais precisa? (Use RN para Região Norte e RS para Região Sul). {1:SHORTANSWER:%100%RS}
+Qual das duas regiões apresenta maior homogeneidade? (Use RN para Região Norte e RS para Região Sul). {1:SHORTANSWER:%100%RS}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O desvio padrão da Região Norte é <span class="math inline">\(sd_{RN} = 24.01\)</span>. </li>
+<li> A Determine a média amostral da Região Sul é <span class="math inline">\(\bar{x}_{RS} = 82.1\)</span>. </li>
+<li> O erro padrão da média para a Região Sul é <span class="math inline">\(EP_{RS}= 4.8\)</span> </li>
+<li> A média amostral mais precisa é a média da região <strong>RS</strong>, pois apresenta o menor erro padrão. </li>
+<li> A amostra mais homogênia é a amostra da região <strong>RS</strong>, pois apresenta menor Coeficiente de Variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+</quiz>

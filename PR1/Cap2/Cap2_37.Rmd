@@ -1,0 +1,57 @@
+```{r setup, include=FALSE}
+library(exams)
+library(tidyverse)
+
+# Gerar dados bimodais
+set.seed(123)
+dados <- c(rnorm(100, mean = 30, sd = 3),
+           rnorm(100, mean = 50, sd = 3))
+
+# Agrupar em classes
+breaks <- seq(20, 60, by = 4)
+hist_info <- hist(dados, breaks = breaks, plot = FALSE)
+dados_hist <- data.frame(
+  Classe = paste(head(breaks, -1), breaks[-1], sep = "–"),
+  Frequencia = hist_info$counts
+)
+```
+
+Question
+========
+<p style="text-align: justify;">Observe o histograma a seguir, construído a partir de um único conjunto de dados simulados.</p>
+
+```{r histograma_bimodal, echo=FALSE, fig.width=7, fig.height=4}
+ggplot(data = dados_hist, aes(x = factor(Classe, levels = Classe), y = Frequencia)) +
+  geom_col(fill = "steelblue", color = "black", width = 1) +
+  labs(x = "Intervalos de Classe", y = "Frequência Absoluta") +
+  theme_minimal(base_size = 14)
+```
+
+<p style="text-align: justify;">Com base no histograma apresentado, você acha que a média é uma boa medida de posição? E a mediana?:</p>
+
+Answerlist
+----------
+
+* Tanto a média quanto a mediana são boas medidas para resumir e representar esse conjunto de dados.
+* Como a média é uma medida muito afetada por valores extremos, a mediana seria uma medida mais indicada para representar esse conjunto de dados.
+* Como o conjunto tem uma quantidade ímpar de valores, a mediana não é indicada.
+* Nem a média nem a mediana são medidas indicadas para representar esse conjunto.
+* A média sempre é a medida mais indicada, pois é a medida estatística mais conhecida.
+
+Solution
+========
+Answerlist
+----------
+
+* Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+* Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+* Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+* Verdadeira
+* Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+
+Meta-information
+================
+exname: histograma-bimodal
+extype: schoice
+exsolution: 00010
+exshuffle: TRUE

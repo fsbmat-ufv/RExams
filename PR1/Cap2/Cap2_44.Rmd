@@ -1,0 +1,76 @@
+```{r codigos, echo=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Gerar dados aleatórios para as amostras
+set.seed(NULL)  # Garante aleatoriedade a cada compilação
+n1 <- sample(8:12, 1)
+n2 <- sample(8:12, 1)
+
+A1 <- round(rnorm(n1, mean = sample(70:95, 1), sd = sample(5:15, 1)), 1)
+A2 <- round(rnorm(n2, mean = sample(60:95, 1), sd = sample(5:15, 1)), 1)
+
+# Estatísticas Amostra 1
+xbar_A1 <- mean(A1)
+s_A1 <- sd(A1)
+EP_A1 <- round((s_A1 / sqrt(n1)), 2)
+
+# Estatísticas Amostra 2
+xbar_A2 <- mean(A2)
+s_A2 <- sd(A2)
+EP_A2 <- round((s_A2 / sqrt(n2)), 2)
+
+# Determinar a mais precisa (menor EP)
+mais_precisa <- ifelse(EP_A1 < EP_A2, "A1", "A2")
+
+# Preencher as colunas para ter o mesmo número de linhas
+max_length <- max(length(A1), length(A2))
+A1_full <- c(A1, rep(NA, max_length - length(A1)))
+A2_full <- c(A2, rep(NA, max_length - length(A2)))
+
+# Tabela unificada para exibição
+tabela_unificada <- data.frame(
+  `A1` = A1_full,
+  `A2` = A2_full
+)
+
+```
+
+Question
+========
+
+Considere as duas amostras abaixo:
+
+```{r table, echo=FALSE}
+kable(tabela_unificada, format = "html", table.attr = "style='width:30%;'", caption = "Valores das Amostras")
+```
+
+**Obs:** Use na resposta a vírgula como separador decimal! E use duas casas decimais.
+
+Questionlist
+------------
+* Qual o erro padrão da Amostra 1 (A1)?  
+* Qual o erro padrão da Amostra 2 (A2)?  
+* Qual é a amostra com média amostral mais precisa?
+
+Solution
+========
+
+Solutionlist
+------------
+
+* O erro padrão da Amostra 1 (A1) é $EP_{A1} = `r EP_A1`$.
+
+* O erro padrão da Amostra 2 (A2) é $EP_{A2} = `r EP_A2`$.
+
+* A média amostral mais precisa é a média da amostra **`r mais_precisa`**, pois apresenta o menor erro padrão.
+
+Meta-information
+================
+exname: media_precisa   
+extype: cloze  
+exclozetype: num|num|string  
+exsolution: `r sprintf('%.2f|%.2f|%s', as.numeric(EP_A1), as.numeric(EP_A2), mais_precisa)`  
+extol: 0.02|0.02|0

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_36/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q1 : Cap2_36 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o histograma a seguir, construído a partir de um conjunto de dados simulados.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/histograma_bimodal-1.png" alt="plot of chunk histograma_bimodal" />
+<div class="figcaption">plot of chunk histograma_bimodal</div>
+</div>
+<p style="text-align: justify;">
+Com base no histograma apresentado, marque todas as alternativas corretas:
+</p>
+</p>]]></text>
+<file name="histograma_bimodal-1.png" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAArwAAAGQCAMAAAB74kOhAAABNVBMVEUAAAAAADoAAGYAOjoAOmYAOpAAZpAAZrY6AAA6AGY6OgA6Ojo6OmY6ZmY6ZpA6ZrY6kJA6kLY6kNtGgrRNTU1NTW5NTY5NbqtNjshmAABmADpmOgBmOjpmOmZmZjpmZmZmZpBmkGZmkLZmkNtmtttmtv9uTU1uTW5ubm5uq+SOTU2OyMiOyP+QOgCQZjqQZmaQkDqQkGaQtraQttuQ2/+rbk2rjk2rq26r5P+2ZgC2Zjq2kDq2kGa2kJC2tpC2tra2ttu225C227a229u22/+2/7a2/9u2///Ijk3I5KvI/8jI///bkDrbkGbbtmbbtpDbtrbbttvb25Db27bb29vb2//b/7bb/9vb///kq27k///r6+v/tmb/yI7/25D/27b/29v/5Kv//7b//8j//9v//+T////bb49SAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAYe0lEQVR4nO2dDXvUVnqGNQbKQCBsWYfEhSaUXZKGYtImsI2zKaQlXdzEBbo4GyZ4DJjB//8nVB8z+tY75z1+ZR+N7/u6AiPJ5/F5xB1Zo/FookOAgRKd9AQAfEFeGCzIC4MFeWGwIC8MFuSFwYK8MFiQFwbLMcr76lSEBTuxFQxDXuOwYCe2gmHIaxwW7MRWMAx5jcOCndgKhiGvcViwE1vBMOQ1Dgt2YisYhrzGYcFObAXDkNc4LNiJrWAY8hqHBTuxFQxDXuOwYCe2gmHIaxwW7MRWMAx5jcOCndgKhiGvcViwE1vBMOQ1Dgt2YisYhrzGYcFObAXDkNc47CQmFlliOrN+w5DXOOxE5P29HcjbShB9ew9DXj3IG0gY8upB3kDCkFcP8gYShrx6kDeQMOTVg7yBhCGvHuQNJAx59SBvIGHIqwd5AwlDXj3IG0gY8upB3kDCkFcP8gYShrx6kDeQMOTVg7yBhCGvHuQNJAx59SBvIGHIqwd5AwlDXj3IG0gY8upB3kDCkFcP8gYShrx6kDeQMOTVg7yBhCGvHuQNJAx59SBvIGHIqwd5AwlDXj3IG0gY8uo5EXlfQRCYynvSZZZiJK9S9VMRxpFXD6cNgYQhrx7kDSQMefUgbyBhyKsHeQMJQ149yBtIGPLqQd5AwpBXD/IGEoa8epA3kDDk1YO8gYQhrx7kDSQMefUgbyBhyKsHeQMJQ149yBtIGPLqQd5AwpBXD/K2YfqhvG67Cnn1IG8blv+qjv+syKsHedtA3p5aIm//YcjbU0vk7T8MeXtqibz9hyFvTy2Rt/8w5O2pJfL2H4a8PbVE3v7DkLenlsjbfxjy9tQSefsPQ96eWiJvK7av6Br+qyKvx8z6DQtPXsN/iN8jb08tkbcV5NWHIW/vIK8a5BVBXvcww5aOIK8I8rqHGbZ0BHlFkNc9zLClI8grgrzuYYYtHUFekeZcdx8lPLz55GgTaoK8apBXpD7X/fH88v4a8tbDDFs6grwi9bluRZfGo8s3otH9o86oAfKqQV6R2lwPNkb3t2Jxd6KrR55SHeRVg7wiDXnXnuxEt+Ozh3MvjzynGsirBnlFWuTdi4+6yd9HnlMN5FWDvCKNc97R/f3x+fjIi7yNMMOWjiCvSH2ue9HaXzaj321G5486owbIqwZ5RRpzfXrhyf71KDprfuBFXj3IK9I+1ze/+M+kE+RVg7wi9SdsNy6lh9zZJue8jTDDlo4gr0hlrru7LzbWHu/GPOMJWzPMsKUjyCtSnuvBRundX1znbYQZtnQEeUUqc3396OF49HX6izk/mLuLvHqQV6Q219lXN+2tnYO8apBXxHGu2x//Fv85XV//6FvPb4S8HiCvSH2ub3bnVC6WTdcTeaexuVN/e5FXDfKKNH63IWr5fd53dxJ53z/4Mn68/Um/U0RefRjypsyep2+j+HR0q/yMbfLxn2J5335+N3l87edep4i8+jDkrbAzul0svP3i2+ScN/4rXpgir0FLR5BXpGOuBxvFdd7kdCGRNzvdLZ/0vuqBgOXto64JpvKedJmlOMhbnPNOYnHb5dXBkVcNR16R9rnO/ly8wpaeLXDagLw+M+s3rPNqQ37OO1nPuMsTNruWjiCvSOMVts9Sbj6urt/mUhnyesys3zDNK2y8SGHW0hHkFVG9PDzh5WGjlo4gr0hprpXfiOSOOc0ww5aOIK9Iaa6L8935WS+/z1sPM2zpCPKKcJdI9zDDlo4grwjyuocZtnQEeUWac3326QcfXP7maLNpBXnVIK9Ifa6zzSgajft4Cxvy6kFekfpcd6KzPx4evr7OXSKbYYYtHUFekforbJvZjXm5S2RLmGFLR5BXpOUukeW/LUFeNcgr0nJz6eRv7hLZEmbY0pGTkNcU05rN3rXlrexkd4e7RDbDDFs6chLyGmb1fRhv+UCVS18/5DMp2sIMWzqCvHLv+orX15PDfXLJwRrkVYO8cu/mqtnubi93zUFeNcgr9/Yc5wHyqkFeuXfbymc3PuS0oRlm2NIR5JV715aTu0rvxSe9PGFrhhm2dAR55d615a3o3K+b0dU9LpU1wwxbOoK8cu/qYvLy8P54dJ9X2FrCDFs6grxy7+pi9iGCa0+QtyXMsKUjyCv3ri5mH996nl/MaQszbOkI8sq9a8vJp75Ht+O/OOdthBm2dAR55d615eSX0a/EB2A+RLAZZtjSEeSVezfWvHmZvMjmGSeBvGqQV+7tOc4D5FWDvHLvxprkDZgfPm750qOCvGqQV+5dW168AfMKb8BshBm2dAR55d615Z3oHG/A7AgzbOkI8sq9q4u8AVMIM2zpCPLKvauLvAFTCDNs6Qjyyr1ry1sceTvDDFs6grxy79rybDM5551t8iJFM8ywpSPIK/cuHub35z1zMf7vEqcN9TDDlo4gr9y7eHhw44MSyNsIM2zpCPLKvT3HeYC8apBX7t21wf4dxMirBnnl3q1rZ99zu6dmmGFLR5BX7t2y7vW9qI8b9CKvGuSVe9dXzJ5ejKLRrR5uO4K8apBX7l1dTA+6PXyMVQLyqkFeuXfpcXrQPfvN33p4aTgBedUgr9y7eHiwEZ8u/NLP7zUkIK8a5JV7Fw8TeZPbPCFvR5hhS0eQV+5dXnh2PYrO3OK0oSPMsKUjyCv3ri7Ovh/zhK0rzLClI8gr926seXEj1rePN7EhrxrklXu3rEuvOvAKWyPMsKUjyCv3bl/9+t4FB3lf9UDA8vZR14Rw5e2j7VJ5+4AjrxqOvHJvz3EeIK8a5JV7e47zAHnVIK/c23OcB8irBnnl3p7jPEBeNcgr9/Yc5wHyqkFeuXdjze6jhIc3uc5bDzNs6Qjyyr1ry/vj+fvfeZGiEWbY0hHklXvXlpPb+o8u88HZbWGGLR1BXrl3dfFgY3Q/uePTDneJbIYZtnQEeeXe1cXs04Buc6+ytjDDlo4gr9y7uph9DttV7hLZFmbY0hHklXvXlreST8BMPocNeRthhi0dQV65d215L1r7y2b0u00+h60ZZtjSEeSVe9dXPL3wZP96FHGL02aYYUtHkFfu3br2zS+ecRLIqwZ55d6e4zxAXjXIK/cuHiZXGPIbTPMKWzPMsKUjyCv3Lh7Ovrr5cvbVZ3Nucp23HmbY0hHklXt7jvMAedUgr9zbc5wHyKsGeeXerWtnXG1oCTNs6Qjyyr1ry7PvkmdqBxv2v9qAvHqQV+5dW95Jb4k++45X2Jphhi0dQV65d3Ux+ZXI7G8ulTXCDFs6grxy7+oinz0shBm2dAR55d7VxdlmdDv5e48PVGmGGbZ0BHnl3rXlvSi6/PXDT6PMYVOQVw3yyr3rK55dTF4cPvuNZ54A8qpBXrl3c9Vs1/7TLxOQVw3yyr09x3mAvGqQV+7dWPNmN8X+NTbkVYO8cu/a8sF1fiWyK8ywpSPIK/euLW9Fo1vp/Z5+4FJZPcywpSPIK/euLi5eYesD5FWDvHLv6mJfHyCYgLxqkFfuXV2cbXLk7QwzbOkI8sq9a8v743M/ekYtA3nVIK/cu7rIGzCFMMOWjiCv3Lu6yBswhTDDlo4gr9zbc5wHyKsGeeXenuM8QF41yCv3bq56/m83f/0/zzgJ5FWDvHLv+oqn4/jJ2n/zBsyWMMOWjiCv3Lu88Owfn+xFZ/9rY+3JFrf1b4YZtnQEeeXexcPZd9G5XzdH95NX2bitf0uYYUtHkFfuXTw8+Ic/zm+2l/3nmdgJ8qpBXrl38fBgM7ryN+TtDjNs6Qjyyr3LC08vxCe7t7MPVeGmI40ww5aOIK/cu7a8Px5dHo/+acyHCDbDDFs6grxy7/qK/fStFGdL7r5/sL6+/mXyaLq+/tG3nt8IeT1AXrl3c9XsxePyG9jeP4iFnax/ErsbP5j624u8apBX7r30K95+fjf+c3Lt5/cPksPv9iee3wl59SCv3Lu2PH/vcOPdw/ERN7fY81shrxrklXtXFzt/n3f72s9vv0jOGKYleV/1QMDy9lHXhHDl7aNtp7yz58k7hx9+OrpVfffwNH7Glp3u+p/0cuRVw5FX7t2+emdUudHedPF8DXltWjqCvHLv9tXV+/pP0ytlzdMGHcirBnnl3u2rKy8PT7KrvDxhs2vpCPLKvVvXzv5curn0ZP1u+jeXyuxaOoK8cu/qYnG1IT/nffv5l/NHvEhh1tIR5JV7VxcX7x6++ThfNVlPSaSd8PKwUUtHkFfu7TnOA+RVg7xyb89xHiCvGuSVe9eW85eH7W8wjbxqkFfuXV0snrDZ3/IJedUgr9y7ujh7/q/jS18/uhd9aH+DaeRVg7xy79ryXvae9x3e+t4MM2zpCPLKvauLs00+vrUzzLClI8gr964u8tnDQphhS0eQV+5dXZxtLk4bePdwI8ywpSPIK/euLe9F8XO1h/ci3j3cDDNs6Qjyyr3rK55l7x7u4d7+yKsGeeXezVVvXjzms4fbwgxbOoK8cm/PcR4grxrklXs3V3Fz6Y4ww5aOIK/cu76Cm0t3hhm2dAR55d61ZW4u3R1m2NIR5JV7Vxdn3Fy6O8ywpSPIK/euLnJzaSHMsKUjyCv3ri4irxBm2NIR5JV715a5uXR3mGFLR5BX7l1b5ubS3WGGLR1BXrl3fUXz5tJWIK8a5JV715af/1K/ubQZyKsGeeXe1cU+nqgtQF41yCv3ri4irxBm2NIR5JV715b3xn/XyznDIfJ6gLxy7+riwY1xL297T0BeNcgr964uLu5V9tlnN3l5uB5m2NIR5JV7e47zAHnVIK/c23OcB8irBnnl3sXD2Vf2pwplkFcN8sq9i4fZZbL+FEZeNcgr9y4eZvL2d6UXedUgr9y7eIi8S8IMWzqCvHLv4iHyLgkzbOkI8sq9i4fIuyTMsKUjyCv3Lh4i75Iww5aOIK/cu3gYa/t4d/dF+qf1Lf0TkFcN8sq9i4d93tI/AXnVIK/cu3iYfeL7Attb+icgrxrklXt7jvMAedUgr9zbc5wHyKsGeeXenuM8QF41yCv39hznAfKqQV65t+c4D5BXDfLKvT3HeYC8apBX7u05zgPkVYO8cm/Pcdk37YGA5e2jrgnhyttHWyN5lao7fVXA8hq2dIQjr9zbc5wHyKsGeeXenuM8QF41yCv39hznAfKqQV65t+c4D5BXDfLKvT3HeYC8apBX7u05zgPkVYO8cm/PcR4grxrklXt7jvMAedUgr9zbc5wHyKsGeeXenuM8QF41yCv39hznAfKqQV65t+c4D5BXDfLKvT3HeYC8apBX7u05zgPkVYO8cm/PcR4grxrklXt7jvMAedUgr9zbc5wHyKsGeeXenuM8QF41yCv39hznAfKqQV65t+c4D5BXDfLKvT3HeYC8agYvrynN3pb7WgZ51QxeXtOwZm/LfS2DvGqQtxzW7G25r2WQVw3ylsOavS33tQzyqkHeclizt+W+lkFeNchbDmv2ttzXMoOXt9+nzv67DHn7Z/DymoYZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLk7R/kLYcZ7jLkPQK2r5ua9g03zGnPIm85rNlbY+kx7LuQd55pmNOeRd5yWLO3xtJj2Hch7zzTMKc9i7zlsGZvjaXHsO9C3nmmYU57FnnLYc3eGkuPYd+FvPNMw5z2LPKWw5q9NZYew74LeeeZhoX6JDfgXYa8hB1fFvISdqxhwU4MeQk7zizkJexYw4KdGPISdpxZyEvYsYYFO7GjyjtdX//oW+Rd6bBgJ3ZEeaexudMWewPuS9hJZgUk7/sHX8Z/bn+CvKscFuzEjibv28/vxn9Orv2MvCscFuzEjijvF8kZw7Qk76sM25c6AdqZ6+Ylb3a623bS68ZJ3ILu+MOCndgKhiGvcViwE1vBsCOdNugIom/vYcFObAXDLJ6wORJE397Dgp3YCoZZXCpzJIi+vYcFO7EVDLN4kcKRIPr2HhbsxFYwTPXy8KT95WFHgujbe1iwE1vBsOBuOjL0sGAntoJhyGscFuzEVjAMeY3Dgp3YCoYhr3FYsBNbwTDkNQ4LdmIrGIa8xmHBTmwFw5DXOCzYia1g2DHKC2AL8sJgQV4YLMgLgwV5YbAgLwwW5IXBgrwwWJAXBgvywmBBXhgsvcj7/sH6+nrybs3mfSXzTe/uxA/WHd7NKY3I35fUcf/KJsKIxSbnmckDtj/+TTMxeUS6yXliwohijevMhBH5JueZSSPefj5f4bzP+pD3/YP4e0+SiTTesllsyu4CoQlrjkjehp/GO781VBiRb3KdmTxgup7Yo3nPqjAi2+Q6MWlEvsZ5ZsKIfJPzzIQR03jC7+60SdNJH/LmN3hovlm+uPeD681LhBHv7nyZyP2J+5vyhRH5JteZyQPiI0v8j6G5W4AwItukud9L54jFGveZCSPyeOeZdY/I4lul6aS/c974f56u25Qk/19NVPd/6B6R6KO7HYowInVRM7POAZOP/xTbo5mYMCLbpJlY54jFGveZCSPyeOeZdY8ojsnu+6w/ebev/dx1g6h40+H2Py/Oix3DOkZMYq11N6ISRiSbVDPrGhDnJyediokJI+abFBPrHrFY4z4zYUQe7zyz7hHTaz/dUc6sP3mn8UQ6bs2XbHp3J925jo50jpimfTW3ABRGZJsUM+sckPzoS+xxn5gwYrHJfWLdI/I1zjMTRuSbnGcmjJisx7omP8gU/5h9yTtdPF9rzmNaPMl0PFhKI94/+Pg33f0rhRHJJtXMOgZM4rU6eYURi03uE1s2Il6jvOWnMMLoxHfy0bfqmfUk7zT9kbD4CfBTel0kJpnstPTTIju/cQtbjPiXcthhdm6tu39lacRPzTDNzCoDion9T5KuOm14Wx/xUzPMeWJv6yPquyzOUO6y0oj6Lssn5LrLyiOKmf17GqebWT/yTjLd2s69J+UzHadLLEtGJH11968URhT71fHiT+uAyfxfxH1iwoh8k/PElo6I12h3WfcIo+tlma26mfUi72S+31queiw2ZVN0+hnYOSJf43x1RRiRb3Kd2bIB28pLZeKI7fxChOvBsn3Eye4yacS7O9qZ9XWdd3GobFxvLjals3M4x5dG5P/azte1hRH5JteZLRmwrX2RQhqRXTtwnJg0Il/jvsu6R+SbnGcmjJio/zF7kXf+Yyv5/vX7SpY2bRc/2BzDmiPyNc73rxRG5JscZ7ZkQHbSqbmxpjAi2+Q6MWnEye4yacR0cfHMeWb8Yg4MFuSFwYK8MFiQFwYL8sJgQV4YLMgLgwV5YbAgLwwW5F3Gwcb56oo3buNmm+deLv2i/fH51vXPbkRRdOlH15hTCvIuoy7v/1544jTuCPLONqOMq8grgbzLqMu7tda7vFvR2cdxwNPx6D7yCiDvMo5f3r1oPnIvOo+8Asi7jFTeWKG/Xo9Gf8h+oscrXt+LotGtl8mW8zvR2vX4GJl8aSza04vZlsy61/fGUfRhevL63Xh+GpvxOj6tvfLXVN48LGMrDUuG/MfjecwitJRSyquNPzUg7zLm8s5PQufy7o/TxXTLmXF07mlyehofKW8f7izOVlPr5l+XHKy30kcLL+dbziTyFmEp1WNtupSHllKKR7XxpwfkXcZC3vOJQ+fnpw1b0d/Hx9bvYlnjLVcX5xbxpoONtfhguB8fglPrtqIr6dedz47Kh5nkh2lgnPBsnCbmYcU3zEliitAipZRXG396QN5lzOVNlE2FSeSdn6rGpwzzLenauXW7j766GGXyZoalX3OwMfrw0S956jxhLz2K52HFN8yZH4fnoUVK8ag+/vSAvMtYnPO+nP+ZyTu/ljU/wGZnDMl/i03Zhv1xdqDdiX+6pz/68zPT+ZYkvBSWbmo5bchDSyn5o/r40wPyLkOUd+3JXLX4uJc+OtiILt/64cVGU97DF/dKhrXJu7iMkT9hSx5lB/BFaDll8agx/tSAvMtol/fqYvPiOLmz9p/JyvTom55f1E4b0i9+8+z6XMzKacPV6nfcH+eGZzFFaC0lfdQYf2pA3mU05E1fORj9IXm6NC6uw+6PP02M2kue2L2+HjWesMW2xmeorzcXR9Wt/AlbKexwse3sN/F3+36cPiFM5F2EFinFo+b40wLyLqMu707pUlnpFbDZZvqzPP4JXz6fKL5ufmkrv6CVbblculSWnyw0Xh4uQkspxaPG+NMC8i6jLu9BcgRMXxdIX3zIn17tZFfB4gNkdOaP85PV+esHV5KrAsmBNN6S5yZbSi9SZK9kzJk9/SBec+nx4Tw/Dy2llPIa408JyAuDBXlhsCAvDBbkhcGCvDBYkBcGC/LCYEFeGCzIC4MFeWGwIC8MFuSFwYK8MFj+HyRsOOUknD2WAAAAAElFTkSuQmCC</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> Falsa — mesmo agrupados, é possível estimar a moda. </li>
+<li> Verdadeira — histograma serve para dados quantitativos contínuos agrupados. </li>
+<li> Verdadeira — há duas classes com maior frequência (bimodal). </li>
+<li> Verdadeira — duas modas sugerem dois subgrupos. </li>
+<li> Falsa — eixo y mostra frequências, não valores individuais. </li>
+<li> Falsa — histograma não é adequado para variáveis qualitativas. </li>
+<li> Falsa — a média não representa esse conjunto de dados. </li>
+<li> Falsa — os picos não são exatamente iguais, portanto não é simétrica. </li>
+<li> Falsa — não há lacunas, as barras estão justapostas. </li>
+<li> Verdadeira — o histograma mostra forma e concentração da distribuição. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>false</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="-16.66667" format="html">
+<text><![CDATA[<p>
+A distribuição apresentada não possui moda, pois os dados foram agrupados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa — mesmo agrupados, é possível estimar a moda.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="25" format="html">
+<text><![CDATA[<p>
+O histograma é adequado para representar dados quantitativos contínuos agrupados em classes.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Verdadeira — histograma serve para dados quantitativos contínuos agrupados.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="25" format="html">
+<text><![CDATA[<p>
+O histograma apresenta duas classes com frequência máxima, indicando uma distribuição bimodal.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Verdadeira — há duas classes com maior frequência (bimodal).
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="25" format="html">
+<text><![CDATA[<p>
+A distribuição pode representar um conjunto de dados com dois grupos distintos.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Verdadeira — duas modas sugerem dois subgrupos.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-16.66667" format="html">
+<text><![CDATA[<p>
+O eixo y representa valores individuais do conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa — eixo y mostra frequências, não valores individuais.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-16.66667" format="html">
+<text><![CDATA[<p>
+O histograma é um gráfico apropriado para dados qualitativos nominais.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa — histograma não é adequado para variáveis qualitativas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-16.66667" format="html">
+<text><![CDATA[<p>
+A média é uma boa medida para representar esse conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa — a média não representa esse conjunto de dados.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-16.66667" format="html">
+<text><![CDATA[<p>
+A distribuição é simétrica, pois os dois picos têm a mesma altura.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa — os picos não são exatamente iguais, portanto não é simétrica.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="-16.66667" format="html">
+<text><![CDATA[<p>
+O espaçamento entre as barras indica lacunas nos dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa — não há lacunas, as barras estão justapostas.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="25" format="html">
+<text><![CDATA[<p>
+O histograma permite observar a concentração e a forma da distribuição dos dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Verdadeira — o histograma mostra forma e concentração da distribuição.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

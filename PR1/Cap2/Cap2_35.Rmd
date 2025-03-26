@@ -1,0 +1,39 @@
+Question
+========
+<p style="text-align: justify;">Marque todas as alternativas corretas sobre histogramas e tabelas de frequência no contexto da Estatística Descritiva.</p>
+
+Answerlist
+----------
+* O histograma é indicado para representar distribuições de variáveis quantitativas contínuas agrupadas em classes.
+* No histograma, as barras devem estar justapostas, sem espaços entre elas.
+* A tabela de frequência pode conter colunas como frequência absoluta, frequência relativa e frequência acumulada.
+* O histograma não tem relação com a tabela de distribuição de frequências.
+* O histograma é uma representação gráfica adequada para variáveis qualitativas nominais.
+* O número de classes em uma tabela de frequência pode influenciar a forma do histograma.
+* A frequência acumulada nunca diminui de uma classe para outra.
+* Em histogramas, a altura das barras representa o valor da frequência de cada classe.
+* O histograma permite identificar a forma da distribuição dos dados, como simetria ou assimetria.
+* A tabela de frequência não permite identificar a classe com maior frequência.
+
+Solution
+========
+Answerlist
+----------
+
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. O histograma é a forma gráfica da tabela de distribuição de frequências.
+* FALSA. Histogramas não são usados para variáveis qualitativas.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* CORRETA.
+* FALSA. A tabela permite sim identificar a classe com maior frequência.
+
+Meta-information
+================
+exname: histograma-tabela-frequencia
+extype: mchoice
+exsolution: 1110011110
+exshuffle: TRUE

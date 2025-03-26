@@ -1,0 +1,107 @@
+```{r codigos, echo=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Gerar dados aleatórios para as amostras
+set.seed(NULL)  # Garante aleatoriedade a cada compilação
+n1 <- sample(20:25, 1)
+n2 <- sample(20:25, 1)
+
+
+Amostra <- round(rnorm(100, mean = 80, sd = 20), 1)
+
+A1 <- sample(Amostra, n1)
+A2 <- sample(Amostra, n2)
+
+# Estatísticas Amostra 1
+xbar_A1 <- mean(A1)
+s_A1 <- sd(A1)
+EP_A1 <- round((s_A1 / sqrt(n1)), 2)
+CV_A1 <- round((s_A1 / xbar_A1) * 100, 2)
+
+# Estatísticas Amostra 2
+xbar_A2 <- mean(A2)
+s_A2 <- sd(A2)
+EP_A2 <- round((s_A2 / sqrt(n2)), 2)
+CV_A2 <- round((s_A2 / xbar_A2) * 100, 2)
+
+# Determinar a mais precisa (menor EP)
+mais_precisa <- ifelse(EP_A1 < EP_A2, "RN", "RS")
+# Determinar a mais homogênea (menor CV)
+mais_homogenea <- ifelse(CV_A1 < CV_A2, "RN", "RS")
+
+# Preencher as colunas para ter o mesmo número de linhas
+max_length <- max(length(A1), length(A2))
+A1_full <- c(A1, rep(NA, max_length - length(A1)))
+A2_full <- c(A2, rep(NA, max_length - length(A2)))
+
+# Tabela unificada para exibição
+tabela_unificada <- data.frame(
+  `A1` = A1_full,
+  `A2` = A2_full
+)
+
+```
+
+Question
+========
+
+Dois grupos de pesquisadores coletaram amostras independentes, sobre a produtividade de milho (em sacas por hectare) em duas regiões agrícolas distintas: **Região Norte** e **Região Sul**. A tabela abaixo resume os dados obtidos:
+
+```{r tabela_regioes, echo=FALSE, results='asis'}
+# Supondo que os objetos já existem: n1, n2, xbar_A1, EP_A1, s_A2, CV_A2
+
+# Criar os valores formatados como strings
+tabela <- data.frame(
+  Região = c("Região Norte", "Região Sul"),
+  Tamanho = c(n1, n2),
+  Média = c(format(xbar_A1, decimal.mark = ",", digits = 2), "--"),
+  `Erro padrão` = c(format(EP_A1, decimal.mark = ",", digits = 2), "--"),
+  `Desvio padrão` = c("--", format(s_A2, decimal.mark = ",", digits = 2)),
+  `CV` = c("--", paste0(format(CV_A2, decimal.mark = ",", digits = 1), "%"))
+)
+
+# Exibir a tabela
+knitr::kable(tabela, align = "lccccc", format = "markdown")
+
+```
+
+**Obs:** Use na resposta a vírgula como separador decimal! E use duas casas decimais.
+
+Questionlist
+------------
+* Calcule o desvio padrão da amostra da Região Norte.
+
+* Determine a média amostral da Região Sul.
+
+* Calcule o erro padrão da média para a Região Sul.
+
+* Qual das médias é mais precisa? (Use RN para Região Norte e RS para Região Sul).
+
+* Qual das duas regiões apresenta maior homogeneidade? (Use RN para Região Norte e RS para Região Sul).
+
+Solution
+========
+
+Solutionlist
+------------
+
+* O desvio padrão da Região Norte é $sd_{RN} = `r round(s_A1, 2)`$.
+
+* A Determine a média amostral da Região Sul é $\bar{x}_{RS} = `r round(xbar_A2, 2)`$.
+
+* O erro padrão da média para a Região Sul é $EP_{RS}= `r round(EP_A2, 2)`$
+
+* A média amostral mais precisa é a média da região **`r mais_precisa`**, pois apresenta o menor erro padrão.
+
+* A amostra mais homogênia é a amostra da região **`r mais_homogenea`**, pois apresenta menor Coeficiente de Variação.
+
+Meta-information
+================
+exname: media_precisa   
+extype: cloze  
+exclozetype: num|num|num|string|string  
+exsolution: `r sprintf('%.2f|%.2f|%.2f|%s|%s', as.numeric(s_A1), as.numeric(xbar_A2), as.numeric(EP_A2), mais_precisa, mais_homogenea)`  
+extol: 0.02|0.02|0.02|0|0

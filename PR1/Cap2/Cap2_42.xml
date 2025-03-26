@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_42/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap2_42 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Dada a amostra <span class="math inline">\(x_1,x_2,\cdots, x_n,\)</span> com média <span class="math inline">\(\bar{x}\)</span> e desvio-padrão <span class="math inline">\(s\)</span>. Considere a variável <span class="math inline">\(z\)</span>, cujos valores são definidos por:</p>
+<p><span class="math display">\[z_{i} = \frac{x_{i} - \bar{x}}{s},~i = 1, 2, \cdots, n.\]</span></p>
+<p>A amostra considerada é apresentada abaixo:</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">14.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">14.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">11.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">10.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">10.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">12.7</td>
+</tr>
+</tbody>
+</table>
+Qual o valor da média da variável (z)? {1:NUMERICAL:=0:0.02}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> A média da variável (z) é <span class="math inline">\(\bar{z} = 0\)</span>. <strong>Cálculo:</strong> Sabemos que a média da variável padronizada é dada por: <span class="math inline">\(\bar{z} = \frac{1}{n} \sum_{i=1}^{n} z_i = \frac{1}{6}(1.0119 + 1.2368 + -0.2811 + -0.8995 + -1.2368 + 0.1687) = 0.\)</span> </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+</question>
+
+</quiz>

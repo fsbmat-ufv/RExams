@@ -56,6 +56,8 @@ knitr::kable(tabela, align = "c")
 
 <p style="text-align: justify;">Com base na tabela e nos conceitos de frequência absoluta, relativa e acumulada, responda diretamente nos campos abaixo:</p>
 
+**Obs:** Use na resposta a vírgula como separador decimal!
+
 Answerlist
 ----------
 * Qual o valor da Frequência Absoluta faltante?  

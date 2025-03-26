@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_37/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="multichoice">
+<name>
+<text> Q1 : Cap2_37 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Observe o histograma a seguir, construído a partir de um único conjunto de dados simulados.
+</p>
+<div class="float">
+<img src="@@PLUGINFILE@@/histograma_bimodal-1.png" alt="plot of chunk histograma_bimodal" />
+<div class="figcaption">plot of chunk histograma_bimodal</div>
+</div>
+<p style="text-align: justify;">
+Com base no histograma apresentado, você acha que a média é uma boa medida de posição? E a mediana?:
+</p>
+</p>]]></text>
+<file name="histograma_bimodal-1.png" encoding="base64">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</file>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada. </li>
+<li> Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada. </li>
+<li> Verdadeira </li>
+<li> Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada. </li>
+<li> Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<shuffleanswers>false</shuffleanswers>
+<single>true</single>
+<answernumbering>abc</answernumbering>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Como o conjunto tem uma quantidade ímpar de valores, a mediana não é indicada.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Tanto a média quanto a mediana são boas medidas para resumir e representar esse conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="100" format="html">
+<text><![CDATA[<p>
+Nem a média nem a mediana são medidas indicadas para representar esse conjunto.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Verdadeira
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+A média sempre é a medida mais indicada, pois é a medida estatística mais conhecida.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+</p>]]></text>
+</feedback>
+</answer>
+<answer fraction="0" format="html">
+<text><![CDATA[<p>
+Como a média é uma medida muito afetada por valores extremos, a mediana seria uma medida mais indicada para representar esse conjunto de dados.
+</p>]]></text>
+<feedback format="html">
+<text><![CDATA[<p>
+Falsa - Nem a média nem a mediana são medidas indicadas para representar esse conjunto. A moda é uma medida de posição mais indicada.
+</p>]]></text>
+</feedback>
+</answer>
+</question>
+
+</quiz>

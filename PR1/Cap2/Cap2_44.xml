@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_44/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap2_44 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Considere as duas amostras abaixo:</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+A1
+</th>
+<th style="text-align:right;">
+A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+75.9
+</td>
+<td style="text-align:right;">
+57.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+120.4
+</td>
+<td style="text-align:right;">
+80.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+70.4
+</td>
+<td style="text-align:right;">
+55.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+94.6
+</td>
+<td style="text-align:right;">
+38.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+84.5
+</td>
+<td style="text-align:right;">
+80.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+86.1
+</td>
+<td style="text-align:right;">
+54.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+95.6
+</td>
+<td style="text-align:right;">
+71.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+92.7
+</td>
+<td style="text-align:right;">
+67.0
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Obs:</strong> Use na resposta a vírgula como separador decimal! E use duas casas decimais.</p>
+Qual o erro padrão da Amostra 1 (A1)? {1:NUMERICAL:=5.37:0.02}
+Qual o erro padrão da Amostra 2 (A2)? {1:NUMERICAL:=5.12:0.02}
+Qual é a amostra com média amostral mais precisa? {1:SHORTANSWER:%100%A2}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O erro padrão da Amostra 1 (A1) é <span class="math inline">\(EP_{A1} = 5.37\)</span>. </li>
+<li> O erro padrão da Amostra 2 (A2) é <span class="math inline">\(EP_{A2} = 5.12\)</span>. </li>
+<li> A média amostral mais precisa é a média da amostra <strong>A2</strong>, pois apresenta o menor erro padrão. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+</quiz>

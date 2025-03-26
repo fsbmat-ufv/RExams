@@ -54,56 +54,56 @@ Considere a tabela de distribuição de frequências apresentada a seguir. Note 
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">10 |– 20</td>
-<td style="text-align: center;">28</td>
-<td style="text-align: center;">0.23</td>
-<td style="text-align: center;">28</td>
-<td style="text-align: center;">0.23</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0.12</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0.12</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">20 |– 30</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">51</td>
-<td style="text-align: center;">0.42</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">0.16</td>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">0.28</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">30 |– 40</td>
-<td style="text-align: center;">24</td>
-<td style="text-align: center;">0.2</td>
-<td style="text-align: center;">75</td>
-<td style="text-align: center;">0.62</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">54</td>
+<td style="text-align: center;">0.59</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">40 |– 50</td>
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">0.15</td>
-<td style="text-align: center;">93</td>
-<td style="text-align: center;">0.77</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">0.22</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">0.81</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">50 |– 60</td>
-<td style="text-align: center;">30</td>
-<td style="text-align: center;">0.24</td>
-<td style="text-align: center;">123</td>
-<td style="text-align: center;">1.01</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">0.19</td>
+<td style="text-align: center;">91</td>
+<td style="text-align: center;">1.00</td>
 </tr>
 </tbody>
 </table>
 <p style="text-align: justify;">
 Com base na tabela e nos conceitos de frequência absoluta, relativa e acumulada, responda diretamente nos campos abaixo:
 </p>
-Qual o valor da Frequência Absoluta faltante? {1:NUMERICAL:=23:0.05}
-Qual o valor da Frequência Absoluta Total da amostra? {1:NUMERICAL:=123:0.05}
-Qual o valor da Frequência Relativa faltante? {1:NUMERICAL:=0.18:0.05}
+Qual o valor da Frequência Absoluta faltante? {1:NUMERICAL:=28:0.05}
+Qual o valor da Frequência Absoluta Total da amostra? {1:NUMERICAL:=91:0.05}
+Qual o valor da Frequência Relativa faltante? {1:NUMERICAL:=0.31:0.05}
 Qual o valor do Intervalo de Classe? {1:NUMERICAL:=10:0.05}
 </p>]]></text>
 </questiontext>
 <generalfeedback format="html">
 <text><![CDATA[<p>
 <ul>
-<li> 23 </li>
-<li> 123 </li>
-<li> 0.18 </li>
+<li> 28 </li>
+<li> 91 </li>
+<li> 0.31 </li>
 <li> 10 </li>
 </ul>
 </p>]]></text>

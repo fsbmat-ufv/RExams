@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_41/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap2_41 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Considerando os dados amostrais abaixo, calcular: média aritmética, variância, desvio padrão, erro padrão da média e coeficiente de variação.</p>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Observacao</th>
+<th style="text-align: right;">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: right;">12.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: right;">11.8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: right;">10.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: right;">11.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: right;">9.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: right;">12.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: right;">11.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: right;">12.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: right;">11.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: right;">12.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: right;">11.9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: right;">14.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: right;">12.1</td>
+</tr>
+</tbody>
+</table>
+Qual a Média Aritmética? {1:NUMERICAL:=11.9231:0.02}
+Qual a Variância Amostral? {1:NUMERICAL:=1.2003:0.02}
+Qual o Desvio Padrão Amostral? {1:NUMERICAL:=1.0956:0.02}
+Qual o Erro Padrão da Média? {1:NUMERICAL:=0.3039:0.02}
+Qual o Coeficiente de Variação? {1:NUMERICAL:=9.1889:0.02}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> A Média Aritmética é <span class="math inline">\(\bar x = 11.9231\)</span>. Cálculo: <span class="math inline">\(\bar{x} = \frac{1}{13}(12.7 + 11.8 + 10.9 + 11.3 + 9.9 + 12.1 + 11.3 + 12.1 + 11.5 + 12.9 + 11.9 + 14.5 + 12.1) = 11.9231\)</span>. </li>
+<li> A Variância Amostral é <span class="math inline">\(s^2 = 1.2003\)</span>. Cálculo: <span class="math inline">\(s^2 = \frac{1}{12} \left( (12.7 - 11.9231)^2 + (11.8 - 11.9231)^2 + (10.9 - 11.9231)^2 + (11.3 - 11.9231)^2 + (9.9 - 11.9231)^2 + (12.1 - 11.9231)^2 + (11.3 - 11.9231)^2 + (12.1 - 11.9231)^2 + (11.5 - 11.9231)^2 + (12.9 - 11.9231)^2 + (11.9 - 11.9231)^2 + (14.5 - 11.9231)^2 + (12.1 - 11.9231)^2 \right) = 1.2003\)</span>. </li>
+<li> O Desvio Padrão Amostral é <span class="math inline">\(s = 1.0956\)</span>. Cálculo: <span class="math inline">\(s = \sqrt{s^2} = \sqrt{1.2003} = 1.0956\)</span>. </li>
+<li> O Erro Padrão da Média é <span class="math inline">\(EP = 0.3039\)</span>. Cálculo: <span class="math inline">\(EP = \frac{s}{\sqrt{n}} = \frac{1.0956}{\sqrt{13}} = 0.3039\)</span>. </li>
+<li> O Coeficiente de Variação é <span class="math inline">\(CV = 9.1889\%\)</span>. Cálculo: <span class="math inline">\(CV = \frac{s}{\bar{x}} \times 100 = \frac{1.0956}{11.9231} \times 100 = 9.1889\%\)</span>. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>5</defaultgrade>
+</question>
+
+</quiz>

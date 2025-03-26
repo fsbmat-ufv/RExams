@@ -1,0 +1,67 @@
+```{r setup, include=FALSE}
+library(exams)
+library(tidyverse)
+
+# Gerar dados bimodais
+set.seed(123)
+dados <- c(rnorm(100, mean = 30, sd = 3),
+           rnorm(100, mean = 50, sd = 3))
+
+# Agrupar em classes
+breaks <- seq(20, 60, by = 5)
+hist_info <- hist(dados, breaks = breaks, plot = FALSE)
+dados_hist <- data.frame(
+  Classe = paste(head(breaks, -1), breaks[-1], sep = "–"),
+  Frequencia = hist_info$counts
+)
+```
+
+Question
+========
+<p style="text-align: justify;">Observe o histograma a seguir, construído a partir de um conjunto de dados simulados.</p>
+
+```{r histograma_bimodal, echo=FALSE, fig.width=7, fig.height=4}
+ggplot(data = dados_hist, aes(x = factor(Classe, levels = Classe), y = Frequencia)) +
+  geom_col(fill = "steelblue", color = "black", width = 1) +
+  labs(x = "Intervalos de Classe", y = "Frequência Absoluta") +
+  theme_minimal(base_size = 14)
+```
+
+<p style="text-align: justify;">Com base no histograma apresentado, marque todas as alternativas corretas:</p>
+
+Answerlist
+----------
+
+* O histograma apresenta duas classes com frequência máxima, indicando uma distribuição bimodal.
+* A distribuição é simétrica, pois os dois picos têm a mesma altura.
+* O histograma é adequado para representar dados quantitativos contínuos agrupados em classes.
+* A média é uma boa medida para representar esse conjunto de dados.
+* A distribuição pode representar um conjunto de dados com dois grupos distintos.
+* O eixo y representa valores individuais do conjunto de dados.
+* A distribuição apresentada não possui moda, pois os dados foram agrupados.
+* O histograma é um gráfico apropriado para dados qualitativos nominais.
+* O espaçamento entre as barras indica lacunas nos dados.
+* O histograma permite observar a concentração e a forma da distribuição dos dados.
+
+Solution
+========
+Answerlist
+----------
+
+* Verdadeira - há duas classes com maior frequência (bimodal).
+* Falsa - os picos não são exatamente iguais, portanto não é simétrica.
+* Verdadeira - histograma serve para dados quantitativos contínuos agrupados.
+* Falsa - a média não representa esse conjunto de dados.
+* Verdadeira - duas modas sugerem dois subgrupos.
+* Falsa - eixo y mostra frequências, não valores individuais.
+* Falsa - mesmo agrupados, é possível estimar a moda.
+* Falsa - histograma não é adequado para variáveis qualitativas.
+* Falsa - não há lacunas, as barras estão justapostas.
+* Verdadeira - o histograma mostra forma e concentração da distribuição.
+
+Meta-information
+================
+exname: histograma-bimodal
+extype: mchoice
+exsolution: 1010100001
+exshuffle: TRUE

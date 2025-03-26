@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_43/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap2_43 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p>Considere as duas amostras abaixo:</p>
+<table style="width:30%;">
+<caption>
+Valores das Amostras
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;">
+A1
+</th>
+<th style="text-align:right;">
+A2
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+79.2
+</td>
+<td style="text-align:right;">
+86.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+98.8
+</td>
+<td style="text-align:right;">
+91.7
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+80.8
+</td>
+<td style="text-align:right;">
+88.0
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+88.1
+</td>
+<td style="text-align:right;">
+69.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+93.7
+</td>
+<td style="text-align:right;">
+89.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+86.0
+</td>
+<td style="text-align:right;">
+105.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+87.4
+</td>
+<td style="text-align:right;">
+85.4
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+97.0
+</td>
+<td style="text-align:right;">
+89.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+84.7
+</td>
+<td style="text-align:right;">
+76.3
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+65.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+77.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+85.8
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Obs:</strong> Use na resposta a vírgula como separador decimal! E use duas casas decimais.</p>
+Qual o coeficiente de variação da Amostra 1 (A1)? {1:NUMERICAL:=7.73:0.02}
+Qual o coeficiente de variação da Amostra 2 (A2)? {1:NUMERICAL:=12.55:0.02}
+Qual é a amostra mais homogênea? {1:SHORTANSWER:%100%A1}
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<ul>
+<li> O coeficiente de variação da Amostra 1 (A1) é <span class="math inline">\(CV_{A1} = 7.73\%\)</span>. </li>
+<li> O coeficiente de variação da Amostra 2 (A2) é <span class="math inline">\(CV_{A2} = 12.55\%\)</span>. </li>
+<li> A amostra mais homogênea é a <strong>A1</strong>, pois apresenta o menor coeficiente de variação. </li>
+</ul>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>3</defaultgrade>
+</question>
+
+</quiz>

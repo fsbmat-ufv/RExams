@@ -4,13 +4,16 @@ require(exams)
 require(magrittr)
 require(knitr)
 
-exams::exams2moodle(file = "Cap2_33.Rmd", 
+exer <- "Cap2_45.Rmd"
+exern <- "Cap2_45"
+
+exams::exams2moodle(file = exer, 
                     n=1, 
                     verbose = TRUE, 
-                    name = "Cap2_33", 
+                    name = exern, 
                     svg = FALSE,          # Importante: usa PNG ao invés de SVG
                     encoding = "UTF-8")
 
 
-exams2html("Cap2_33.Rmd", n = 1)
+exams2html(exer, n = 1)
 

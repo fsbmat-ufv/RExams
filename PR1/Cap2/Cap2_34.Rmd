@@ -1,0 +1,95 @@
+```{r setup, include=FALSE}
+library(exams)
+library(tidyverse)
+
+set.seed(NULL)
+
+# Criar classes
+classes <- c("10 |-- 20", "20 |-- 30", "30 |-- 40", "40 |-- 50", "50 |-- 60")
+lim_inf <- c(10, 20, 30, 40, 50)
+lim_sup <- c(20, 30, 40, 50, 60)
+
+# Frequências absolutas
+freq_abs <- sample(10:30, 5)
+classe_faltante <- sample(2:4, 1)
+freq_faltante <- freq_abs[classe_faltante]
+freq_abs[classe_faltante] <- NA
+
+# Total da amostra
+total <- sum(freq_abs, na.rm = TRUE) + freq_faltante
+
+# Frequência relativa
+freq_rel <- round(freq_abs / total, 2)
+freq_rel[classe_faltante] <- NA
+
+# Frequências completas para plotagem
+freq_abs_comp <- replace(freq_abs, is.na(freq_abs), freq_faltante)
+dados_hist <- data.frame(
+  Classe = factor(classes, levels = classes),
+  Lim_inf = lim_inf,
+  Lim_sup = lim_sup,
+  Frequencia = freq_abs_comp,
+  Faltante = c("", "", "", "", "")
+)
+dados_hist$Faltante[classe_faltante] <- "Faltante"
+# Atualiza a variável 'Faltante' para ter valores válidos
+dados_hist$Faltante <- ifelse(dados_hist$Faltante == "Faltante", "Faltante", "Normal")
+
+# Valor da frequência relativa faltante
+FreqRelaFalt <- 1 - sum(freq_rel, na.rm = TRUE)
+```
+
+Question
+========
+<p style="text-align: justify;">Considere o histograma da distribuição de frequências a seguir. Note que uma das classes está identificada como "Faltante", indicando que seu valor de frequência absoluta não está informado. Use o gráfico para responder às questões abaixo.</p>
+
+```{r histograma_freq, echo=FALSE, fig.height=4, fig.width=7, warning=FALSE, message=FALSE}
+limite_y <- max(dados_hist$Frequencia) + 2
+
+ggplot(dados_hist, aes(x = Classe, y = Frequencia, fill = Faltante)) +
+  geom_col(color = "black", width = 1, show.legend = FALSE) +
+  scale_fill_manual(values = c("Faltante" = "red", "Normal" = "gray")) +
+  geom_text(
+    data = filter(dados_hist, Faltante == "Normal"),
+    aes(label = Frequencia),
+    vjust = -0.5,
+    size = 5
+  ) +
+  scale_y_continuous(
+    limits = c(0, limite_y),
+    breaks = seq(0, limite_y, by = 2)
+  ) +
+  labs(x = "Intervalo de Classe", y = "Frequência Absoluta") +
+  theme_minimal(base_size = 14)
+
+
+
+```
+
+<p style="text-align: justify;">Com base no histograma e nos conceitos de frequência absoluta, relativa e acumulada, responda diretamente nos campos abaixo:</p>
+
+**Obs:** Use na resposta a vírgula como separador decimal!
+
+Answerlist
+----------
+* Qual o valor da Frequência Absoluta faltante?  
+* Qual o valor da Frequência Absoluta Total da amostra?
+* Qual o valor da Frequência Relativa faltante?
+* Qual o valor do Intervalo de Classe?
+
+Solution
+========
+Solutionlist
+------------
+* `r freq_faltante`
+* `r total`
+* `r FreqRelaFalt`
+* 10
+
+Meta-information
+================
+exname: frequencia-relativa-classe-histograma
+extype: cloze
+exclozetype: num|num|num|num
+exsolution: `r freq_faltante`|`r total`|`r FreqRelaFalt`|10
+extol: 0.05
