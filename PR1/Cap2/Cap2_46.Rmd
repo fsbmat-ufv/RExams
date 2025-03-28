@@ -1,0 +1,89 @@
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999)
+
+# Frequências conhecidas
+f0 <- round(runif(1, min = 8, max = 10))
+f1 <- round(runif(1, min = 4, max = 7))
+f2 <- round(runif(1, min = 11, max = 20))
+f3 <- round(runif(1, min = 21, max = 22))
+f4 <- round(runif(1, min = 23, max = 30))
+
+# Encontrar x resolvendo a equação da média
+# (0*f0 + 1*f1 + 2*x + 3*f3 + 4*f4)/(f0 + f1 + x + f3 + f4) = 1.75
+numerador <- 0*f0 + 1*f1 + 2*f2 + 3*f3 + 4*f4
+denominador <- f0 + f1 + f2 + f3 + f4
+n <- denominador
+# Média conhecida
+media <- round(numerador/denominador, digits = 2)
+
+# Frequência completa
+frequencias <- c(f0, f1, f2, f3, f4)
+valores <- 0:4
+
+# Moda = valor com maior frequência
+moda <- valores[which.max(frequencias)]
+
+# Mediana
+freq_acumulada <- cumsum(frequencias)
+total <- sum(frequencias)
+pos_mediana <- total / 2
+
+# encontrar categoria da mediana
+categoria_mediana <- which(freq_acumulada >= pos_mediana)[1]
+if (pos_mediana %% 1 == 0 && freq_acumulada[categoria_mediana - 1] == pos_mediana) {
+  mediana <- mean(c(valores[categoria_mediana - 1], valores[categoria_mediana]))
+} else {
+  mediana <- valores[categoria_mediana]
+}
+
+# calcular m
+(m <- round(f2 / (mediana + moda), digits = 2))
+```
+
+
+Question
+========
+
+<p style="text-align: justify;">
+Em uma determinada região, a Secretaria Municipal de Saúde monitorou durante $n$ dias consecutivos o número diário de atendimentos emergenciais relacionados a crises respiratórias. O objetivo era avaliar a sobrecarga no sistema de saúde durante o período de estiagem. A tabela abaixo apresenta a frequência de ocorrência de diferentes quantidades diárias desses atendimentos. Com base nas informações coletadas, verificou-se que a média aritmética do número de atendimentos por dia, ponderada pela respectiva quantidade de dias, foi de $`r media`$. Além disso, calcularam-se os valores da mediana ($\text{Md}$) e da moda ($\text{Mo}$) dessa distribuição de frequências.
+</p>
+
+\bigskip
+
+```{r tabela_freq, echo=FALSE, results='asis'}
+tabela <- rbind(
+  "Número de atendimentos" = 0:4,
+  "Quantidade de dias" = c(f0, f1, "x", f3, f4)
+)
+knitr::kable(tabela, 
+             align = "c", 
+             format = "markdown")
+```
+
+
+
+<p style="text-align: justify;">
+<strong>Observação:</strong> $x$ representa o número de dias em que ocorreram exatamente 2 atendimentos emergenciais.
+</p>
+
+<p style="text-align: justify;">
+Sabendo que $x = m(\text{Md} + \text{Mo})$, determine o valor de $m$.
+</p>
+
+Solution
+========
+
+```{r solucao, echo=FALSE}
+m
+```
+
+Meta-information
+================
+
+exname: raiz
+extype: num
+exsolution: `r m`
+extol: 0.05

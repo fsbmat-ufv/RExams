@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap2_46/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="numerical">
+<name>
+<text> Q1 : Cap2_46 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+Em uma determinada região, a Secretaria Municipal de Saúde monitorou durante <span class="math inline">\(n\)</span> dias consecutivos o número diário de atendimentos emergenciais relacionados a crises respiratórias. O objetivo era avaliar a sobrecarga no sistema de saúde durante o período de estiagem. A tabela abaixo apresenta a frequência de ocorrência de diferentes quantidades diárias desses atendimentos. Com base nas informações coletadas, verificou-se que a média aritmética do número de atendimentos por dia, ponderada pela respectiva quantidade de dias, foi de <span class="math inline">\(2.66\)</span>. Além disso, calcularam-se os valores da mediana (<span class="math inline">\(\text{Md}\)</span>) e da moda (<span class="math inline">\(\text{Mo}\)</span>) dessa distribuição de frequências.
+</p>
+<table class="table_shade">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Número de atendimentos</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quantidade de dias</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">29</td>
+</tr>
+</tbody>
+</table>
+<table class="table_shade">
+<thead>
+<tr class="header">
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>E</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Número de atendimentos</td>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+<td>D</td>
+<td>E</td>
+</tr>
+<tr class="even">
+<td>———————————————————–</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Quantidade de dias</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">
+<strong>Observação:</strong> <span class="math inline">\(x\)</span> representa o número de dias em que ocorreram exatamente 2 atendimentos emergenciais.
+</p>
+<p style="text-align: justify;">
+Sabendo que <span class="math inline">\(x = m(\text{Md} + \text{Mo})\)</span>, determine o valor de <span class="math inline">\(m\)</span>.
+</p>
+</p>]]></text>
+</questiontext>
+<generalfeedback format="html">
+<text><![CDATA[<p>
+<pre><code>## [1] 2.29</code></pre>
+</p>]]></text>
+</generalfeedback>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+<answer fraction="100" format="moodle_auto_format">
+<text>2.29</text>
+<tolerance>0.05</tolerance>
+</answer>
+</question>
+
+</quiz>

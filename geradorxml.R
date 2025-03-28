@@ -4,8 +4,8 @@ require(exams)
 require(magrittr)
 require(knitr)
 
-exer <- "Cap2_45.Rmd"
-exern <- "Cap2_45"
+exer <- "Cap2_46.Rmd"
+exern <- "Cap2_46"
 
 exams::exams2moodle(file = exer, 
                     n=1, 
