@@ -1,32 +1,66 @@
+```{r dados, include = FALSE} 
+library(exams)
+library(tidyverse)
+library(knitr)
+options(scipen = 999) #prevent scientific notation 
+
+## RANDOM DATA 
+a11 <- 10:50 %>% sample(1)
+a12 <- 10:50 %>% sample(1)
+a13 <- 10:50 %>% sample(1)
+
+a21 <- 10:50 %>% sample(1)
+a22 <- 10:50 %>% sample(1)
+a23 <- 10:50 %>% sample(1)
+
+a31 <- 10:50 %>% sample(1)
+a32 <- 10:50 %>% sample(1)
+a33 <- 10:50 %>% sample(1)
+Tc1 <- sum(a11,a21,a31)
+Tc2 <- sum(a12,a22,a32)
+Tc3 <- sum(a13,a23,a33)
+Tl1 <- sum(a11,a12,a13)
+Tl2 <- sum(a21,a22,a23)
+Tl3 <- sum(a31,a32,a33)
+TG  <- sum(Tl1,Tl2,Tl3)
+
+``` 
+
 Question
 ========
 <p style="text-align: justify;">A tabela abaixo apresenta as frequências observadas em um experimento envolvendo duas variáveis qualitativas A e B, cada uma com 3 categorias.</p>
 
-|     | B1 | B2 | B3 | Total |
-|-----|----|----|----|-------|
-| A1  | 20 | 15 | 10 | 45    |
-| A2  | 30 | 25 | 20 | 75    |
-| A3  | 50 | 45 | 40 | 135   |
-
+|  Obs  | B1      | B2      | B3      | Total     |
+|-------|---------|---------|---------|-----------|
+| A1    | `r a11` | `r a12` | `r a13` | `r Tl1`   |
+| A2    | `r a21` | `r a22` | `r a23` | `r Tl2`   |
+| A3    | `r a31` | `r a32` | `r a33` | `r Tl3`   |
+| Total | `r Tc1` | `r Tc2` | `r Tc3` | `r TG`    |
 <p style="text-align: justify;">1) Calcule e preencha as frequências esperadas para cada célula, com número inteiro e duas casas decimais. Informe abaixo:</p>
 
-::: {#cloze}
-* {num:14.52:0.01}
-* {num:17.74:0.01}
-* {num:12.74:0.01}
-:::
+| Esp   | B1  | B2  | B3  | Total |
+|-------|-----|-----|-----|-------|
+| A1    | a11 | a12 | a13 | Tl1   |
+| A2    | a21 | a22 | a23 | Tl2   |
+| A3    | a31 | a32 | a33 | Tl3   |
+| Total | Tc1 | Tc2 | Tc3 | TG    |
 
-::: {#cloze}
-* {num:24.20:0.01}
-* {num:29.48:0.01}
-* {num:21.32:0.01}
-:::
+Questionlist
+------------
 
-::: {#cloze}
-* {num:61.28:0.01}
-* {num:74.78:0.01}
-* {num:54.94:0.01}
-:::
+* Valor de a11?
+* Valor de a12?
+* Valor de a13?
+
+
+Solution
+========
+
+Solutionlist
+------------
+* {num:`r a11`:0.01} 
+* {num:`r a12`:0.01}
+* {num:`r a13`:0.01}
 
 <p style="text-align: justify;">2) Assinale a hipótese nula (H0) e alternativa (H1):</p>
 
