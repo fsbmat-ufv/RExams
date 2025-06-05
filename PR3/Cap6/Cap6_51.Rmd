@@ -1,0 +1,60 @@
+Question
+========
+<p style="text-align: justify;">A tabela abaixo apresenta as frequências observadas em um experimento envolvendo duas variáveis qualitativas A e B, cada uma com 3 categorias.</p>
+
+|     | B1 | B2 | B3 | Total |
+|-----|----|----|----|-------|
+| A1  | 20 | 15 | 10 | 45    |
+| A2  | 30 | 25 | 20 | 75    |
+| A3  | 50 | 45 | 40 | 135   |
+
+<p style="text-align: justify;">1) Calcule e preencha as frequências esperadas para cada célula, com número inteiro e duas casas decimais. Informe abaixo:</p>
+
+::: {#cloze}
+* {num:14.52:0.01}
+* {num:17.74:0.01}
+* {num:12.74:0.01}
+:::
+
+::: {#cloze}
+* {num:24.20:0.01}
+* {num:29.48:0.01}
+* {num:21.32:0.01}
+:::
+
+::: {#cloze}
+* {num:61.28:0.01}
+* {num:74.78:0.01}
+* {num:54.94:0.01}
+:::
+
+<p style="text-align: justify;">2) Assinale a hipótese nula (H0) e alternativa (H1):</p>
+
+::: {#cloze}
+* {mchoice: H0: As variáveis A e B são independentes; H1: As variáveis A e B são associadas.==H0: As variáveis A e B são associadas; H1: As variáveis A e B são independentes.~~H0: As variáveis A e B têm médias iguais; H1: As variáveis A e B têm médias diferentes.~~}
+:::
+
+<p style="text-align: justify;">3) Informe o valor do qui-quadrado calculado (duas casas decimais):</p>
+
+::: {#cloze}
+* {num:3.42:0.01}
+:::
+
+<p style="text-align: justify;">4) Informe o valor tabelado do qui-quadrado para 4 graus de liberdade e nível de 5% (duas casas decimais):</p>
+
+::: {#cloze}
+* {num:9.49:0.01}
+:::
+
+<p style="text-align: justify;">5) Escolha a conclusão correta do teste:</p>
+
+::: {#cloze}
+* {mchoice: Como 3.42 < 9.49, não rejeitamos H0 e concluímos que as variáveis A e B são independentes.==Como 3.42 > 9.49, rejeitamos H0 e concluímos que as variáveis A e B são associadas.~~Como 3.42 = 9.49, rejeitamos H0 e concluímos que as variáveis A e B são dependentes.~~}
+:::
+
+Meta-information
+================
+exname: QuiQuadrado
+extype: cloze
+exsolution: 1.41
+extol: 0.05

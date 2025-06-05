@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<question type="category">
+<category>
+<text>$course$/Cap6_51/Exercise 1</text>
+</category>
+</question>
+
+
+<question type="cloze">
+<name>
+<text> Q1 : Cap6_51 </text>
+</name>
+<questiontext format="html">
+<text><![CDATA[
+<style type="text/css" rel="stylesheet">
+/* tables with alternating shading */
+.table_shade {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.table_shade th {
+    border:1px solid #FFFFFF;
+    background: #D5D5D5;
+}
+.table_shade td {
+    border:1px solid #FFFFFF;
+}
+.table_shade .odd {
+    background: #EEEEEE;
+}
+.table_shade .even {
+    background: #FBFBFB;
+}
+</style>
+<p>
+<p style="text-align: justify;">
+A tabela abaixo apresenta as frequências observadas em um experimento envolvendo duas variáveis qualitativas A e B, cada uma com 3 categorias.
+</p>
+<table class="table_shade">
+<thead>
+<tr>
+<th></th>
+<th>B1</th>
+<th>B2</th>
+<th>B3</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1</td>
+<td>20</td>
+<td>15</td>
+<td>10</td>
+<td>45</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>30</td>
+<td>25</td>
+<td>20</td>
+<td>75</td>
+</tr>
+<tr>
+<td>A3</td>
+<td>50</td>
+<td>45</td>
+<td>40</td>
+<td>135</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;">
+<ol style="list-style-type: decimal">
+<li>Calcule e preencha as frequências esperadas para cada célula, com número inteiro e duas casas decimais. Informe abaixo:
+</p></li>
+</ol>
+<div id="cloze">
+<ul>
+<li>{num:14.52:0.01}</li>
+<li>{num:17.74:0.01}</li>
+<li>{num:12.74:0.01}</li>
+</ul>
+</div>
+<div id="cloze">
+<ul>
+<li>{num:24.20:0.01}</li>
+<li>{num:29.48:0.01}</li>
+<li>{num:21.32:0.01}</li>
+</ul>
+</div>
+<div id="cloze">
+<ul>
+<li>{num:61.28:0.01}</li>
+<li>{num:74.78:0.01}</li>
+<li>{num:54.94:0.01}</li>
+</ul>
+</div>
+<p style="text-align: justify;">
+<ol start="2" style="list-style-type: decimal">
+<li>Assinale a hipótese nula (H0) e alternativa (H1):
+</p></li>
+</ol>
+<div id="cloze">
+<ul>
+<li>{mchoice: H0: As variáveis A e B são independentes; H1: As variáveis A e B são associadas.==H0: As variáveis A e B são associadas; H1: As variáveis A e B são independentes.<del>H0: As variáveis A e B têm médias iguais; H1: As variáveis A e B têm médias diferentes.</del>}</li>
+</ul>
+</div>
+<p style="text-align: justify;">
+<ol start="3" style="list-style-type: decimal">
+<li>Informe o valor do qui-quadrado calculado (duas casas decimais):
+</p></li>
+</ol>
+<div id="cloze">
+<ul>
+<li>{num:3.42:0.01}</li>
+</ul>
+</div>
+<p style="text-align: justify;">
+<ol start="4" style="list-style-type: decimal">
+<li>Informe o valor tabelado do qui-quadrado para 4 graus de liberdade e nível de 5% (duas casas decimais):
+</p></li>
+</ol>
+<div id="cloze">
+<ul>
+<li>{num:9.49:0.01}</li>
+</ul>
+</div>
+<p style="text-align: justify;">
+<ol start="5" style="list-style-type: decimal">
+<li>Escolha a conclusão correta do teste:
+</p></li>
+</ol>
+<div id="cloze">
+<ul>
+<li>{mchoice: Como 3.42 &lt; 9.49, não rejeitamos H0 e concluímos que as variáveis A e B são independentes.==Como 3.42 &gt; 9.49, rejeitamos H0 e concluímos que as variáveis A e B são associadas.<del>Como 3.42 = 9.49, rejeitamos H0 e concluímos que as variáveis A e B são dependentes.</del>}</li>
+</ul>
+</div>
+<p> {1:SHORTANSWER:%100%1.41}</p>
+</p>]]></text>
+</questiontext>
+<penalty>0</penalty>
+<defaultgrade>1</defaultgrade>
+</question>
+
+</quiz>

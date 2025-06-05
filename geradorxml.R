@@ -1,11 +1,11 @@
-setwd("~/GitHub/RExams/PR1/Cap2")
+setwd("~/GitHub/RExams/PR3/Cap6")
 dir()
 require(exams)
 require(magrittr)
 require(knitr)
 
-exer <- "Cap2_46.Rmd"
-exern <- "Cap2_46"
+exer <- "Cap6_51.Rmd"
+exern <- "Cap6_51"
 
 exams::exams2moodle(file = exer, 
                     n=1, 
